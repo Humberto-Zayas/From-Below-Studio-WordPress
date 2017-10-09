@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
+ * @since From Below Studio Theme 1.0
  */
 ?>
 

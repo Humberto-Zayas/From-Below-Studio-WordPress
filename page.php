@@ -8,7 +8,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
+ * @since From Below Studio Theme 1.0
  */
 
 get_header(); ?>
@@ -33,9 +33,9 @@ get_header(); ?>
 
 	</main><!-- .site-main -->
 
-	<?php get_sidebar( 'content-bottom' ); ?>
+	<?php //get_sidebar( 'content-bottom' ); ?>
 
 </div><!-- .content-area -->
 
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?>
 <?php get_footer(); ?>
