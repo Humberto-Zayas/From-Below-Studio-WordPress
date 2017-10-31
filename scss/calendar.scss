@@ -1,0 +1,169 @@
+// Form Layout Styling - imitates the container centering of container
+.wc-bookings-booking-form{
+	position: relative;
+	display: block;
+	overflow: hidden;
+	width: 740px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px 0px 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(53, 53, 53, 0.8);
+	border-radius: 0px;
+	background-image: -webkit-linear-gradient(270deg, rgba(34, 34, 34, 0.75), rgba(34, 34, 34, 0.75)), url(images/avalong-demoshot.jpg);
+	background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.75), rgba(34, 34, 34, 0.75)), url(images/avalong-demoshot.jpg);
+	background-position: 0px 0px, 0px 0px;
+	background-size: auto, cover;
+	box-shadow: 1px 1px 3px 0 #000;
+}
+
+// Overrides white bg color on majority of calendar body
+.wc-bookings-date-picker .ui-widget-content {
+	background: transparent;
+}
+
+.wc-bookings-date-picker .ui-datepicker {
+	padding: 1em 0;
+}
+
+.ui-datepicker-today span{
+	background-color: red !important;
+}
+
+// Month Header Styling ie: October - November - December - etc
+.wc-bookings-date-picker .ui-datepicker-header {
+	position: relative;
+	background: transparent;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(53, 53, 53, 0.8);
+    font-family: Dosis, sans-serif;
+    color: #ebebeb;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+// Incomplete - left arrow styling
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    font-family: Fontawesome, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+// Sets font of weekday names and calendar numbering also removes borders
+.wc-bookings-date-picker .ui-datepicker table {
+	font-family: Dosis, sans-serif;
+	border-collapse: initial;
+}
+
+// Calendar Date circle styling
+.wc-bookings-date-picker .ui-datepicker td .ui-state-default {
+	// display: block;
+	color: white;
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    border-radius: 53%;
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
+    font-family: Dosis, sans-serif;
+    color: #ebebeb !important;
+    line-height: 80px;
+    // cursor: pointer;
+    padding: 0 !important;
+}
+
+// Dates that are unavailable have a different cursor
+.ui-datepicker-unselectable span {
+	cursor: not-allowed !important;
+}
+
+// Coloring for dates that are available
+.wc-bookings-date-picker .ui-datepicker td.bookable a {
+	background-color: transparent !important;
+	background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
+    font-family: Dosis, sans-serif;
+	&:hover {
+		background-image: -webkit-linear-gradient(#d1203d, #d1203d) !important;
+		background-image: linear-gradient(#d1203d, #d1203d) !important;
+	}
+
+	&:before {
+		border-top: pink;
+	}
+}
+
+.wc-bookings-date-picker .ui-datepicker td.ui-datepicker-other-month {
+	background: rgba(255,255,255,0.2);
+}
+
+.wc-bookings-date-picker .ui-datepicker td.partial_booked a:before {
+	border-radius: 37px 0px 0px 0px;
+}
+
+.ui-datepicker-today a {
+	background-color: #d1203d !important;
+}
+
+.wc-bookings-date-picker .ui-datepicker td {
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+	border: none;
+	background: transparent;
+}
+
+.wc-bookings-date-picker .ui-datepicker th {
+	background: transparent;
+	padding: 2em;
+	border-bottom: 1px solid rgba(53, 53, 53, 0.8);
+	border-top: initial;
+	color: white;
+}
+
+.wc-bookings-booking-form .form-field {
+	padding: 1em;
+
+}
+
+.wc-bookings-booking-form .block-picker li.block {
+	display: block;
+	float: none;
+	width: 100%;
+	a {
+		width: 100% !important;
+		margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: -webkit-linear-gradient(270deg, #d1203d, #d1203d);
+    background-image: linear-gradient(180deg, #d1203d, #d1203d);
+    color: #ebebeb;
+    cursor: pointer;
+    &:hover {
+    	background-image: linear-gradient(180deg, #9c001a, #9c001a);
+    	}
+	}
+}
+
+.wc-bookings-booking-form label, .label {
+	color: #ebebeb;
+}
+
+.wc-bookings-booking-form .block-picker li {
+	color: white;
+}
+

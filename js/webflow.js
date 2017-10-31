@@ -6,10 +6,75 @@ jQuery(document).ready(function($) {
  *   var Webflow = Webflow || [];
  *   Webflow.push(readyFunction);
  */
+
+window.alert = function() {};
+
 (function () {
   'use strict';
 
-  function __commonjs(fn, module) { return module = { exports: {} }, fn(module, module.exports), module.exports; }
+  var __commonjs_global = typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : this;
+  function __commonjs(fn, module) { return module = { exports: {} }, fn(module, module.exports, __commonjs_global), module.exports; }
+
+
+  var babelHelpers = {};
+  babelHelpers.typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
+    return typeof obj;
+  } : function (obj) {
+    return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+  };
+
+  babelHelpers.defineProperty = function (obj, key, value) {
+    if (key in obj) {
+      Object.defineProperty(obj, key, {
+        value: value,
+        enumerable: true,
+        configurable: true,
+        writable: true
+      });
+    } else {
+      obj[key] = value;
+    }
+
+    return obj;
+  };
+
+  babelHelpers.extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  babelHelpers.objectWithoutProperties = function (obj, keys) {
+    var target = {};
+
+    for (var i in obj) {
+      if (keys.indexOf(i) >= 0) continue;
+      if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;
+      target[i] = obj[i];
+    }
+
+    return target;
+  };
+
+  babelHelpers.toConsumableArray = function (arr) {
+    if (Array.isArray(arr)) {
+      for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];
+
+      return arr2;
+    } else {
+      return Array.from(arr);
+    }
+  };
+
+  babelHelpers;
 
   /*!
    * tram.js v0.8.2-global
@@ -1058,12 +1123,6 @@ jQuery(document).ready(function($) {
   var webflowIxEvents = __commonjs(function (module) {
   'use strict';
 
-  function dispatchCustomEvent(element, eventName) {
-    var event = document.createEvent('CustomEvent');
-    event.initCustomEvent(eventName, true, true, null);
-    element.dispatchEvent(event);
-  }
-
   /**
    * Webflow: IX Event triggers for other modules
    */
@@ -1081,13 +1140,11 @@ jQuery(document).ready(function($) {
       if (el.__wf_intro) return;
       el.__wf_intro = true;
       $(el).triggerHandler(api.types.INTRO);
-      dispatchCustomEvent(el, 'COMPONENT_ACTIVE');
     },
     outro: function(i, el) {
       if (!el.__wf_intro) return;
       el.__wf_intro = null;
       $(el).triggerHandler(api.types.OUTRO);
-      dispatchCustomEvent(el, 'COMPONENT_INACTIVE');
     }
   };
 
@@ -2341,13 +2398,59 @@ jQuery(document).ready(function($) {
   });
   });
 
+  var webflowIx2Events = __commonjs(function (module) {
+  'use strict';
+  var IXEvents = require$$0$2;
+
+  function dispatchCustomEvent(element, eventName) {
+    var event = document.createEvent('CustomEvent');
+    event.initCustomEvent(eventName, true, true, null);
+    element.dispatchEvent(event);
+  }
+
+  /**
+   * Webflow: IX Event triggers for other modules
+   */
+
+  var $ = window.jQuery;
+  var api = {};
+  var namespace = '.w-ix';
+
+  var eventTriggers = {
+    reset: function(i, el) {
+      IXEvents.triggers.reset(i, el);
+    },
+    intro: function(i, el) {
+      IXEvents.triggers.intro(i, el);
+      dispatchCustomEvent(el, 'COMPONENT_ACTIVE');
+    },
+    outro: function(i, el) {
+      IXEvents.triggers.outro(i, el);
+      dispatchCustomEvent(el, 'COMPONENT_INACTIVE');
+    }
+  };
+
+  api.triggers = {};
+
+  api.types = {
+    INTRO: 'w-ix-intro' + namespace,
+    OUTRO: 'w-ix-outro' + namespace
+  };
+
+  $.extend(api.triggers, eventTriggers);
+
+  module.exports = api;
+  });
+
+  var require$$0$3 = (webflowIx2Events && typeof webflowIx2Events === 'object' && 'default' in webflowIx2Events ? webflowIx2Events['default'] : webflowIx2Events);
+
   var webflowNavbar = __commonjs(function (module) {
   /**
    * Webflow: Navbar component
    */
 
   var Webflow = require$$0;
-  var IXEvents = require$$0$2;
+  var IXEvents = require$$0$3;
 
   Webflow.define('navbar', module.exports = function($, _) {
     var api = {};
@@ -2857,7 +2960,7 @@ jQuery(document).ready(function($) {
    */
 
   var Webflow = require$$0;
-  var IXEvents = require$$0$2;
+  var IXEvents = require$$0$3;
 
   Webflow.define('slider', module.exports = function($, _) {
     var api = {};
@@ -3375,7 +3478,7 @@ jQuery(document).ready(function($) {
    */
 
   var Webflow = require$$0;
-  var IXEvents = require$$0$2;
+  var IXEvents = require$$0$3;
 
   Webflow.define('tabs', module.exports = function($) {
     var api = {};
@@ -3391,6 +3494,7 @@ jQuery(document).ready(function($) {
     var linkCurrent = 'w--current';
     var tabActive = 'w--tab-active';
     var ix = IXEvents.triggers;
+
     var inRedraw = false;
 
     // -----------------------------------
@@ -3749,8 +3853,11 @@ Webflow.require('ix').init([
   {"slug":"contact-reveal-5","name":"Contact Reveal 5","value":{"style":{"opacity":0,"x":"0px","y":"-100%","z":"0px"},"triggers":[{"type":"click","selector":".contact-section","stepsA":[{"display":"block"},{"opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]},{"type":"scroll","stepsA":[{"wait":"2100ms"},{"opacity":1,"transition":"opacity 1200ms ease 0, transform 600ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
   {"slug":"contact-reveal-3","name":"Contact Reveal 3","value":{"style":{},"triggers":[{"type":"click","selector":".contact-section","stepsA":[{"display":"block"},{"opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}},
   {"slug":"contact-reveal-2","name":"Contact Reveal 2","value":{"style":{},"triggers":[{"type":"click","selector":".policy-section","stepsA":[{"display":"block"},{"opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}},
+  {"slug":"contact-reveal-6","name":"Contact Reveal 6","value":{"style":{},"triggers":[{"type":"click","selector":".booking-section","stepsA":[{"display":"block"},{"opacity":1,"transition":"opacity 200 ease 0"}],"stepsB":[]}]}},
   {"slug":"contact-section-reveal","name":"Contact Section Reveal","value":{"style":{},"triggers":[{"type":"click","selector":".contact-section","stepsA":[{"opacity":0,"transition":"opacity 200 ease 0"},{"display":"none"}],"stepsB":[]}]}},
+  {"slug":"booking-close","name":"Booking Close","value":{"style":{},"triggers":[{"type":"click","selector":".booking-section","stepsA":[{"opacity":0,"transition":"opacity 200 ease 0"},{"display":"none"}],"stepsB":[]}]}},
   {"slug":"contact-section-reveal-2","name":"Contact Section Reveal 2","value":{"style":{},"triggers":[{"type":"click","selector":".policy-section","stepsA":[{"opacity":0,"transition":"opacity 200 ease 0"},{"display":"none"}],"stepsB":[]}]}},
+  {"slug":"contact-section-reveal-3","name":"Contact Section Reveal 3","value":{"style":{},"triggers":[{"type":"click","selector":".booking-section","stepsA":[{"opacity":0,"transition":"opacity 200 ease 0"},{"display":"none"}],"stepsB":[]}]}},
   {"slug":"policy-reveal","name":"Policy Reveal","value":{"style":{},"triggers":[{"type":"click","selector":".policy-section","stepsA":[{"opacity":0,"transition":"opacity 200 ease 0"},{"display":"none"}],"stepsB":[]}]}},
   {"slug":"bonus-price-reveal","name":"Bonus Price Reveal","value":{"style":{"x":"0px","y":"100%","z":"0px"},"triggers":[{"type":"hover","stepsA":[{"transition":"transform 600ms ease 0","x":"0px","y":"0%","z":"0px"}],"stepsB":[{"transition":"transform 600ms ease 0","x":"0px","y":"90%","z":"0px"}]}]}},
   {"slug":"navbar-init-load-reveal","name":"Navbar Init Load Reveal","value":{"style":{"x":"0px","y":"-100%","z":"0px"},"triggers":[{"type":"load","preload":true,"stepsA":[{"wait":"2000ms","transition":"transform 800ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
@@ -3770,5 +3877,4 @@ Webflow.require('ix').init([
   {"slug":"pricing-item-reveal-7","name":"Pricing Item Reveal 7","value":{"style":{"opacity":0,"x":"0px","y":"-100%","z":"0px"},"triggers":[{"type":"scroll","stepsA":[{"wait":"1300ms"},{"opacity":1,"transition":"transform 600ms ease 0, opacity 1000ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}},
   {"slug":"pricing-item-reveal-8","name":"Pricing Item Reveal 8","value":{"style":{"opacity":0,"x":"0px","y":"-100%","z":"0px"},"triggers":[{"type":"scroll","stepsA":[{"wait":"1500ms"},{"opacity":1,"transition":"transform 600ms ease 0, opacity 1500ms ease 0","x":"0px","y":"0px","z":"0px"}],"stepsB":[]}]}}
 ]);
-
 });	

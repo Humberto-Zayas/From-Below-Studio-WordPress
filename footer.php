@@ -9,48 +9,22 @@
  * @since From Below Studio Theme 1.0
  */
 ?>
-
+<div class="footer">
+    <div class="fbs-container">
+      <h1 class="heading-13">FOLLOW <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-10">@FROMBELOWSTUDIO</a> ON INSTAGRAM</h1>
+      <div class="text-block-13">From Below Studio is a New Jersey based recording and mixing studio. We have special offers and promo codes and pricing on our Instagram feed. <span><a target="_blank" href="https://instagram.com/frombelowstudio" class="link-11">Follow here</a></span> to get the latest news and updates!</div>
+      <div class="w-embed w-script">
+        <script src="https://apps.elfsight.com/p/platform.js" defer=""></script>
+        <div class="elfsight-app-6e8e75e7-bc40-4e28-9520-a14e13b9eb66"></div>
+      </div>
+      <div class="text-block-11">© From Below Studio 2017</div>
+      <div class="text-block-12">Made by Humberto Zayas</div>
+    </div>
+  </div>
 		</div><!-- .site-content -->
 
-		<footer id="colophon" class="site-footer" role="contentinfo">
-			<?php if ( has_nav_menu( 'primary' ) ) : ?>
-				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'frombelowstudiotheme' ); ?>">
-					<?php
-						wp_nav_menu( array(
-							'theme_location' => 'primary',
-							'menu_class'     => 'primary-menu',
-						 ) );
-					?>
-				</nav><!-- .main-navigation -->
-			<?php endif; ?>
+		
 
-			<?php if ( has_nav_menu( 'social' ) ) : ?>
-				<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'frombelowstudiotheme' ); ?>">
-					<?php
-						wp_nav_menu( array(
-							'theme_location' => 'social',
-							'menu_class'     => 'social-links-menu',
-							'depth'          => 1,
-							'link_before'    => '<span class="screen-reader-text">',
-							'link_after'     => '</span>',
-						) );
-					?>
-				</nav><!-- .social-navigation -->
-			<?php endif; ?>
-
-			<div class="site-info">
-				<?php
-					/**
-					 * Fires before the frombelowstudiotheme footer text for footer customization.
-					 *
-					 * @since From Below Studio Theme 1.0
-					 */
-					do_action( 'frombelowstudiotheme_credits' );
-				?>
-				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'frombelowstudiotheme' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'frombelowstudiotheme' ), 'WordPress' ); ?></a>
-			</div><!-- .site-info -->
-		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->
 </div><!-- .site -->
 
