@@ -45,6 +45,8 @@
     font-size: 24px;
     line-height: 24px;
     font-weight: 300;
+    border-radius: 0px;
+    border-top: 1px solid rgba(53,53,53,0.8);
 }
 
 // Incomplete - left arrow styling
@@ -61,12 +63,58 @@
     font-size: 20px;
     line-height: 20px;
     cursor: pointer;
+    background-color: initial;
+    height: 100%;
+    background-image: linear-gradient(15deg, transparent 56%, rgba(255, 255, 255, 0.19));
+    box-shadow: rgba(0, 0, 0, 0.77) -1px 0px 0px 0px, rgba(53, 53, 53, 0.8) 1px 0px 0px 0px;
+    font-family: Lato, sans-serif;
+    color: var(--swatch_92645b5f);
+    font-size: 12px;
+    line-height: 25px;
+    text-shadow: black 1px 1px 6px;
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-prev.ui-state-hover, .wc-bookings-date-picker .ui-datepicker .ui-datepicker-next.ui-state-hover {
+	background: linear-gradient(15deg, transparent 46%, rgba(255, 255, 255, 0.19));
+
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-next{
+	position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    font-family: Fontawesome, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    background-color: initial;
+    height: 100%;
+    background-image: linear-gradient(15deg, transparent 56%, rgba(255, 255, 255, 0.19));
+        box-shadow: rgba(53, 53, 53, 0.8) -1px 0px 0px 0px;
+    font-family: Lato, sans-serif;
+    color: var(--swatch_92645b5f);
+    font-size: 12px;
+    line-height: 25px;
+    text-shadow: black 1px 1px 6px;
 }
 
 // Sets font of weekday names and calendar numbering also removes borders
 .wc-bookings-date-picker .ui-datepicker table {
 	font-family: Dosis, sans-serif;
 	border-collapse: initial;
+}
+
+.ui-state-disabled {
+	opacity: initial !important;
+	// text-decoration: line-through;
+	span {
+		color: rgba(0,0,0,0.25);
+	}
 }
 
 // Calendar Date circle styling
@@ -80,7 +128,8 @@
     background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
     font-family: Dosis, sans-serif;
-    color: #ebebeb !important;
+    // color: #ebebeb;
+    color: rgb(130, 96, 105);
     line-height: 80px;
     // cursor: pointer;
     padding: 0 !important;
@@ -146,16 +195,16 @@
 	a {
 		width: 100% !important;
 		margin-top: 10px;
-    margin-bottom: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-image: -webkit-linear-gradient(270deg, #d1203d, #d1203d);
-    background-image: linear-gradient(180deg, #d1203d, #d1203d);
-    color: #ebebeb;
-    cursor: pointer;
-    &:hover {
-    	background-image: linear-gradient(180deg, #9c001a, #9c001a);
-    	}
+	    margin-bottom: 10px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    background-image: -webkit-linear-gradient(270deg, #d1203d, #d1203d);
+	    background-image: linear-gradient(180deg, #d1203d, #d1203d);
+	    color: #ebebeb;
+	    cursor: pointer;
+	    &:hover {
+	    	background-image: linear-gradient(180deg, #9c001a, #9c001a);
+	    	}
 	}
 }
 
@@ -163,7 +212,80 @@
 	color: #ebebeb;
 }
 
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary {
+	opacity: 1;
+}
+
 .wc-bookings-booking-form .block-picker li {
 	color: white;
 }
 
+.woocommerce div.product div.summary {
+	float: none;
+	width: initial;
+}
+
+.woocommerce div.product .product_title {
+	display: none;
+}
+
+.woocommerce div.product form.cart .button {
+	float: none !important;
+	display: block !important;
+	margin: 0 auto !important;
+	padding: 20px 30px;
+	border: 1px solid #ebebeb;
+	border-radius: 5px;
+	background: initial;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	font-family: arial;
+	font-size: 14px;
+	&:hover {
+		background-color: #ce2441;
+		border: 1px solid transparent;
+	}
+}
+
+.wc-bookings-date-picker .ui-datepicker .ui-datepicker-title {
+	padding: 0;
+}
+
+.wc-bookings-booking-form fieldset .picker.hasDatepicker {
+	border-bottom: 1px solid;
+}
+
+.wc-bookings-booking-form .block-picker li a.selected {
+	background-color: #fb0d1b !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eaeaea+0,eaeaea+5,ce2441+5 */
+background: rgb(234,234,234); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(255,238,23,1) 0%, rgba(255,238,23,1) 2%, rgba(206,36,65,1) 2%) !important; /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(255,238,23,1) 0%,rgba(255,238,23,1) 2%,rgba(206,36,65,1) 2%)!important; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(255,238,23,1) 0%,rgba(255,238,23,1) 2%,rgba(206,36,65,1) 2%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#ce2441',GradientType=1 ) !important; /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.wc-bookings-booking-form .wc-bookings-booking-cost {
+	background: initial;
+	border-top: initial;
+	color: white;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-family: Dosis;
+	strong {
+		font-weight: 100;
+		text-decoration: underline;
+	}
+}
+
+.text-span-26 {
+	border: 1px solid white;
+	background-image: initial !important;
+	color: white;
+	font-size: 14px !important;
+	line-height: 29px !important;
+	&:hover {
+		color: red !important;
+	}
+}

@@ -22,7 +22,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 extract( $field );
 ?>
-
+<span data-ix="booking-close" class="text-span-26"></span><br><span><span><span data-ix="booking-close" class="text-span-26"><br></span></span>
+          </span>
+<?php 
+		$product = wc_get_product( 49 );
+		echo '<h1 style="color: white; font-family: Dosis, Sans-serif; font-weight: 300; text-transform: uppercase">	' . $product->get_title() . '</h1>';
+	;?>
 <p class="form-field form-field-wide <?php echo implode( ' ', $class ); ?>">
 	<label for="<?php echo $name; ?>"><?php echo $label; ?>:</label>
 	<input

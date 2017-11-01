@@ -27,6 +27,7 @@ extract( $field );
 $month_before_day = strpos( __( 'F j, Y' ), 'F' ) < strpos( __( 'F j, Y' ), 'j' );
 ?>
 <fieldset class="wc-bookings-date-picker <?php echo implode( ' ', $class ); ?>">
+
 	<legend>
 
 		<span class="label"><?php echo $label; ?></span>: <small class="wc-bookings-date-picker-choose-date"><?php _e( 'Choose...', 'woocommerce-bookings' ); ?></small>
@@ -62,7 +63,7 @@ $month_before_day = strpos( __( 'F j, Y' ), 'F' ) < strpos( __( 'F j, Y' ), 'j' 
 
 	<label for="<?php echo $name; ?>"><?php _e( 'Time', 'woocommerce-bookings' ); ?>:</label>
 	<ul class="block-picker">
-		<li><?php _e( 'Choose a date above to see available times.', 'woocommerce-bookings' ); ?></li>
+		<li style="text-align: center; width: 100%;"><?php _e( 'Choose a date above to see available times.', 'woocommerce-bookings' ); ?></li>
 	</ul>
 	<input type="hidden" class="required_for_calculation" name="<?php echo $name; ?>_time" id="<?php echo $name; ?>" />
 	

@@ -589,12 +589,13 @@
     </div>
   </div>
   <div class="booking-section">
-    <!-- <div class="fbs-container">
-      <div class="div-block-42">
-        <h1 class="booking-heading">BOOK YOUR SESSION<span data-ix="booking-close" class="text-span-26"></span><br><span><span><span data-ix="booking-close" class="text-span-26"><br></span></span>
-          </span>
-        </h1>
-        <div class="div-block-52">
+    <!-- <span data-ix="booking-close" class="text-span-26"></span><br><span><span><span data-ix="booking-close" class="text-span-26"><br></span></span>
+          </span> -->
+    <?php echo do_shortcode('[product_page id="49"]'); ?>
+   <!--  <div class="fbs-container">
+      <div class="div-block-42"> -->
+        
+        <!-- <div class="div-block-52">
           <h1 class="calendar-title">October 2017</h1>
           <h1 class="calendar-left-arrow nav-link"></h1>
           <h1 class="calendar-right-arrow nav-link"></h1>
@@ -693,29 +694,8 @@
             <div class="text-block-32">13</div>
           </div>
         </div>
-      </div>
-    </div> -->
-
-<?php
-$params = array(
-        'posts_per_page' => 5,
-        'post_type' => 'product'
-);
-
-$wc_query = new WP_Query($params); // (2)
-?>
-<?php if ($wc_query->have_posts()) : // (3) ?>
-<?php while ($wc_query->have_posts()) : // (4)
-                $wc_query->the_post(); // (4.1) ?>
-<?php the_title(); // (4.2) ?>
-<?php endwhile; ?>
-<?php wp_reset_postdata(); // (5) ?>
-<?php else:  ?>
-<p>
-     <?php _e( 'No Products' ); // (6) ?>
-</p>
-<?php endif; ?>
-
+      </div> -->
+    <!-- </div> -->
   </div>
   
 	<?php

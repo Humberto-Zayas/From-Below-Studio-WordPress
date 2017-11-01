@@ -1166,10 +1166,22 @@
 		"oAP": "\/woocommerce-bookings\/single-product\/add-to-cart\/booking.php",
 		"oF": 0
 		},
+	"\/woocommerce\/content-single-product.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/content-single-product.php",
+		"oF": 0
+		},
 	"\/woocommerce\/global\/wrapper-start.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/global\/wrapper-start.php",
+		"oF": 0
+		},
+	"\/woocommerce\/single-product\/tabs\/tabs.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/single-product\/tabs\/tabs.php",
 		"oF": 0
 		}
 	},
