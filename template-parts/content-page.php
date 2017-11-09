@@ -33,25 +33,10 @@
 		*/
 		?>
 	</div> -->
-  
-  
-<div class="div-block-46" data-ix="new-interaction-2">
-    <div class="promo-pop-up" data-ix="promo-hover">
-      <h1 class="heading-23">Summer End Special Pricing</h1>
-    </div>
-    <div class="div-block-47">
-      <ul class="promo-pricing-table w-list-unstyled">
-        <li class="first-item-title list-item-2">Promotional packages</li>
-        <li class="list-item-2">3 Tracks/$170</li>
-        <li class="list-item-2">6 Tracks/</li>
-        <li class="list-item-2">9 Tracks/</li>
-        <li class="list-item-2">12 Tracks/</li>
-        <li class="list-item-2">*Includes Recording and Mixing</li>
-        <li class="item-pricing list-item-2">15:24:12<br><span class="text-span-7">Hurry Before This Offer Ends</span></li>
-        <li class="last-item-button list-item-2"><span data-ix="contact-reveal" class="text-span-8">BOOK NOW</span></li>
-      </ul>
-    </div>
-  </div>
+<?php if (is_page( array('Cart', 'Checkout'))):?>
+  <?php the_content(); ?>
+
+<?php else:?>
 
   <div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
     <div class="div-block" data-ix="home-hero-reveal"></div>
@@ -697,6 +682,7 @@
       </div> -->
     <!-- </div> -->
   </div>
+  <?php endif;?>
   
 	<?php
 		edit_post_link(

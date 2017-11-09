@@ -59,7 +59,7 @@ $month_before_day = strpos( __( 'F j, Y' ), 'F' ) < strpos( __( 'F j, Y' ), 'j' 
 		</label>
 	</div>
 </fieldset>
-<div class="form-field form-field-wide">
+<div class="booking-left form-field form-field-wide">
 
 	<label for="<?php echo $name; ?>"><?php _e( 'Time', 'woocommerce-bookings' ); ?>:</label>
 	<ul class="block-picker">

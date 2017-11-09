@@ -427,3 +427,102 @@ function frombelowstudiotheme_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'frombelowstudiotheme_widget_tag_cloud_args' );
+
+//Woocommerce Edits
+
+// remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+// remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);
+
+// add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);
+// add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);
+
+// function my_theme_wrapper_start() {
+//   echo '<section id="fuckkevindurant">';
+// }
+
+// function my_theme_wrapper_end() {
+//   echo '</section>';
+// }
+
+//WooCommerce Support Declation - useless
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+//change added to cart message
+
+add_filter('wc_add_to_cart_message', 'handler_function_name', 10, 2);
+function handler_function_name($message, $product_id) {
+    return "Thank you for adding product" . $product_id;
+}
+
+
+//All Products Go Straight to Cart - Need only the Booking to go to cart
+
+add_filter('add_to_cart_redirect', 'themeprefix_add_to_cart_redirect');
+function themeprefix_add_to_cart_redirect() {
+ global $woocommerce;
+ $checkout_url = $woocommerce->cart->get_checkout_url();
+ return $checkout_url;
+}
+
+
+// Hook in
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+
+
+// Hook in
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+// Our hooked in function - $fields is passed via the filter!
+function custom_override_checkout_fields( $fields ) {
+
+	 $fields['order']['order_comments']['placeholder'] = 'Tell Me About Your Project';
+	 $fields['order']['order_comments']['label'] = '';
+	 $fields['billing']['billing_first_name']['label'] = '';
+	 $fields['billing']['billing_first_name']['placeholder'] = 'Enter Your Name';
+	 // $fields['billing']['billing_last_name']['label'] = '';
+	 // $fields['billing']['billing_last_name']['placeholder'] = 'Last Name';
+	 $fields['billing']['billing_phone']['label'] = '';
+	 $fields['billing']['billing_phone']['placeholder'] = 'Phone Number';
+	 $fields['billing']['billing_email']['label'] = '';
+	 $fields['billing']['billing_email']['placeholder'] = 'Enter Your Email';
+     //unset($fields['billing']['billing_first_name']);
+     unset($fields['billing']['billing_last_name']);
+     unset($fields['billing']['billing_company']);
+     unset($fields['billing']['billing_address_1']);
+     unset($fields['billing']['billing_address_2']);
+     unset($fields['billing']['billing_city']);
+     unset($fields['billing']['billing_postcode']);
+     unset($fields['billing']['billing_country']);
+     unset($fields['billing']['billing_state']);
+     unset($fields['account']['account_email']);
+     unset($fields['account']['account_password']);
+     //unset($fields['billing']['billing_email']);
+     return $fields;
+}
+
+
+/** 
+ * A function to reorder the default display of fields on the WooCommerce Bookings form
+ * Put this function in your theme's functions.php file
+ */
+// function custom_order_booking_fields ( $fields ) {
+
+// 	$reorder  = array();
+	
+// 	$reorder[] = $fields['wc_bookings_field_resource'];  // Resource
+// 	$reorder[] = $fields['wc_bookings_field_persons'];  // Persons
+// 	$reorder[] = $fields['wc_bookings_field_duration'];  // Duration
+// 	$reorder[] = $fields['wc_bookings_field_start_date'];  // Calendar or Start Date
+
+
+// 	return $reorder;
+// }
+// add_filter( 'booking_form_fields', 'custom_order_booking_fields');
+
+
+

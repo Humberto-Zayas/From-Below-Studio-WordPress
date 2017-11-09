@@ -3,7 +3,7 @@
 	position: relative;
 	display: block;
 	overflow: hidden;
-	width: 740px;
+	width: 700px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0px 0px 30px;
@@ -16,7 +16,15 @@
 	background-position: 0px 0px, 0px 0px;
 	background-size: auto, cover;
 	box-shadow: 1px 1px 3px 0 #000;
+	
 }
+
+// @media screen and (max-width: 700px){
+// 		.wc-bookings-booking-form { 
+// 			transform: scale(.7);
+// 		}
+// 	}
+
 
 // Overrides white bg color on majority of calendar body
 .wc-bookings-date-picker .ui-widget-content {
@@ -121,16 +129,16 @@
 .wc-bookings-date-picker .ui-datepicker td .ui-state-default {
 	// display: block;
 	color: white;
-    width: 80px;
-    height: 80px;
-    margin: 5px auto;
-    border-radius: 53%;
+    // width: 80px;
+    // height: 80px;
+    // margin: 5px auto;
+    // border-radius: 53%;
     background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important;
     font-family: Dosis, sans-serif;
     // color: #ebebeb;
     color: rgb(130, 96, 105);
-    line-height: 80px;
+    line-height: 60px;
     // cursor: pointer;
     padding: 0 !important;
 }
@@ -169,8 +177,8 @@
 }
 
 .wc-bookings-date-picker .ui-datepicker td {
-	padding-left: 10px !important;
-	padding-right: 10px !important;
+	// padding-left: 10px !important;
+	// padding-right: 10px !important;
 	border: none;
 	background: transparent;
 }
@@ -241,6 +249,7 @@
 	box-sizing: border-box;
 	font-family: arial;
 	font-size: 14px;
+	clear: both;
 	&:hover {
 		background-color: #ce2441;
 		border: 1px solid transparent;
