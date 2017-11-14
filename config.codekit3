@@ -7,21 +7,24 @@
 		"uuidString": "B1371027-D741-47CC-A5B1-4A3A7CDB8582"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/404.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/404.php",
 		"oF": 0
 		},
 	"\/archive.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
 	"\/comments.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/comments.php",
@@ -108,48 +111,56 @@
 		"oS": 3
 		},
 	"\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.eot",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/fonts\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
 	"\/footer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/footer.php",
 		"oF": 0
 		},
 	"\/functions.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
 	"\/genericons\/COPYING.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/genericons\/COPYING.txt",
@@ -166,6 +177,7 @@
 		"oS": 3
 		},
 	"\/genericons\/Genericons.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/genericons\/Genericons.eot",
@@ -182,28 +194,31 @@
 		"prP": 0
 		},
 	"\/genericons\/Genericons.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/genericons\/Genericons.ttf",
 		"oF": 0
 		},
 	"\/genericons\/Genericons.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/genericons\/Genericons.woff",
 		"oF": 0
 		},
 	"\/genericons\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/genericons\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/genericons\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -218,12 +233,14 @@
 		"uCM": 0
 		},
 	"\/header.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/header.php",
 		"oF": 0
 		},
 	"\/image.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/image.php",
@@ -507,6 +524,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/From-Below-Control-Room-1.jpg": {
+		"ft": 16384,
+		"iS": 193013,
+		"oA": 0,
+		"oAP": "\/images\/From-Below-Control-Room-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/From-Below-Waiting-Room-1.jpg": {
+		"ft": 16384,
+		"iS": 195476,
+		"oA": 0,
+		"oAP": "\/images\/From-Below-Waiting-Room-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/IMG_20170722_142734_347_1500772896518-p-1080.jpeg": {
 		"ft": 16384,
 		"iS": 54152,
@@ -687,25 +724,45 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/volume-bar-loading-4.gif": {
+		"ft": 4194304,
+		"iS": 76629,
+		"oA": 0,
+		"oAP": "\/images\/volume-bar-loading-4.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/volume-bar-loading.gif": {
+		"ft": 4194304,
+		"iS": 574815,
+		"oA": 0,
+		"oAP": "\/images\/volume-bar-loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/inc\/back-compat.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/back-compat.php",
 		"oF": 0
 		},
 	"\/inc\/customizer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/customizer.php",
 		"oF": 0
 		},
 	"\/inc\/template-tags.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/inc\/template-tags.php",
 		"oF": 0
 		},
 	"\/index.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.php",
@@ -842,12 +899,14 @@
 		"tS": 0
 		},
 	"\/page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/page.php",
 		"oF": 0
 		},
 	"\/readme.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/readme.txt",
@@ -893,6 +952,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/calendar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/homepage-override.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/homepage-override.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -963,30 +1035,35 @@
 		"uL": 1
 		},
 	"\/search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/search.php",
 		"oF": 0
 		},
 	"\/searchform.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/searchform.php",
 		"oF": 0
 		},
 	"\/sidebar-content-bottom.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sidebar-content-bottom.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sidebar.php",
 		"oF": 0
 		},
 	"\/single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/single.php",
@@ -1013,504 +1090,588 @@
 		"oS": 3
 		},
 	"\/template-parts\/biography.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/biography.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-none.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-none.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-page.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-page.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-search.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-search.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-single.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content-single.php",
 		"oF": 0
 		},
 	"\/template-parts\/content.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/content.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/booking-form\/date-picker.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/booking-form\/date-picker.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/booking-form\/datetime-picker.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/booking-form\/datetime-picker.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/booking-form\/hidden.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/booking-form\/hidden.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/booking-form\/month-picker.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/booking-form\/month-picker.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/booking-form\/number.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/booking-form\/number.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/booking-form\/select.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/booking-form\/select.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/admin-booking-cancelled.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/admin-booking-cancelled.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/admin-new-booking.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/admin-new-booking.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/customer-booking-cancelled.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/customer-booking-cancelled.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/customer-booking-confirmed.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/customer-booking-confirmed.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/customer-booking-notification.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/customer-booking-notification.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/customer-booking-reminder.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/customer-booking-reminder.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/plain\/admin-booking-cancelled.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/plain\/admin-booking-cancelled.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/plain\/admin-new-booking.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/plain\/admin-new-booking.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/plain\/customer-booking-cancelled.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/plain\/customer-booking-cancelled.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/plain\/customer-booking-confirmed.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/plain\/customer-booking-confirmed.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/plain\/customer-booking-notification.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/plain\/customer-booking-notification.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/emails\/plain\/customer-booking-reminder.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/emails\/plain\/customer-booking-reminder.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/myaccount\/bookings.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/myaccount\/bookings.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/myaccount\/my-bookings.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/myaccount\/my-bookings.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/order\/admin\/booking-display.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/order\/admin\/booking-display.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/order\/booking-display.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/order\/booking-display.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/order\/booking-summary-list.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/order\/booking-summary-list.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/single-product\/add-to-cart\/booking.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce-bookings\/single-product\/add-to-cart\/booking.php",
 		"oF": 0
 		},
 	"\/woocommerce\/cart\/cart-empty.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/cart\/cart-empty.php",
 		"oF": 0
 		},
 	"\/woocommerce\/cart\/cart-item-data.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/cart\/cart-item-data.php",
 		"oF": 0
 		},
 	"\/woocommerce\/cart\/cart-shipping.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/cart\/cart-shipping.php",
 		"oF": 0
 		},
 	"\/woocommerce\/cart\/cart-totals.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/cart\/cart-totals.php",
 		"oF": 0
 		},
 	"\/woocommerce\/cart\/cart.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/cart\/cart.php",
 		"oF": 0
 		},
 	"\/woocommerce\/cart\/cross-sells.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/cart\/cross-sells.php",
 		"oF": 0
 		},
 	"\/woocommerce\/cart\/mini-cart.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/cart\/mini-cart.php",
 		"oF": 0
 		},
 	"\/woocommerce\/cart\/proceed-to-checkout-button.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/cart\/proceed-to-checkout-button.php",
 		"oF": 0
 		},
 	"\/woocommerce\/cart\/shipping-calculator.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/cart\/shipping-calculator.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/cart-errors.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/cart-errors.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/form-billing.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/form-billing.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/form-checkout.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/form-checkout.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/form-coupon.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/form-coupon.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/form-login.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/form-login.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/form-pay.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/form-pay.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/form-shipping.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/form-shipping.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/order-receipt.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/order-receipt.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/payment-method.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/payment-method.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/payment.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/payment.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/review-order.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/review-order.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/terms.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/terms.php",
 		"oF": 0
 		},
 	"\/woocommerce\/checkout\/thankyou.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/checkout\/thankyou.php",
 		"oF": 0
 		},
 	"\/woocommerce\/content-single-product.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/content-single-product.php",
 		"oF": 0
 		},
 	"\/woocommerce\/global\/form-login.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/global\/form-login.php",
 		"oF": 0
 		},
 	"\/woocommerce\/global\/wrapper-start.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/global\/wrapper-start.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/dashboard.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/dashboard.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/downloads.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/downloads.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/form-add-payment-method.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/form-add-payment-method.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/form-edit-account.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/form-edit-account.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/form-edit-address.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/form-edit-address.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/form-login.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/form-login.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/form-lost-password.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/form-lost-password.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/form-reset-password.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/form-reset-password.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/lost-password-confirmation.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/lost-password-confirmation.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/my-account.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/my-account.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/my-address.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/my-address.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/my-downloads.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/my-downloads.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/my-orders.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/my-orders.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/navigation.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/navigation.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/orders.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/orders.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/payment-methods.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/payment-methods.php",
 		"oF": 0
 		},
 	"\/woocommerce\/myaccount\/view-order.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/myaccount\/view-order.php",
 		"oF": 0
 		},
 	"\/woocommerce\/notices\/error.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/notices\/error.php",
 		"oF": 0
 		},
 	"\/woocommerce\/notices\/notice.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/notices\/notice.php",
 		"oF": 0
 		},
 	"\/woocommerce\/notices\/success.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/notices\/success.php",
 		"oF": 0
 		},
 	"\/woocommerce\/order\/form-tracking.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/order\/form-tracking.php",
 		"oF": 0
 		},
 	"\/woocommerce\/order\/order-again.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/order\/order-again.php",
 		"oF": 0
 		},
 	"\/woocommerce\/order\/order-details-customer.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/order\/order-details-customer.php",
 		"oF": 0
 		},
 	"\/woocommerce\/order\/order-details-item.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/order\/order-details-item.php",
 		"oF": 0
 		},
 	"\/woocommerce\/order\/order-details.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/order\/order-details.php",
 		"oF": 0
 		},
 	"\/woocommerce\/order\/order-downloads.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/order\/order-downloads.php",
 		"oF": 0
 		},
 	"\/woocommerce\/order\/tracking.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/order\/tracking.php",
 		"oF": 0
 		},
 	"\/woocommerce\/single-product\/product-image.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/single-product\/product-image.php",
 		"oF": 0
 		},
 	"\/woocommerce\/single-product\/tabs\/tabs.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/single-product\/tabs\/tabs.php",
@@ -2061,6 +2222,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -2125,9 +2290,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2157,6 +2322,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2166,14 +2335,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3277,7 +3438,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3310,6 +3472,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3351,7 +3514,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3383,13 +3547,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3398,7 +3562,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3418,7 +3583,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3446,7 +3612,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

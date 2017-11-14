@@ -24,9 +24,20 @@
     families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Oswald:200,300,400,500,600,700","Varela Round:400","Dosis:200,regular,600"]
   }
 });</script>
+ <script type="text/javascript">
+   $(window).load(function(){
+      $('.loading').fadeOut();
+   });
+ </script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <style type="text/css">
+    .loading { display: block }
+  </style>
 </head>
-
+<div class="loading">
+  <img src="<?php bloginfo('template_url');?>/images/volume-bar-loading-4.gif" class="image-30">
+  <h3 style="width: 100%; text-align: center; margin-top:50px; color: white" class="image-30 loading-text">Loading the Session</h3>
+</div>
 <body class="body" <?php body_class(); ?>>
 <div id="page" class="site">
 	<div class="site-inner">

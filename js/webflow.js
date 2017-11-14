@@ -6,9 +6,6 @@ jQuery(document).ready(function($) {
  *   var Webflow = Webflow || [];
  *   Webflow.push(readyFunction);
  */
-
-window.alert = function() {};
-
 (function () {
   'use strict';
 

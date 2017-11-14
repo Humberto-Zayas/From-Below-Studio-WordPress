@@ -2391,6 +2391,46 @@ input:-webkit-autofill {
 .checkout_coupon p:nth-child(1), .checkout_coupon p:nth-child(2), .checkout_coupon p:nth-child(3), .checkout_coupon p:nth-child(5), .checkout_coupon p:nth-child(6) {
   display: block; }
 
+.wc-bookings-booking-form p {
+  font-family: Dosis; }
+
+.loading {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 20;
+  display: none;
+  width: 100%;
+  height: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f0f0f+0,000000+100 */
+  background: #0f0f0f;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0f0f0f 0%, black 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0f0f0f 0%, black 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #0f0f0f 0%, black 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0f0f', endColorstr='#000000',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+  .loading h3 {
+    font-family: Lato;
+    font-weight: 300; }
+
+.image-30 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 32px; }
+
+.woocommerce-cart-form table {
+  font-family: Dosis; }
+  .woocommerce-cart-form table dt {
+    text-decoration: underline; }
+
 .div-block {
   position: absolute;
   left: 0px;

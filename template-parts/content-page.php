@@ -276,19 +276,23 @@
       </div>
     </div>
   </div>
-  <div class="about-section" data-ix="about-bg-reveal" id="about">
+  
+
+
+
+<div class="about-section" data-ix="about-bg-reveal" id="about">
     <div class="div-block-28"></div>
     <div class="fbs-container">
       <h3 class="heading-10-copy w-clearfix">ABOUT FROM BELOW <span class="text-span-24">STUDIO</span></h3>
       <div class="text-block-9">From Below is a recording studio in Central New Jersey. It features two professionally sound treated rooms including; a control room for mixing, mastering and listening and a vocal and instrument booth. From Below offers Industry standard hardware, software and recording/mixing services. Available for live recording sessions, full albums/projects, mixing, online mixing and listening sessions. Book your session today.</div>
       <div class="about-us-row w-row">
         <div class="column-7 w-col w-col-6">
-          <div class="slider-2 w-slider" data-animation="slide" data-duration="500" data-infinite="1">
+          <div class="slider-2 w-slider" data-animation="slide" data-autoplay="1" data-delay="4000" data-duration="500" data-infinite="1">
             <div class="slider-title">
               <h4 class="heading-11">THE STUDIO</h4>
             </div>
             <div class="w-slider-mask">
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 48vw, 50vw" src="images/avalong-demoshot.jpg" srcset="images/avalong-demoshot-p-500.jpeg 500w, images/avalong-demoshot-p-800.jpeg 800w, images/avalong-demoshot-p-1600.jpeg 1600w, images/avalong-demoshot.jpg 2000w"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
+              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/avalong-demoshot.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
   "type": "image",
   "_id": "597e88a186142700013beaf4",
   "fileName": "597e88a186142700013beaf4_avalong-demoshot.jpg",
@@ -308,7 +312,7 @@
   "type": "image",
   "fileSize": 2063
 }] }</script></a></div>
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 48vw, 50vw" src="images/IMG_20170722_142734_347_1500772896518.jpg" srcset="images/IMG_20170722_142734_347_1500772896518-p-500.jpeg 500w, images/IMG_20170722_142734_347_1500772896518-p-800.jpeg 800w, images/IMG_20170722_142734_347_1500772896518-p-1080.jpeg 1080w, images/IMG_20170722_142734_347_1500772896518.jpg 1440w"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
+              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
   "type": "image",
   "_id": "5968fb45e56b44588fa3eff5",
   "fileName": "5968fb45e56b44588fa3eff5_bg-test-fbs.jpg",
@@ -356,12 +360,12 @@
           </div>
         </div>
         <div class="column-27 w-col w-col-6">
-          <div class="slider-2 w-slider" data-animation="slide" data-duration="500" data-infinite="1">
+          <div class="slider-2 w-slider" data-animation="slide" data-autoplay="1" data-delay="4000" data-duration="500" data-infinite="1">
             <div class="slider-title">
               <h4 class="heading-11">OUTBOARD GEAR &amp; PLUGINS</h4>
             </div>
             <div class="w-slider-mask">
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 48vw" src="images/avalong-demoshot.jpg" srcset="images/avalong-demoshot-p-500.jpeg 500w, images/avalong-demoshot-p-800.jpeg 800w, images/avalong-demoshot-p-1600.jpeg 1600w, images/avalong-demoshot.jpg 2000w"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
+              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/avalong-demoshot.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
   "type": "image",
   "_id": "597e88a186142700013beaf4",
   "fileName": "597e88a186142700013beaf4_avalong-demoshot.jpg",
@@ -381,7 +385,7 @@
   "type": "image",
   "fileSize": 2063
 }] }</script></a></div>
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 48vw" src="images/IMG_20170722_142734_347_1500772896518.jpg" srcset="images/IMG_20170722_142734_347_1500772896518-p-500.jpeg 500w, images/IMG_20170722_142734_347_1500772896518-p-800.jpeg 800w, images/IMG_20170722_142734_347_1500772896518-p-1080.jpeg 1080w, images/IMG_20170722_142734_347_1500772896518.jpg 1440w"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
+              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
   "type": "image",
   "_id": "5968fb45e56b44588fa3eff5",
   "fileName": "5968fb45e56b44588fa3eff5_bg-test-fbs.jpg",
@@ -441,7 +445,7 @@
               <h4 class="heading-11">THE ENGINEER</h4>
             </div>
             <div class="w-slider-mask">
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 48vw" src="images/avalong-demoshot.jpg" srcset="images/avalong-demoshot-p-500.jpeg 500w, images/avalong-demoshot-p-800.jpeg 800w, images/avalong-demoshot-p-1600.jpeg 1600w, images/avalong-demoshot.jpg 2000w"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
+              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/avalong-demoshot.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
   "type": "image",
   "_id": "597e88a186142700013beaf4",
   "fileName": "597e88a186142700013beaf4_avalong-demoshot.jpg",
@@ -449,7 +453,7 @@
   "width": 4096,
   "height": 2304,
   "fileSize": 3275458,
-  "url": "images/avalong-demoshot_1.jpg"
+  "url": "<?php bloginfo('template_url');?>/images/avalong-demoshot_1.jpg"
 }, {
   "cdnUrl": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
   "width": 150,
@@ -461,7 +465,7 @@
   "type": "image",
   "fileSize": 2063
 }] }</script></a></div>
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" sizes="(max-width: 479px) 94vw, (max-width: 767px) 96vw, (max-width: 991px) 46vw, 48vw" src="images/IMG_20170722_142734_347_1500772896518.jpg" srcset="images/IMG_20170722_142734_347_1500772896518-p-500.jpeg 500w, images/IMG_20170722_142734_347_1500772896518-p-800.jpeg 800w, images/IMG_20170722_142734_347_1500772896518-p-1080.jpeg 1080w, images/IMG_20170722_142734_347_1500772896518.jpg 1440w"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
+              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
   "type": "image",
   "_id": "5968fb45e56b44588fa3eff5",
   "fileName": "5968fb45e56b44588fa3eff5_bg-test-fbs.jpg",
@@ -469,7 +473,7 @@
   "width": 1698,
   "height": 1018,
   "fileSize": 1046127,
-  "url": "images/bg-test-fbs.jpg"
+  "url": "<?php bloginfo('template_url');?>/images/bg-test-fbs.jpg"
 }, {
   "type": "image",
   "_id": "597350db55f0c353c22f6535",
@@ -478,7 +482,7 @@
   "width": 1600,
   "height": 1000,
   "fileSize": 278482,
-  "url": "images/bg_pic1.jpg"
+  "url": "<?php bloginfo('template_url');?>/images/bg_pic1.jpg"
 }, {
   "type": "image",
   "_id": "597403f72e734d4747106efd",
@@ -487,7 +491,7 @@
   "width": 1440,
   "height": 1440,
   "fileSize": 114332,
-  "url": "images/IMG_20170722_142734_347_1500772896518.jpg"
+  "url": "<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg"
 }, {
   "type": "image",
   "_id": "597e88a186142700013beaf4",
@@ -496,7 +500,7 @@
   "width": 4096,
   "height": 2304,
   "fileSize": 3275458,
-  "url": "images/avalong-demoshot_1.jpg"
+  "url": "<?php bloginfo('template_url');?>/images/avalong-demoshot_1.jpg"
 }] }</script></a></div>
             </div>
             <div class="w-slider-arrow-left" data-ix="about-from-below-studio-slider-1-init">
@@ -514,9 +518,13 @@
           <div class="misc-menu-item" data-ix="contact-reveal-2">Studio Policy</div>
           <div class="misc-menu-item" data-ix="contact-reveal">Contact</div>
           <div class="misc-menu-item social-misc"><a href="https://facebook.com/frombelowstudio" class="link-14"></a>&nbsp;|&nbsp;<span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a>&nbsp;|&nbsp;<a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
-        </div><img class="image-3" sizes="(max-width: 479px) 94vw, 230px" src="images/fbs-ccinfo.png" srcset="images/fbs-ccinfo-p-500.png 500w, images/fbs-ccinfo.png 877w"></div>
+        </div><img class="image-3" src="<?php bloginfo('template_url');?>/images/fbs-ccinfo.png"></div>
     </div>
   </div>
+
+
+
+
   <div class="contact-section">
     <div class="fbs-container">
       <div class="div-block-42">
