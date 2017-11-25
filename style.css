@@ -2431,6 +2431,52 @@ input:-webkit-autofill {
   .woocommerce-cart-form table dt {
     text-decoration: underline; }
 
+.div-block-53 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(270deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("../images/_JP_6476.jpg");
+  background-image: linear-gradient(180deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("../images/_JP_6476.jpg");
+  background-position: 0px 0px, 49px 0px;
+  background-size: auto, cover; }
+
+.div-block-53 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(270deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("../images/_JP_6476.jpg");
+  background-image: linear-gradient(180deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("../images/_JP_6476.jpg");
+  background-position: 0px 0px, 49px 0px;
+  background-size: auto, cover; }
+
+.div-block-53-copy {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(270deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("../images/10-uad-01.jpg");
+  background-image: linear-gradient(180deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("../images/10-uad-01.jpg");
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover; }
+
+span.wpcf7-list-item {
+  text-align: left;
+  width: 30%; }
+
 .div-block {
   position: absolute;
   left: 0px;
@@ -2751,7 +2797,8 @@ input:-webkit-autofill {
   margin-bottom: 0px; }
 
 .slide-2 {
-  height: 214px; }
+  width: 100%;
+  height: 100%; }
 
 .slider-title {
   position: absolute;
@@ -2763,7 +2810,7 @@ input:-webkit-autofill {
   font-family: Oswald, sans-serif; }
 
 .heading-11 {
-  font-family: Oswald, sans-serif;
+  font-family: Lato, sans-serif;
   color: #ebebeb;
   font-weight: 200;
   letter-spacing: 2px; }
@@ -3526,6 +3573,7 @@ input:-webkit-autofill {
 .slider-2 {
   width: 100%;
   height: 325px;
+  background-color: transparent;
   cursor: pointer; }
 
 .slide-nav-2 {
@@ -3944,6 +3992,56 @@ input:-webkit-autofill {
   background-image: -webkit-linear-gradient(270deg, #d1203d, #d1203d), -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-image: linear-gradient(180deg, #d1203d, #d1203d), linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
 
+.image-2-copy {
+  width: 101%;
+  max-width: 106%; }
+
+.div-block-53 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(270deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("images/_JP_6476.jpg");
+  background-image: linear-gradient(180deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("images/_JP_6476.jpg");
+  background-position: 0px 0px, 49px 0px;
+  background-size: auto, cover; }
+
+.text-block-34 {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: Fontawesome, sans-serif;
+  color: #ebebeb;
+  text-align: center;
+  cursor: pointer; }
+
+.text-span-31 {
+  color: #d1203d; }
+
+.div-block-53-copy {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(270deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("images/10-uad-01.jpg");
+  background-image: linear-gradient(180deg, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.9)), url("images/10-uad-01.jpg");
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover; }
+
 html.w-mod-js *[data-ix="navbar-desktop-scrolled"] {
   -webkit-transform: translate(0px, -100%);
   -ms-transform: translate(0px, -100%);
@@ -4146,6 +4244,8 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
     position: absolute; }
   .promo-pricing-table {
     width: 373px; }
+  .slider-2 {
+    height: 240px; }
   .mobile-pricing-slider {
     display: none; }
   .recording-pricing-1 {
@@ -4483,7 +4583,9 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
     margin-bottom: 0px;
     border-radius: 0%;
     background-image: none;
-    color: #d1203d; } }
+    color: #d1203d; }
+  .text-block-34 {
+    font-size: 3vw; } }
 
 @media (max-width: 479px) {
   .heading.oswald {

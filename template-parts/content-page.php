@@ -9,30 +9,30 @@
 ?>
 
 <!-- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-	</header>
+  <header class="entry-header">
+    <?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+  </header>
 
-	<?php //frombelowstudiotheme_post_thumbnail(); ?>
+  <?php //frombelowstudiotheme_post_thumbnail(); ?>
 
-	<div class="entry-content">
-		
+  <div class="entry-content">
+    
     <?php
 
-		//the_content();
+    //the_content();
 
-		/*
-		wp_link_pages( array(
-			'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'frombelowstudiotheme' ) . '</span>',
-			'after'       => '</div>',
-			'link_before' => '<span>',
-			'link_after'  => '</span>',
-			'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'frombelowstudiotheme' ) . ' </span>%',
-			'separator'   => '<span class="screen-reader-text">, </span>',
-		) )
-		*/
-		?>
-	</div> -->
+    /*
+    wp_link_pages( array(
+      'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'frombelowstudiotheme' ) . '</span>',
+      'after'       => '</div>',
+      'link_before' => '<span>',
+      'link_after'  => '</span>',
+      'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'frombelowstudiotheme' ) . ' </span>%',
+      'separator'   => '<span class="screen-reader-text">, </span>',
+    ) )
+    */
+    ?>
+  </div> -->
 <?php if (is_page( array('Cart', 'Checkout'))):?>
   <?php the_content(); ?>
 
@@ -114,10 +114,10 @@
       <div class="text-block-13">Promotional pricing for recording and mixing packages. Single sessions and mixes available as well.</div>
       <div class="tabs w-tabs" data-duration-in="300" data-duration-out="100">
         <div class="w-tab-menu">
-          <a class="tab-link-2 w-inline-block w-tab-link" data-w-tab="Tab 1">
+          <a class="tab-link-2 w--current w-inline-block w-tab-link" data-w-tab="Tab 1">
             <div class="text-block-29">RECORDING</div>
           </a>
-          <a class="tab-link-2 w--current w-inline-block w-tab-link" data-w-tab="Tab 2">
+          <a class="tab-link-2 w-inline-block w-tab-link" data-w-tab="Tab 2">
             <div>MIXING</div>
           </a>
           <a class="studio-hidden-tab-title tab-link-2 w-inline-block w-tab-link" data-w-tab="Tab 3">
@@ -280,156 +280,357 @@
 
 
 
-<div class="about-section" data-ix="about-bg-reveal" id="about">
+<div data-ix="about-bg-reveal" id="about" class="about-section">
     <div class="div-block-28"></div>
     <div class="fbs-container">
       <h3 class="heading-10-copy w-clearfix">ABOUT FROM BELOW <span class="text-span-24">STUDIO</span></h3>
-      <div class="text-block-9">From Below is a recording studio in Central New Jersey. It features two professionally sound treated rooms including; a control room for mixing, mastering and listening and a vocal and instrument booth. From Below offers Industry standard hardware, software and recording/mixing services. Available for live recording sessions, full albums/projects, mixing, online mixing and listening sessions. Book your session today.</div>
+      <div class="text-block-9">From Below is a recording studio in Central New Jersey. It features two professionally sound treated rooms including; a control room for mixing, mastering and listening and a vocal and instrument booth. From Below offers Industry standard hardware, software and recording/mixing services. Available for live recording sessions, full albums/projects, mixing, online mixing and listening sessions. View our studio and gear below.</div>
       <div class="about-us-row w-row">
         <div class="column-7 w-col w-col-6">
-          <div class="slider-2 w-slider" data-animation="slide" data-autoplay="1" data-delay="4000" data-duration="500" data-infinite="1">
+          <div data-delay="4000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1" class="slider-2 w-slider">
             <div class="slider-title">
               <h4 class="heading-11">THE STUDIO</h4>
             </div>
             <div class="w-slider-mask">
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/avalong-demoshot.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
-  "type": "image",
-  "_id": "597e88a186142700013beaf4",
-  "fileName": "597e88a186142700013beaf4_avalong-demoshot.jpg",
-  "origFileName": "avalong-demoshot.jpg",
-  "width": 4096,
-  "height": 2304,
-  "fileSize": 3275458,
-  "url": "images/avalong-demoshot_1.jpg"
-}, {
-  "cdnUrl": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
-  "width": 150,
-  "height": 150,
-  "fileName": "image-placeholder.svg",
-  "origFileName": "image-placeholder.svg",
-  "url": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
-  "_id": "example_img",
-  "type": "image",
-  "fileSize": 2063
-}] }</script></a></div>
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
-  "type": "image",
-  "_id": "5968fb45e56b44588fa3eff5",
-  "fileName": "5968fb45e56b44588fa3eff5_bg-test-fbs.jpg",
-  "origFileName": "bg-test-fbs.jpg",
-  "width": 1698,
-  "height": 1018,
-  "fileSize": 1046127,
-  "url": "images/bg-test-fbs.jpg"
-}, {
-  "type": "image",
-  "_id": "597350db55f0c353c22f6535",
-  "fileName": "597350db55f0c353c22f6535_bg_pic1.jpg",
-  "origFileName": "bg_pic1.jpg",
-  "width": 1600,
-  "height": 1000,
-  "fileSize": 278482,
-  "url": "images/bg_pic1.jpg"
-}, {
-  "type": "image",
-  "_id": "597403f72e734d4747106efd",
-  "fileName": "597403f72e734d4747106efd_IMG_20170722_142734_347_1500772896518.jpg",
-  "origFileName": "IMG_20170722_142734_347_1500772896518.jpg",
-  "width": 1440,
-  "height": 1440,
-  "fileSize": 114332,
-  "url": "images/IMG_20170722_142734_347_1500772896518.jpg"
-}, {
-  "type": "image",
-  "_id": "597e88a186142700013beaf4",
-  "fileName": "597e88a186142700013beaf4_avalong-demoshot.jpg",
-  "origFileName": "avalong-demoshot.jpg",
-  "width": 4096,
-  "height": 2304,
-  "fileSize": 3275458,
-  "url": "images/avalong-demoshot_1.jpg"
-}] }</script></a></div>
+              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/_JP_6513.jpg" alt="From Below Studio - Central New Jersey Recording Studio" class="image-2"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1620,
+      "caption": "Watch the recording session from the waiting room. ",
+      "height": 1080,
+      "fileName": "_JP_6513.jpg",
+      "origFileName": "_JP_6513.jpg",
+      "url": "<?php bloginfo('template_url');?>/images/_JP_6513.jpg",
+      "_id": "5a0a3787d65a2f0001bdd1a5",
+      "type": "image",
+      "fileSize": 111754
+    }
+  ],
+  "group": "From Below Studio and Gear"
+}</script></a></div>
+              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox">
+                <img src="<?php bloginfo('template_url');?>/images/01-control-room-01.jpg" alt="From Below Studio Control Room New Jersey Recording Studio" class="image-2"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1620,
+      "caption": "Control room mixing desk",
+      "height": 1080,
+      "fileName": "01-control-room-01.jpg",
+      "origFileName": "01-control-room-01.jpg",
+      "url": "<?php bloginfo('template_url');?>/images/01-control-room-01.jpg",
+      "_id": "5a0a38b15f389a000169d194",
+      "type": "image",
+      "fileSize": 147493
+    }
+  ],
+  "group": "From Below Studio and Gear"
+}</script></a></div>
+              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/mic-studio.jpg" class="image-2-copy"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 720,
+      "caption": "The recording booth is fully treated for the clearest sound quality. ",
+      "height": 1080,
+      "fileName": "mic-studio-long.jpg",
+      "origFileName": "mic-studio-long.jpg",
+      "url": "<?php bloginfo('template_url');?>/images/mic-studio-long.jpg",
+      "_id": "5a0b15f7d65a2f0001be704b",
+      "type": "image",
+      "fileSize": 113774
+    }
+  ],
+  "group": "From Below Studio and Gear"
+}</script></a></div>
+              <div class="slide-2 w-slide">
+                <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                  <div class="div-block-53">
+                    <div class="text-block-34">Click here to see the studio image gallery <span class="text-span-31"></span></div>
+                  </div>
+                  <script type="application/json" class="w-json">
+                      {
+                        "items": [{
+                            "width": 1440,
+                            "height": 1440,
+                            "fileName": "597403f72e734d4747106efd_IMG_20170722_142734_347_1500772896518.jpg",
+                            "origFileName": "IMG_20170722_142734_347_1500772896518.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg",
+                            "_id": "597403f72e734d4747106efd",
+                            "type": "image",
+                            "fileSize": 114332
+                          },
+                          {
+                            "width": 1620,
+                            "height": 1080,
+                            "fileName": "_JP_6442.jpg",
+                            "origFileName": "_JP_6442.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/_JP_6442.jpg",
+                            "_id": "5a0a4390e1339f0001a8b353",
+                            "type": "image",
+                            "fileSize": 89768
+                          },
+                          {
+                            "width": 720,
+                            "caption": "Control room looking into recording booth",
+                            "height": 1080,
+                            "fileName": "_JP_6454.jpg",
+                            "origFileName": "_JP_6454.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/_JP_6454.jpg",
+                            "_id": "5a0a43a9d092d00001e0914c",
+                            "type": "image",
+                            "fileSize": 52679
+                          },
+                          {
+                            "width": 720,
+                            "caption": "Recording booth with mics",
+                            "height": 1080,
+                            "fileName": "_JP_6461.jpg",
+                            "origFileName": "_JP_6461.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/_JP_6461.jpg",
+                            "_id": "5a0a43b6e1339f0001a8b35f",
+                            "type": "image",
+                            "fileSize": 79017
+                          },
+                          {
+                            "width": 1620,
+                            "caption": "View from the booth into control room",
+                            "height": 1080,
+                            "fileName": "_JP_6476.jpg",
+                            "origFileName": "_JP_6476.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/_JP_6476.jpg",
+                            "_id": "5a0a43cfd65a2f0001bdd94e",
+                            "type": "image",
+                            "fileSize": 74937
+                          },
+                          {
+                            "width": 1620,
+                            "caption": "View from waiting area into booth and control room",
+                            "height": 1080,
+                            "fileName": "_JP_6496.jpg",
+                            "origFileName": "_JP_6496.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/_JP_6496.jpg",
+                            "_id": "5a0a43e5d345d400015dbae4",
+                            "type": "image",
+                            "fileSize": 112687
+                          },
+                          {
+                            "width": 720,
+                            "caption": "The recording booth is fully treated for the clearest sound quality. ",
+                            "height": 1080,
+                            "fileName": "mic-studio-long.jpg",
+                            "origFileName": "mic-studio-long.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/mic-studio-long.jpg",
+                            "_id": "5a0b15f7d65a2f0001be704b",
+                            "type": "image",
+                            "fileSize": 113774
+                          }
+                        ], 
+                        "group": "From Below Studio and Gear"
+                      }
+                    </script>
+                </a>
+              </div>
             </div>
-            <div class="w-slider-arrow-left" data-ix="about-from-below-studio-slider-1-init">
+            <div data-ix="about-from-below-studio-slider-1-init" class="w-slider-arrow-left">
               <div class="w-icon-slider-left"></div>
             </div>
-            <div class="right-arrow-2 w-slider-arrow-right" data-ix="about-from-below-studio-slider-1-init">
+            <div data-ix="about-from-below-studio-slider-1-init" class="right-arrow-2 w-slider-arrow-right">
               <div class="w-icon-slider-right"></div>
             </div>
-            <div class="slide-nav-2 w-round w-slider-nav" data-ix="about-from-below-studio-slider-1-init"></div>
+            <div data-ix="about-from-below-studio-slider-1-init" class="slide-nav-2 w-round w-slider-nav"></div>
           </div>
         </div>
         <div class="column-27 w-col w-col-6">
-          <div class="slider-2 w-slider" data-animation="slide" data-autoplay="1" data-delay="4000" data-duration="500" data-infinite="1">
+          <div data-delay="4000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1" class="slider-2 w-slider">
             <div class="slider-title">
               <h4 class="heading-11">OUTBOARD GEAR &amp; PLUGINS</h4>
             </div>
             <div class="w-slider-mask">
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/avalong-demoshot.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
-  "type": "image",
-  "_id": "597e88a186142700013beaf4",
-  "fileName": "597e88a186142700013beaf4_avalong-demoshot.jpg",
-  "origFileName": "avalong-demoshot.jpg",
-  "width": 4096,
-  "height": 2304,
-  "fileSize": 3275458,
-  "url": "images/avalong-demoshot_1.jpg"
-}, {
-  "cdnUrl": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
-  "width": 150,
-  "height": 150,
-  "fileName": "image-placeholder.svg",
-  "origFileName": "image-placeholder.svg",
-  "url": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
-  "_id": "example_img",
-  "type": "image",
-  "fileSize": 2063
-}] }</script></a></div>
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
-  "type": "image",
-  "_id": "5968fb45e56b44588fa3eff5",
-  "fileName": "5968fb45e56b44588fa3eff5_bg-test-fbs.jpg",
-  "origFileName": "bg-test-fbs.jpg",
-  "width": 1698,
-  "height": 1018,
-  "fileSize": 1046127,
-  "url": "images/bg-test-fbs.jpg"
-}, {
-  "type": "image",
-  "_id": "597350db55f0c353c22f6535",
-  "fileName": "597350db55f0c353c22f6535_bg_pic1.jpg",
-  "origFileName": "bg_pic1.jpg",
-  "width": 1600,
-  "height": 1000,
-  "fileSize": 278482,
-  "url": "images/bg_pic1.jpg"
-}, {
-  "type": "image",
-  "_id": "597403f72e734d4747106efd",
-  "fileName": "597403f72e734d4747106efd_IMG_20170722_142734_347_1500772896518.jpg",
-  "origFileName": "IMG_20170722_142734_347_1500772896518.jpg",
-  "width": 1440,
-  "height": 1440,
-  "fileSize": 114332,
-  "url": "images/IMG_20170722_142734_347_1500772896518.jpg"
-}, {
-  "type": "image",
-  "_id": "597e88a186142700013beaf4",
-  "fileName": "597e88a186142700013beaf4_avalong-demoshot.jpg",
-  "origFileName": "avalong-demoshot.jpg",
-  "width": 4096,
-  "height": 2304,
-  "fileSize": 3275458,
-  "url": "images/avalong-demoshot_1.jpg"
-}] }</script></a></div>
+              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/03-avalon-01.jpg"  class="image-2"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1620,
+      "caption": "Avalon 737sp Vocal Preamp",
+      "height": 1080,
+      "fileName": "03-avalon-01.jpg",
+      "origFileName": "03-avalon-01.jpg",
+      "url": "<?php bloginfo('template_url');?>/images/03-avalon-01.jpg",
+      "_id": "5a0a3b37d092d00001e08dbd",
+      "type": "image",
+      "fileSize": 148597
+    }
+  ],
+  "group": "Outboard Gear Plugins"
+}</script></a></div>
+              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/_JP_6407.jpg"  class="image-2"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1620,
+      "caption": "RME Audio Interface",
+      "height": 1080,
+      "fileName": "_JP_6407.jpg",
+      "origFileName": "_JP_6407.jpg",
+      "url": "<?php bloginfo('template_url');?>/images/_JP_6407.jpg",
+      "_id": "5a0a3d21e1339f0001a8b0ae",
+      "type": "image",
+      "fileSize": 88407
+    }
+  ],
+  "group": "Outboard Gear Plugins"
+}</script></a></div>
+              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/_JP_6436.jpg" alt="Hundreds of top tier plug-in suites" class="image-2"><script type="application/json" class="w-json">{
+  "items": [
+    {
+      "width": 1620,
+      "height": 1080,
+      "fileName": "_JP_6436.jpg",
+      "origFileName": "_JP_6436.jpg",
+      "url": "<?php bloginfo('template_url');?>/images/_JP_6436.jpg",
+      "_id": "5a0a3d4cd65a2f0001bdd4a0",
+      "type": "image",
+      "fileSize": 173352
+    }
+  ],
+  "group": "Outboard Gear Plugins"
+}</script></a></div>
+              <div class="slide-2 w-slide">
+                <a href="#" class="lightbox-link w-inline-block w-lightbox">
+                  <div class="div-block-53-copy">
+                    <div class="text-block-34">Click here to see the outboard gear &amp; plugins <span class="text-span-31"></span></div>
+                  </div>
+                  <script type="application/json" class="w-json">
+                      {
+                        "items": [{
+                            "width": 1000,
+                            "caption": "Protools Recording",
+                            "height": 625,
+                            "fileName": "59690c48ce4a582f2714ad7c_screenshot-2_2.jpg",
+                            "origFileName": "screenshot-2_2.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/screenshot-2_2.jpg",
+                            "_id": "59690c48ce4a582f2714ad7c",
+                            "type": "image",
+                            "fileSize": 214589
+                          },
+                          {
+                            "type": "image",
+                            "_id": "596924dd54b341621759ef81",
+                            "fileName": "596924dd54b341621759ef81_maxresdefault.jpg",
+                            "origFileName": "maxresdefault.jpg",
+                            "width": 1920,
+                            "height": 1080,
+                            "fileSize": 199413,
+                            "url": "<?php bloginfo('template_url');?>/images/maxresdefault.jpg"
+                          },
+                          {
+                            "width": 1600,
+                            "caption": "Tons of plugins for EQ, Reverb & Other FX",
+                            "height": 900,
+                            "fileName": "598137421e339d000192a9f5_fabfilter-pro-q-2-equalizer-plug-in-tutorial.jpg",
+                            "origFileName": "fabfilter-pro-q-2-equalizer-plug-in-tutorial.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/fabfilter-pro-q-2-equalizer-plug-in-tutorial.jpg",
+                            "_id": "598137421e339d000192a9f5",
+                            "type": "image",
+                            "fileSize": 141530
+                          },
+                          {
+                            "width": 720,
+                            "caption": "Mackies & Sen",
+                            "height": 1080,
+                            "fileName": "_JP_6429.jpg",
+                            "origFileName": "_JP_6429.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/_JP_6429.jpg",
+                            "_id": "5a0a446ad345d400015dbb1a",
+                            "type": "image",
+                            "fileSize": 56611
+                          },
+                          {
+                            "width": 1620,
+                            "caption": "Big Knob",
+                            "height": 1080,
+                            "fileName": "_JP_6420.jpg",
+                            "origFileName": "_JP_6420.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/_JP_6420.jpg",
+                            "_id": "5a0a45f85f389a000169d74b",
+                            "type": "image",
+                            "fileSize": 85604
+                          },
+                          {
+                            "width": 720,
+                            "height": 1080,
+                            "fileName": "_JP_6466.jpg",
+                            "origFileName": "_JP_6466.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/_JP_6466.jpg",
+                            "_id": "5a0a460fe1339f0001a8b50f",
+                            "type": "image",
+                            "fileSize": 75278
+                          },
+                          {
+                            "width": 1620,
+                            "caption": "Shure mics",
+                            "height": 1080,
+                            "fileName": "_JP_6491.jpg",
+                            "origFileName": "_JP_6491.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/_JP_6491.jpg",
+                            "_id": "5a0a46275f389a000169d75d",
+                            "type": "image",
+                            "fileSize": 68972
+                          },
+                          {
+                            "type": "image",
+                            "_id": "5a0a4645d345d400015dbbbf",
+                            "fileName": "06-outboard-01.jpg",
+                            "origFileName": "06-outboard-01.jpg",
+                            "width": 1620,
+                            "height": 1080,
+                            "fileSize": 108708,
+                            "url": "<?php bloginfo('template_url');?>/images/06-outboard-01.jpg"
+                          },
+                          {
+                            "width": 1620,
+                            "caption": "Mackie Studio Monitors",
+                            "height": 1080,
+                            "fileName": "08-mackie-01.jpg",
+                            "origFileName": "08-mackie-01.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/08-mackie-01.jpg",
+                            "_id": "5a0a46557dd52a00016a45cc",
+                            "type": "image",
+                            "fileSize": 84483
+                          },
+                          {
+                            "width": 1620,
+                            "caption": "UAD Sound Processing",
+                            "height": 1080,
+                            "fileName": "10-uad-01.jpg",
+                            "origFileName": "10-uad-01.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/10-uad-01.jpg",
+                            "_id": "5a0a46637dd52a00016a45d2",
+                            "type": "image",
+                            "fileSize": 78207
+                          },
+                          {
+                            "width": 1620,
+                            "caption": "Presonus",
+                            "height": 1080,
+                            "fileName": "12-presonus-01.jpg",
+                            "origFileName": "12-presonus-01.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/12-presonus-01.jpg",
+                            "_id": "5a0a4673d345d400015dbbcc",
+                            "type": "image",
+                            "fileSize": 80812
+                          }
+                        ],
+                        "group": "Outboard Gear Plugins"
+                      }
+                    </script>
+                </a>
+              </div>
             </div>
-            <div class="w-slider-arrow-left" data-ix="about-from-below-studio-slider-1-init">
+            <div data-ix="about-from-below-studio-slider-1-init" class="w-slider-arrow-left">
               <div class="w-icon-slider-left"></div>
             </div>
-            <div class="right-arrow-2 w-slider-arrow-right" data-ix="about-from-below-studio-slider-1-init">
+            <div data-ix="about-from-below-studio-slider-1-init" class="right-arrow-2 w-slider-arrow-right">
               <div class="w-icon-slider-right"></div>
             </div>
-            <div class="slide-nav-3 w-round w-slider-nav" data-ix="about-from-below-studio-slider-1-init"></div>
+            <div data-ix="about-from-below-studio-slider-1-init" class="slide-nav-3 w-round w-slider-nav"></div>
           </div>
         </div>
       </div>
@@ -437,128 +638,44 @@
       <div class="about-us-row w-row">
         <div class="column-8 w-col w-col-6">
           <h3 class="heading-10 w-clearfix">ABOUT YOUR <span class="text-span-25">ENGINEER<br></span></h3>
-          <div class="text-block-9">From Below is a recording studio in Central New Jersey. It features two professionally sound treated rooms including; a control room for mixing, mastering and listening and a vocal and instrument booth. From Below offers Industry standard hardware, software and recording/mixing services. Available for live recording sessions, projects, mixing, online mixing and listening sessions. Book your session today.</div>
+          <div class="text-block-9">Bio coming soon...From Below is a recording studio in Central New Jersey. It features two professionally sound treated rooms including; a control room for mixing, mastering and listening and a vocal and instrument booth. From Below offers Industry standard hardware, software and recording/mixing services. Available for live recording sessions, projects, mixing, online mixing and listening sessions. Book your session today.</div>
         </div>
         <div class="column-29 w-col w-col-6">
-          <div class="slider-2 w-slider" data-animation="slide" data-duration="500" data-infinite="1">
+          <div data-animation="slide" data-duration="500" data-infinite="1" class="slider-2 w-slider">
             <div class="slider-title">
               <h4 class="heading-11">THE ENGINEER</h4>
             </div>
             <div class="w-slider-mask">
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/avalong-demoshot.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
-  "type": "image",
-  "_id": "597e88a186142700013beaf4",
-  "fileName": "597e88a186142700013beaf4_avalong-demoshot.jpg",
-  "origFileName": "avalong-demoshot.jpg",
-  "width": 4096,
-  "height": 2304,
-  "fileSize": 3275458,
-  "url": "<?php bloginfo('template_url');?>/images/avalong-demoshot_1.jpg"
-}, {
-  "cdnUrl": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
-  "width": 150,
-  "height": 150,
-  "fileName": "image-placeholder.svg",
-  "origFileName": "image-placeholder.svg",
-  "url": "https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg",
-  "_id": "example_img",
-  "type": "image",
-  "fileSize": 2063
-}] }</script></a></div>
-              <div class="slide-2 w-slide"><a class="lightbox-link w-inline-block w-lightbox" href="#"><img class="image-2" src="<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg"><script class="w-json" type="application/json">{ "group": "From Below Studio and Gear", "items": [{
-  "type": "image",
-  "_id": "5968fb45e56b44588fa3eff5",
-  "fileName": "5968fb45e56b44588fa3eff5_bg-test-fbs.jpg",
-  "origFileName": "bg-test-fbs.jpg",
-  "width": 1698,
-  "height": 1018,
-  "fileSize": 1046127,
-  "url": "<?php bloginfo('template_url');?>/images/bg-test-fbs.jpg"
-}, {
-  "type": "image",
-  "_id": "597350db55f0c353c22f6535",
-  "fileName": "597350db55f0c353c22f6535_bg_pic1.jpg",
-  "origFileName": "bg_pic1.jpg",
-  "width": 1600,
-  "height": 1000,
-  "fileSize": 278482,
-  "url": "<?php bloginfo('template_url');?>/images/bg_pic1.jpg"
-}, {
-  "type": "image",
-  "_id": "597403f72e734d4747106efd",
-  "fileName": "597403f72e734d4747106efd_IMG_20170722_142734_347_1500772896518.jpg",
-  "origFileName": "IMG_20170722_142734_347_1500772896518.jpg",
-  "width": 1440,
-  "height": 1440,
-  "fileSize": 114332,
-  "url": "<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg"
-}, {
-  "type": "image",
-  "_id": "597e88a186142700013beaf4",
-  "fileName": "597e88a186142700013beaf4_avalong-demoshot.jpg",
-  "origFileName": "avalong-demoshot.jpg",
-  "width": 4096,
-  "height": 2304,
-  "fileSize": 3275458,
-  "url": "<?php bloginfo('template_url');?>/images/avalong-demoshot_1.jpg"
-}] }</script></a></div>
+              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/avalong-demoshot.jpg" class="image-2"><script type="application/json" class="w-json">{
+  "items": [],
+  "group": "From Below Studio and Gear"
+}</script></a></div>
             </div>
-            <div class="w-slider-arrow-left" data-ix="about-from-below-studio-slider-1-init">
+            <div data-ix="about-from-below-studio-slider-1-init" class="w-slider-arrow-left">
               <div class="w-icon-slider-left"></div>
             </div>
-            <div class="right-arrow-2 w-slider-arrow-right" data-ix="about-from-below-studio-slider-1-init">
+            <div data-ix="about-from-below-studio-slider-1-init" class="right-arrow-2 w-slider-arrow-right">
               <div class="w-icon-slider-right"></div>
             </div>
-            <div class="slide-nav-2 w-round w-slider-nav" data-ix="about-from-below-studio-slider-1-init"></div>
+            <div data-ix="about-from-below-studio-slider-1-init" class="slide-nav-2 w-round w-slider-nav"></div>
           </div>
         </div>
       </div>
       <div class="div-block-49 w-clearfix">
         <div class="div-block-48">
-          <div class="misc-menu-item" data-ix="contact-reveal-2">Studio Policy</div>
-          <div class="misc-menu-item" data-ix="contact-reveal">Contact</div>
-          <div class="misc-menu-item social-misc"><a href="https://facebook.com/frombelowstudio" class="link-14"></a>&nbsp;|&nbsp;<span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a>&nbsp;|&nbsp;<a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
-        </div><img class="image-3" src="<?php bloginfo('template_url');?>/images/fbs-ccinfo.png"></div>
+          <div data-ix="contact-reveal-2" class="misc-menu-item">Studio Policy</div>
+          <div data-ix="contact-reveal" class="misc-menu-item">Contact</div>
+          <div class="misc-menu-item social-misc"><a href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
+        </div><img src="<?php bloginfo('template_url');?>/images/fbs-ccinfo.png" class="image-3"></div>
     </div>
   </div>
 
 
+  <?php // contact form
+    include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
+  ?>
 
 
-  <div class="contact-section">
-    <div class="fbs-container">
-      <div class="div-block-42">
-        <h1 class="heading-22">CON<span><span>TACT <span data-ix="new-interaction" class="text-span-26"><br></span></span>
-          </span>
-        </h1>
-        <h5 class="heading-22-copy">Give me a call/text: <a href="tel:609-469-4340" class="link-3">609-469-4340<br xmlns="http://www.w3.org/1999/xhtml"></a><span><span><span data-ix="contact-section-reveal" class="text-span-26"></span></span>
-          </span>
-        </h5>
-        <div class="form-normal-social"><span class="text-span-29"></span><a href="https://instagram.com/frombelowstudio" target="_blank" class="link-12"></a> | <a href="https://twitter.com/frombelowstudio" target="_blank" class="link-5"></a> | <a href="https://facebook.com/frombelowstudio" target="_blank" class="link-6"></a></div>
-        <div class="w-form">
-          <form class="form-2" data-name="Contact Form" id="wf-form-Contact-Form" name="wf-form-Contact-Form"><input autofocus="autofocus" class="text-field-3 w-input" data-name="name" id="name-3" maxlength="256" name="name" placeholder="Enter your name" required="required" type="text"><input class="text-field-3 w-input" data-name="emailAddress" id="emailAddress" maxlength="256" name="emailAddress" placeholder="Enter your email" required="required" type="email"><input class="text-field-3 w-input" data-name="phone-number" id="phone-number" maxlength="256" name="phone-number" placeholder="Phone Number" type="text"><label class="field-label-6" for="How-Did-You-Hear-About-Us">What service are you interested in?</label>
-            <div class="div-block-44">
-              <div class="radio-button-field-2 w-radio"><input class="radio-button-2 w-radio-input" data-name="Service Type" id="Recording-2" name="Service-Type" type="radio" value="Recording"><label class="field-label-5 w-form-label" for="Recording-2">Recording</label></div>
-              <div class="radio-button-field-2 w-radio"><input class="radio-button-2 w-radio-input" data-name="Service Type" id="Mixing-2" name="Service-Type" type="radio" value="Mixing"><label class="field-label-5 w-form-label" for="Mixing-2">Mixing</label></div>
-              <div class="radio-button-field-2 w-radio"><input class="radio-button-2 w-radio-input" data-name="Service Type" id="Studio Use" name="Service-Type" type="radio" value="Studio Use"><label class="field-label-5 w-form-label" for="Studio Use">Studio Use</label></div>
-            </div>
-            <div class="div-block-44"><label class="field-label-6" for="How-Did-You-Hear-About-Us">How did you hear about From Below Studio?</label><select class="select-field w-select" data-name="How Did You Hear About Us" id="How-Did-You-Hear-About-Us" name="How-Did-You-Hear-About-Us" required="required"><option value="Website">Website</option>
-<option value="Instagram">Instagram</option>
-<option value="Twitter">Twitter</option>
-<option value="Facebook">Facebook</option>
-<option value="Recommendation">Recommendation</option>
-<option value="Google Search">Google Search</option>
-<option value="Other">Other</option></select></div><textarea class="text-field-3 textarea w-input" data-name="message" id="message" maxlength="5000" name="message" placeholder="Tell me about your project" required="required"></textarea><input class="contact-button fbs-button w-button" data-wait="Sending..." type="submit" value="Send"></form>
-          <div class="success-message w-form-done">
-            <div class="text-block-26">Thanks for reaching out. I usually respond in under 48 hours. You can call or text 609-469-4340 for a faster reply.<br><br>Please take time to check out the <span data-ix="contact-reveal-2" class="text-span-30">Studio Policy</span> while you wait for your reply.</div>
-          </div>
-          <div class="error-message w-form-fail">
-            <div class="text-block-28">*Name and email are required to send a message.</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <div class="policy-section">
     <div class="fbs-container">
       <div class="div-block-42">
@@ -692,16 +809,16 @@
   </div>
   <?php endif;?>
   
-	<?php
-		edit_post_link(
-			sprintf(
-				/* translators: %s: Name of current post */
-				__( 'Edit<span class="screen-reader-text"> "%s"</span>', 'frombelowstudiotheme' ),
-				get_the_title()
-			),
-			'<footer class="entry-footer"><span class="edit-link">',
-			'</span></footer><!-- .entry-footer -->'
-		);
-	?>
+  <?php
+    edit_post_link(
+      sprintf(
+        /* translators: %s: Name of current post */
+        __( 'Edit<span class="screen-reader-text"> "%s"</span>', 'frombelowstudiotheme' ),
+        get_the_title()
+      ),
+      '<footer class="entry-footer"><span class="edit-link">',
+      '</span></footer><!-- .entry-footer -->'
+    );
+  ?>
 
 <!-- </article> --><!-- #post-## -->

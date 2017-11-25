@@ -282,6 +282,11 @@ function frombelowstudiotheme_scripts() {
 	if ( is_singular() && wp_attachment_is_image() ) {
 		wp_enqueue_script( 'frombelowstudiotheme-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20160816' );
 	}
+	$current_user = wp_get_current_user();
+	if (user_can( $current_user, 'administrator' )) {
+	  // user is an admin
+		wp_enqueue_style( 'adminlogged-in', get_template_directory_uri() . '/adminlogged-in.css');
+	}
 
 	wp_enqueue_script( 'frombelowstudiotheme-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20160816', true );
 
@@ -524,5 +529,29 @@ function custom_override_checkout_fields( $fields ) {
 // }
 // add_filter( 'booking_form_fields', 'custom_order_booking_fields');
 
+// // Redirect any user trying to access comments page
+// function df_disable_comments_admin_menu_redirect() {
+// 	global $pagenow;
+// 	if ($pagenow === 'edit-comments.php') {
+// 		wp_redirect(admin_url()); exit;
+// 	}
+// }
+// add_action('admin_init', 'df_disable_comments_admin_menu_redirect');
 
+// // Disable support for comments and trackbacks in post types
+// function df_disable_comments_post_types_support() {
+// 	$post_types = get_post_types();
+// 	foreach ($post_types as $post_type) {
+// 		if(post_type_supports($post_type, 'comments')) {
+// 			remove_post_type_support($post_type, 'comments');
+// 		}
+// 	}
+// }
+
+// // Close comments on the front-end
+// function df_disable_comments_status() {
+// 	return false;
+// }
+// add_filter('comments_open', 'df_disable_comments_status', 20, 2);
+// add_filter('pings_open', 'df_disable_comments_status', 20, 2);
 
