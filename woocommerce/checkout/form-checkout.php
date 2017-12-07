@@ -76,3 +76,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 </form>
 </div>
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>
+
+  <?php // contact form
+    include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
+  ?>

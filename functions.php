@@ -473,6 +473,19 @@ function themeprefix_add_to_cart_redirect() {
  return $checkout_url;
 }
 
+// Hook in
+function wc_empty_cart_redirect_url() {
+    return home_url(); //$_SERVER['HTTP_REFERER'];
+}
+add_filter( 'woocommerce_return_to_shop_redirect', 'wc_empty_cart_redirect_url' );
+
+
+// Custom Empty Cart Message
+function custom_wc_empty_cart_message() {
+  echo '<h1 class="heading-13">' . wp_kses_post( __("There's nothing here.", 'woocommerce')) . '</h1>' . '<p class="text-block-9-centered">' .  wp_kses_post( __( "Try booking a session to get started.", 'woocommerce' ) ) . '</p>';;
+}
+
+add_filter( 'wc_empty_cart_message', 'custom_wc_empty_cart_message' );
 
 // Hook in
 add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );

@@ -20,6 +20,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import 'woocommerce-checkout';
 @import 'homepage-override.scss';
 @import 'wp-contact-overwrite.scss';
+@import 'background-images.scss';
 
 .div-block {
   position: absolute;
@@ -180,6 +181,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 30px;
+}
+
+.fbs-button.hide {
+  display: none;
 }
 
 .div-block-7 {
@@ -1782,6 +1787,120 @@ Use it to make something cool, have fun, and share what you've learned with othe
   background-size: auto, cover;
 }
 
+.section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+._404-section {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  clear: both;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  background-image: -webkit-linear-gradient(90deg, #111010, rgba(0, 0, 0, .55) 71%, rgba(0, 0, 0, .86) 96%), url('images/_JP_6513.jpg');
+  background-image: linear-gradient(0deg, #111010, rgba(0, 0, 0, .55) 71%, rgba(0, 0, 0, .86) 96%), url('images/_JP_6513.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+  opacity: 1;
+  text-align: center;
+}
+
+.text-block-9-centered {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: #ebebeb;
+  line-height: 30px;
+  text-align: center;
+}
+
+.search-input {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-span-32 {
+  font-family: 'Fontawesome webfont', sans-serif;
+}
+
+._404-search-input {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-style: solid;
+  border-width: 0px 0px 1px;
+  border-color: rgba(53, 53, 53, .8);
+  background-color: transparent;
+  font-family: Dosis, sans-serif;
+  color: #ebebeb;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+._404-search-input:focus {
+  border-style: solid;
+  border-width: 0px 0px 1px;
+  border-color: #ebebeb;
+}
+
+.text-block-35 {
+  font-size: 60px;
+}
+
+.text-block-36 {
+  font-family: Lato, sans-serif;
+  color: #d1203d;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+._404-social {
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(53, 53, 53, .8);
+  font-family: Fontawesome, sans-serif;
+  color: #ebebeb;
+  font-size: 28px;
+  line-height: 20px;
+}
+
 html.w-mod-js *[data-ix="navbar-desktop-scrolled"] {
   -webkit-transform: translate(0px, -100%);
   -ms-transform: translate(0px, -100%);
@@ -2070,6 +2189,9 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
   }
   .booking-heading {
     position: relative;
+  }
+  ._404-social {
+    display: inline-block;
   }
 }
 
@@ -2482,6 +2604,22 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
   }
   .text-block-34 {
     font-size: 3vw;
+  }
+  .text-block-9-centered {
+    margin-bottom: 20px;
+    font-size: 3vw;
+    line-height: 5vw;
+  }
+  .search-input {
+    width: 100%;
+  }
+  ._404-search-input {
+    width: 100%;
+    font-size: 2.6vw;
+  }
+  ._404-social {
+    display: block;
+    width: auto;
   }
 }
 

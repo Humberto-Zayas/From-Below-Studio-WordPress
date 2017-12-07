@@ -16,16 +16,6 @@
 		"oAP": "\/404.php",
 		"oF": 0
 		},
-	"\/adminlogged-in.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/adminlogged-in-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/archive.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -1408,6 +1398,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/background-images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/background-images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/calendar.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2161,16 +2164,6 @@
 		"oA": 2,
 		"oAP": "\/woocommerce\/single-product\/tabs\/tabs.php",
 		"oF": 0
-		},
-	"\/wp-contact-overwrite.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/wp-contact-overwrite-min.css",
-		"oF": 0,
-		"oS": 3
 		}
 	},
 "hooks": [

@@ -43,7 +43,7 @@
     if (is_front_page()) {
       $urlbuild = '';
     } else {
-      $urlbuild = 'http://localhost:8888/frombelowstudio/';
+      $urlbuild = home_url();
     }
   ?>
 <div id="page" class="site">

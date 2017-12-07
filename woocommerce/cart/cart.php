@@ -165,4 +165,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 	?>
 </div>
 </div>
+  <?php // contact form
+    include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
+  ?>
 <?php do_action( 'woocommerce_after_cart' ); ?>

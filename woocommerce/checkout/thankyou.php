@@ -85,3 +85,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<?php endif; ?>
 
 </div>
+  <?php // contact form
+    include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
+  ?>
