@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
 	<div class="_404-section">
     <div class="fbs-container">
       <div class="text-block-36">🐔Clucked!</div>
@@ -22,8 +22,9 @@ get_header(); ?>
       <div class="_404-social"><a href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
     </div>
   </div>
+</div>
 <?php // contact form
   include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
 ?>
 <?php //get_sidebar(); ?>
-<?php //get_footer(); ?>
+<?php get_footer(); ?>

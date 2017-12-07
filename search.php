@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
 	<div class="search_result_section">
 		<div class="fbs-container">
 		<?php if ( have_posts() ) : ?>
@@ -47,9 +47,10 @@ get_header(); ?>
 
 		</div>
 	</div><!-- .content-area -->
+</div>
 
 <?php // contact form
   include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
 ?>
 <?php //get_sidebar(); ?>
-<?php //get_footer(); ?>
+<?php get_footer(); ?>
