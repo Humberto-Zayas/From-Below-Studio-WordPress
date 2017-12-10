@@ -298,3 +298,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', end
 		color: red !important;
 	}
 }
+
+@media screen and (max-width: 740px ) {
+	.wc-bookings-booking-form {
+		width: 100% !important;
+
+	}
+	.wc-bookings-date-picker .ui-datepicker {
+		width: 100% !important;
+		display: block !important;
+	}
+	.wc-bookings-date-picker .ui-datepicker table {
+		width: 100% !important;
+		display: block !important;
+		position: relative !important;
+	}
+
+	thead, tbody, tr {
+			display: block !important;
+			width: 100% !important;
+		}
+
+		tr {
+			td {
+				width: 14.2% !important;
+				display: inline-block !important;
+			}
+		}
+
+	.wc-bookings-date-picker .ui-datepicker th {
+		padding: 0px !important;
+		width: 14.2%;
+		display: inline-block !important;
+		height: 60px;
+		line-height: 60px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.ui-datepicker-title {
+		font-size: 6vw;
+	}
+}
