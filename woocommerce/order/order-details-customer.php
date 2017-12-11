@@ -30,9 +30,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 				<?php endif; ?>
 
-				<h2 class="woocommerce-column__title"><?php _e( 'Billing address', 'woocommerce' ); ?></h2>
+				<h2 class="heading-13 woocommerce-column__title"><?php _e( 'Billing Address', 'woocommerce' ); ?></h2>
 
-				<address>
+				<address class="text-block-13">
 					<?php echo ( $address = $order->get_formatted_billing_address() ) ? $address : __( 'N/A', 'woocommerce' ); ?>
 					<?php if ( $order->get_billing_phone() ) : ?>
 						<p class="woocommerce-customer-details--phone"><?php echo esc_html( $order->get_billing_phone() ); ?></p>
@@ -48,9 +48,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			<div class="woocommerce-column woocommerce-column--2 woocommerce-column--shipping-address col-2">
 
-				<h2 class="woocommerce-column__title"><?php _e( 'Shipping address', 'woocommerce' ); ?></h2>
+				<h2 class="heading-13 woocommerce-column__title"><?php _e( 'Shipping address', 'woocommerce' ); ?></h2>
 
-				<address>
+				<address class="text-block-13">
 					<?php echo ( $address = $order->get_formatted_shipping_address() ) ? $address : __( 'N/A', 'woocommerce' ); ?>
 				</address>
 

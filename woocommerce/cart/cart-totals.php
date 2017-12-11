@@ -21,11 +21,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
+<div class="cart_support">
+	<h1 class="heading-13">Need Help?</h1>
+	<p>Please <span data-ix="contact-reveal-3" class="hover-link">contact me</span> for help/questions or call/text: <a class="hover-link" href="tel:609-469-4340">609-469-4340</a> </p>
+</div>
 <div class="cart_totals <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">
 
 	<?php do_action( 'woocommerce_before_cart_totals' ); ?>
 
-	<h2><?php _e( 'Cart totals', 'woocommerce' ); ?></h2>
+	<h2 class="heading-13"><?php _e( 'Cart Totals', 'woocommerce' ); ?></h2>
 
 	<table cellspacing="0" class="shop_table shop_table_responsive">
 

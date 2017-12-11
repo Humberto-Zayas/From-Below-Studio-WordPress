@@ -23,14 +23,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 wc_print_notices();
 
 do_action( 'woocommerce_before_cart' ); ?>
+
 <div class="fbs-container">
+	
+<div class="cart-bg">
+	<h1 class="heading-13">YOUR CART</h1>
 <form class="woocommerce-cart-form" action="<?php echo esc_url( wc_get_cart_url() ); ?>" method="post">
 	<?php do_action( 'woocommerce_before_cart_table' ); ?>
 
 	<table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
 		<thead>
 			<tr>
-				<th class="product-remove">&nbsp;</th>
+				<!-- <th class="product-remove">Remove</th> -->
 				<th class="product-thumbnail">&nbsp;</th>
 				<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
 				<th class="product-price"><?php _e( 'Price', 'woocommerce' ); ?></th>
@@ -51,17 +55,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 					?>
 					<tr class="woocommerce-cart-form__cart-item <?php echo esc_attr( apply_filters( 'woocommerce_cart_item_class', 'cart_item', $cart_item, $cart_item_key ) ); ?>">
 
-						<td class="product-remove">
-							<?php
-								echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
-									'<a href="%s" class="remove" aria-label="%s" data-product_id="%s" data-product_sku="%s">&times;</a>',
-									esc_url( WC()->cart->get_remove_url( $cart_item_key ) ),
-									__( 'Remove this item', 'woocommerce' ),
-									esc_attr( $product_id ),
-									esc_attr( $_product->get_sku() )
-								), $cart_item_key );
-							?>
-						</td>
+						<!-- <td class="product-remove">
+							
+						</td> -->
 
 						<td class="product-thumbnail">
 							<?php
@@ -73,6 +69,17 @@ do_action( 'woocommerce_before_cart' ); ?>
 									printf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $thumbnail );
 								}
 							?>
+
+							<?php
+								echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf(
+									'<a class="custom-remove" href="%s" aria-label="%s" data-product_id="%s" data-product_sku="%s"><span>&#xf00d; </span>Remove</a>',
+									esc_url( WC()->cart->get_remove_url( $cart_item_key ) ),
+									__( 'Remove this item', 'woocommerce' ),
+									esc_attr( $product_id ),
+									esc_attr( $_product->get_sku() )
+								), $cart_item_key );
+							?>
+
 						</td>
 
 						<td class="product-name" data-title="<?php esc_attr_e( 'Product', 'woocommerce' ); ?>">
@@ -80,7 +87,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 								if ( ! $product_permalink ) {
 									echo apply_filters( 'woocommerce_cart_item_name', $_product->get_name(), $cart_item, $cart_item_key ) . '&nbsp;';
 								} else {
-									echo apply_filters( 'woocommerce_cart_item_name', sprintf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $_product->get_name() ), $cart_item, $cart_item_key );
+									echo apply_filters( 'woocommerce_cart_item_name', sprintf( '<a style="color: #cf2441; text-align: left;" href="%s">%s</a>', esc_url( $product_permalink ), $_product->get_name() ), $cart_item, $cart_item_key );
 								}
 
 								// Meta data
@@ -132,18 +139,20 @@ do_action( 'woocommerce_before_cart' ); ?>
 			<tr>
 				<td colspan="6" class="actions">
 
-					<?php if ( wc_coupons_enabled() ) { ?>
-						<div class="coupon">
-							<label for="coupon_code"><?php _e( 'Coupon:', 'woocommerce' ); ?></label> <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" /> <input type="submit" class="button" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>" />
+					<!-- Commenting out Coupons on the Cart Page -->
+					<?php /*if ( wc_coupons_enabled() ) { ?>
+						<div class="col-1">
+							<!-- <label for="coupon_code"><?php //_e( 'Coupon:', 'woocommerce' ); ?></label> --> <input type="text" name="coupon_code" class="cart-coupon" id="coupon_code" value="" placeholder="<?php esc_attr_e( 'Coupon code', 'woocommerce' ); ?>" /> <input type="submit" class="fbs-button" name="apply_coupon" value="<?php esc_attr_e( 'Apply coupon', 'woocommerce' ); ?>" />
 							<?php do_action( 'woocommerce_cart_coupon' ); ?>
 						</div>
-					<?php } ?>
-
-					<input type="submit" class="button" name="update_cart" value="<?php esc_attr_e( 'Update cart', 'woocommerce' ); ?>" />
+					<?php } */?>
+					<?php /* commenting out "Update Cart Button. Serves no purpose so far."
+					<input type="submit" class="fbs-button" name="update_cart" value="<?php esc_attr_e( 'Update cart', 'woocommerce' ); ?>" />
 
 					<?php do_action( 'woocommerce_cart_actions' ); ?>
 
 					<?php wp_nonce_field( 'woocommerce-cart' ); ?>
+					<?php;*/?>
 				</td>
 			</tr>
 
@@ -165,6 +174,9 @@ do_action( 'woocommerce_before_cart' ); ?>
 	?>
 </div>
 </div>
+</div>
+
+
   <?php // contact form
     include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
   ?>
