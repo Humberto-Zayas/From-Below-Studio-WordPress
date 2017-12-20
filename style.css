@@ -2573,6 +2573,33 @@ input:-webkit-autofill {
 .woocommerce p {
   color: #ebebeb; }
 
+.woocommerce-billing-fields__field-wrapper input {
+  border-width: 0 0 1px 0;
+  border-color: rgba(53, 53, 53, 0.8); }
+
+.select2-container--default .select2-selection--single {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #888888;
+  font-family: Dosis; }
+
+.select2-dropdown {
+  background-color: #0c0c0c;
+  color: #ebebeb; }
+
+.select2-container--open .select2-dropdown--below {
+  color: #c7c7c7;
+  font-family: Dosis;
+  border-top: 1px !important; }
+
+.select2-container--default .select2-results__option--highlighted[data-selected] {
+  background-color: #cf2441; }
+
+.select2-container--default .select2-results__option[data-selected=true] {
+  background-color: rgba(255, 255, 255, 0.4); }
+
 @media screen and (max-width: 767px) {
   .custom-remove {
     font-size: 1.5vw; } }
@@ -2619,6 +2646,9 @@ input:-webkit-autofill {
   background-position: 0px 0px, 50% 0px;
   background-size: auto, cover; }
 
+.home {
+  min-height: auto; }
+
 span.wpcf7-list-item {
   text-align: left;
   width: 30%; }
@@ -2661,6 +2691,50 @@ span.wpcf7-list-item {
   background-size: auto, cover;
   opacity: 1;
   text-align: center; }
+
+.woocommerce-account-fields, .woocommerce form.login {
+  width: 50%;
+  font-family: Fontawesome, Dosis;
+  margin: 2em auto;
+  padding: 1em;
+  font-weight: 100;
+  border: none; }
+  .woocommerce-account-fields span span, .woocommerce form.login span span {
+    color: #cf2441; }
+  .woocommerce-account-fields input, .woocommerce form.login input {
+    border-width: 0 0 1px 0;
+    border-color: rgba(53, 53, 53, 0.8); }
+
+.woocommerce form.login {
+  border: 1px solid rgba(53, 53, 53, 0.8) !important;
+  border-radius: initial !important;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/bg_pic1.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/bg_pic1.jpg);
+  background-position: 0px 0px, 0px 50%;
+  background-size: cover;
+  background-repeat: repeat, no-repeat;
+  box-shadow: 1px 1px 3px 0 #000;
+  font-family: Lato, sans-serif !important;
+  border-width: 1px 1px 0px !important; }
+  .woocommerce form.login .fbs-button {
+    border: 1px solid white !important;
+    margin: 1em auto;
+    display: block; }
+    .woocommerce form.login .fbs-button:hover {
+      border-color: transparent !important; }
+
+.create-account p {
+  padding: 1em;
+  text-align: left; }
+
+.woocommerce-LostPassword {
+  text-align: center; }
+
+.user_login_link {
+  text-transform: uppercase; }
+  .user_login_link span {
+    color: #cf2441;
+    padding: 0 5px; }
 
 .div-block {
   position: absolute;

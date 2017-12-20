@@ -21,6 +21,30 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
+
+<div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
+  <div class="_404-section">
+    <div class="fbs-container">
+
+      <?php wc_print_notices();
+      /**
+       * @hooked wc_empty_cart_message - 10
+       */
+      do_action( 'woocommerce_cart_is_empty' );
+
+      if ( wc_get_page_id( 'shop' ) > 0 ) : ?>
+	
+    	<p class="return-to-shop">
+    		<div class="fbs-button" data-ix="contact-reveal-6"><span class="text-span-12"></span> &nbsp;BOOK YOUR SESSION</div>
+    		<a style="text-decoration: none;" class="fbs-button" href="<?php echo esc_url( apply_filters( 'woocommerce_return_to_shop_redirect', wc_get_page_permalink( 'shop' ) ) ); ?>">
+    			<?php _e( 'BACK HOME', 'woocommerce' ) ?>
+    		</a>
+    	</p>
+	
+      <?php endif; ?>
+    </div>
+  </div>
+</div>
 <div class="booking-section">
     <!-- <span data-ix="booking-close" class="text-span-26"></span><br><span><span><span data-ix="booking-close" class="text-span-26"><br></span></span>
           </span> -->
@@ -129,28 +153,4 @@ if ( ! defined( 'ABSPATH' ) ) {
         </div>
       </div> -->
     <!-- </div> -->
-  </div>
-<div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
-<div class="_404-section">
-<div class="fbs-container">
-
-<?php wc_print_notices();
-
-/**
- * @hooked wc_empty_cart_message - 10
- */
-do_action( 'woocommerce_cart_is_empty' );
-
-if ( wc_get_page_id( 'shop' ) > 0 ) : ?>
-	
-	<p class="return-to-shop">
-		<div class="fbs-button" data-ix="contact-reveal-6"><span class="text-span-12"></span> &nbsp;BOOK YOUR SESSION</div>
-		<a style="text-decoration: none;" class="fbs-button" href="<?php echo esc_url( apply_filters( 'woocommerce_return_to_shop_redirect', wc_get_page_permalink( 'shop' ) ) ); ?>">
-			<?php _e( 'BACK HOME', 'woocommerce' ) ?>
-		</a>
-	</p>
-	
-<?php endif; ?>
-</div>
-</div>
 </div>

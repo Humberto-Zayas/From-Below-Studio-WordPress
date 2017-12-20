@@ -390,6 +390,43 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0f0f', end
   }
 }
 
+.woocommerce-billing-fields__field-wrapper {
+  input{
+    border-width: 0 0 1px 0;
+  border-color: rgba(53,53,53,0.8);
+  }
+  
+}
+
+.select2-container--default .select2-selection--single {
+  border: none;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #888888;
+  font-family: Dosis;
+}
+
+.select2-dropdown {
+  background-color: #0c0c0c;
+  color: #ebebeb;
+}
+
+.select2-container--open .select2-dropdown--below {
+  color: #c7c7c7;
+  font-family: Dosis;
+  border-top: 1px !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[data-selected] {
+  background-color: #cf2441;
+}
+
+.select2-container--default .select2-results__option[data-selected=true] {
+  background-color: rgba(255,255,255,0.4);
+}
+
 @media screen and (max-width: 767px){
   .custom-remove {
     font-size: 1.5vw;

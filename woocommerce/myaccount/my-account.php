@@ -19,8 +19,11 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+;?>
 
-wc_print_notices();
+<div class="fbs-container"> 
+
+<?php wc_print_notices();
 
 /**
  * My Account navigation.
@@ -28,12 +31,14 @@ wc_print_notices();
  */
 do_action( 'woocommerce_account_navigation' ); ?>
 
-<div class="woocommerce-MyAccount-content">
-	<?php
-		/**
-		 * My Account content.
-		 * @since 2.6.0
-		 */
-		do_action( 'woocommerce_account_content' );
-	?>
+		<div class="woocommerce-MyAccount-content">
+			<?php
+				/**
+				 * My Account content.
+				 * @since 2.6.0
+				 */
+				do_action( 'woocommerce_account_content' );
+			?>
+		</div>
 </div>
+

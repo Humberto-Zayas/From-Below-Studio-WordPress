@@ -501,13 +501,27 @@ function custom_override_checkout_fields( $fields ) {
 	 $fields['order']['order_comments']['placeholder'] = 'Tell Me About Your Project';
 	 $fields['order']['order_comments']['label'] = '';
 	 $fields['billing']['billing_first_name']['label'] = '';
-	 $fields['billing']['billing_first_name']['placeholder'] = 'Enter Your Name';
-	 // $fields['billing']['billing_last_name']['label'] = '';
-	 // $fields['billing']['billing_last_name']['placeholder'] = 'Last Name';
-	 $fields['billing']['billing_phone']['label'] = '';
+	 $fields['billing']['billing_first_name']['placeholder'] = 'First Name';
+	 $fields['billing']['billing_first_name']['autofocus'] = false;
+	 $fields['billing']['billing_first_name']['id'] = "juelz";
+	 $fields['billing']['billing_last_name']['label'] = '';
+	 $fields['billing']['billing_last_name']['placeholder'] = 'Last Name';
+	 $fields['billing']['billing_phone']['label'] = '';	
 	 $fields['billing']['billing_phone']['placeholder'] = 'Phone Number';
 	 $fields['billing']['billing_email']['label'] = '';
 	 $fields['billing']['billing_email']['placeholder'] = 'Enter Your Email';
+	 $fields['billing']['billing_company']['placeholder'] = 'Company Name';
+	 $fields['billing']['billing_company']['label'] = '';
+	 $fields['billing']['billing_address_1']['placeholder'] = 'Billing Address';
+	 $fields['billing']['billing_address_1']['label'] = '';
+	 $fields['billing']['billing_city']['placeholder'] = 'City';
+	 $fields['billing']['billing_city']['label'] = '';
+	 $fields['billing']['billing_postcode']['placeholder'] = 'Zip Code';
+	 $fields['billing']['billing_postcode']['label'] = '';
+	 $fields['account']['account_username']['placeholder'] = 'Enter a Username';
+	 $fields['account']['account_password']['placeholder'] = 'Choose a secure password';
+	 $fields['account']['account_password']['label'] = '';
+	 $fields['account']['account_password-2']['placeholder'] = 'Re-enter your secure password';
      //unset($fields['billing']['billing_first_name']);
      //unset($fields['billing']['billing_last_name']);
      //unset($fields['billing']['billing_company']);
@@ -515,7 +529,7 @@ function custom_override_checkout_fields( $fields ) {
      //unset($fields['billing']['billing_address_2']);
      //unset($fields['billing']['billing_city']);
      //unset($fields['billing']['billing_postcode']);
-     unset($fields['billing']['billing_country']);
+     //unset($fields['billing']['billing_country']);
      //unset($fields['billing']['billing_state']);
      //unset($fields['account']['account_email']);
      //unset($fields['account']['account_password']);
@@ -524,47 +538,22 @@ function custom_override_checkout_fields( $fields ) {
 }
 
 
-/** 
- * A function to reorder the default display of fields on the WooCommerce Bookings form
- * Put this function in your theme's functions.php file
- */
-// function custom_order_booking_fields ( $fields ) {
+add_filter("woocommerce_checkout_fields", "order_fields");
 
-// 	$reorder  = array();
-	
-// 	$reorder[] = $fields['wc_bookings_field_resource'];  // Resource
-// 	$reorder[] = $fields['wc_bookings_field_persons'];  // Persons
-// 	$reorder[] = $fields['wc_bookings_field_duration'];  // Duration
-// 	$reorder[] = $fields['wc_bookings_field_start_date'];  // Calendar or Start Date
+function order_fields($fields) {
 
+    $order = array(
+        "account_username", 
+        "account_password", 
+        "account_password-2", 
+    );
+    foreach($order as $field)
+    {
+        $ordered_fields[$field] = $fields["account"][$field];
+    }
 
-// 	return $reorder;
-// }
-// add_filter( 'booking_form_fields', 'custom_order_booking_fields');
+    $fields["account"] = $ordered_fields;
+    return $fields;
 
-// // Redirect any user trying to access comments page
-// function df_disable_comments_admin_menu_redirect() {
-// 	global $pagenow;
-// 	if ($pagenow === 'edit-comments.php') {
-// 		wp_redirect(admin_url()); exit;
-// 	}
-// }
-// add_action('admin_init', 'df_disable_comments_admin_menu_redirect');
-
-// // Disable support for comments and trackbacks in post types
-// function df_disable_comments_post_types_support() {
-// 	$post_types = get_post_types();
-// 	foreach ($post_types as $post_type) {
-// 		if(post_type_supports($post_type, 'comments')) {
-// 			remove_post_type_support($post_type, 'comments');
-// 		}
-// 	}
-// }
-
-// // Close comments on the front-end
-// function df_disable_comments_status() {
-// 	return false;
-// }
-// add_filter('comments_open', 'df_disable_comments_status', 20, 2);
-// add_filter('pings_open', 'df_disable_comments_status', 20, 2);
+}
 
