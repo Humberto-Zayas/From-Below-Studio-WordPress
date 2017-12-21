@@ -20,25 +20,66 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ;?>
+<div>
+	<?php wc_print_notices();
 
-<div class="fbs-container"> 
+	/**
+	 * My Account navigation.
+	 * @since 2.6.0
+	 */
+	?>
+	<div class="fbs-container"> 
+		<div class="row w-row">
+        <div class="column-32 w-col w-col-8">
+          <div class="div-block-27-copy-copy w-clearfix">
+            	<?php
+						/**
+						 * My Account content.
+						 * @since 2.6.0
+						 */
+						do_action( 'woocommerce_account_content' );
+					?>
+              <!-- <h1 class="heading-13-copy">WackRapper420</h1> -->
+              <!-- <h1 class="heading-13-copy-copy">Firstname Lastname</h1> -->
+              <!-- <h1 class="heading-13-copy-copy">WackRapper420@gmail.com</h1> -->
+              
+              	
+          	  
+            
+          </div>
+        </div>
+        <div class="column-33 w-col w-col-4">
+          <div class="dashboard-menu-bg">
+          	<?php do_action( 'woocommerce_account_navigation' ); ?>
+            <!-- <ul class="dashboard-menu-container w-list-unstyled">
+              <li class="list-item-2-copy"><a class="link-16">Dashboard</a></li>
+              <li class="list-item-2-copy"><span class="link-16">Orders</span></li>
+              <li class="list-item-2-copy">Downloads</li>
+              <li class="list-item-2-copy">Addresses</li>
+              <li class="list-item-2-copy">Account Details</li>
+              <li class="list-item-2-copy">Bookings</li>
+              <li class="list-item-2-copy-copy">Logout</li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+	
 
-<?php wc_print_notices();
 
-/**
- * My Account navigation.
- * @since 2.6.0
- */
-do_action( 'woocommerce_account_navigation' ); ?>
 
-		<div class="woocommerce-MyAccount-content">
-			<?php
-				/**
-				 * My Account content.
-				 * @since 2.6.0
-				 */
-				do_action( 'woocommerce_account_content' );
-			?>
-		</div>
+				<?php //do_action( 'woocommerce_account_navigation' ); ?>
+
+				<!-- <div class="woocommerce-MyAccount-content">
+					<?php
+						/**
+						 * My Account content.
+						 * @since 2.6.0
+						 */
+						//do_action( 'woocommerce_account_content' );
+					?>
+				</div> -->
+			
+	</div>
 </div>
+
 

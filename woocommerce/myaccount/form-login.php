@@ -61,6 +61,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 				<p class="woocommerce-LostPassword lost_password">
 					<a style="color: #cf2441" href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php _e( 'Lost your password?', 'woocommerce' ); ?></a>
 				</p>
+				<p class="woocommerce-LostPassword lost_password">
+					Don't have an account? <a style="color: #cf2441" href="<?php echo $urlbuild;?>#hero"><?php _e( 'Book a session to create an account', 'woocommerce' ); ?></a>
+				</p>
 
 				<?php do_action( 'woocommerce_login_form_end' ); ?>
 

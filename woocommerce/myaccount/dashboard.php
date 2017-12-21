@@ -22,25 +22,50 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 ?>
+<img src="<?php echo get_bloginfo('template_url');?>/images/100x100.png" class="image-4">
+<div class="div-block-54">
+	<h1 class="heading-13-copy"><?php
+		/* translators: 1: user display name 2: logout url */
+		printf(
+			__( '%1$s <span style="font-size: small;">(not %1$s? <a style="color: #cf2441" href="%2$s">Log out</a>)</span>', 'woocommerce' ),
+			'' . esc_html( $current_user->display_name ) . '',
+			esc_url( wc_logout_url( wc_get_page_permalink( 'myaccount' ) ) )
+		);
+	?></h1>
 
-<p><?php
-	/* translators: 1: user display name 2: logout url */
-	printf(
-		__( 'Hello %1$s (not %1$s? <a href="%2$s">Log out</a>)', 'woocommerce' ),
-		'<strong>' . esc_html( $current_user->display_name ) . '</strong>',
-		esc_url( wc_logout_url( wc_get_page_permalink( 'myaccount' ) ) )
-	);
-?></p>
+	<p class="heading-13-copy-copy"><?php
+		echo $current_user->user_firstname . "\n" . ' ' . $current_user->user_lastname . "\n"
+	?></p>
 
-<p><?php
-	printf(
-		__( 'From your account dashboard you can view your <a href="%1$s">recent orders</a>, manage your <a href="%2$s">shipping and billing addresses</a> and <a href="%3$s">edit your password and account details</a>.', 'woocommerce' ),
-		esc_url( wc_get_endpoint_url( 'orders' ) ),
-		esc_url( wc_get_endpoint_url( 'edit-address' ) ),
-		esc_url( wc_get_endpoint_url( 'edit-account' ) )
-	);
-?></p>
+	<p class="heading-13-copy-copy"><?php
+		echo $current_user->user_email . "\n"
+	?></p>
 
+	<p><?php 
+		printf(
+			__( 'From your account dashboard you can view your <a style="color: #cf2441" href="%1$s">recent orders</a>, manage your <a style="color: #cf2441" href="%2$s">shipping and billing addresses</a> and <a style="color: #cf2441" href="%3$s">edit your password and account details</a>.', 'woocommerce' ),
+			esc_url( wc_get_endpoint_url( 'orders' ) ),
+			esc_url( wc_get_endpoint_url( 'edit-address' ) ),
+			esc_url( wc_get_endpoint_url( 'edit-account' ) )
+		);
+	?></p>
+
+	<?php printf(
+						__( '<a href="%1$s" class="fbs-button">Edit Profile</a>.', 'woocommerce' ),
+						esc_url( wc_get_endpoint_url( 'edit-account' ) )
+					);?>
+	              	<!-- Edit Profile -->
+
+
+	<p><?php /*
+		printf(
+			__( 'From your account dashboard you can view your <a href="%1$s">recent orders</a>, manage your <a href="%2$s">shipping and billing addresses</a> and <a href="%3$s">edit your password and account details</a>.', 'woocommerce' ),
+			esc_url( wc_get_endpoint_url( 'orders' ) ),
+			esc_url( wc_get_endpoint_url( 'edit-address' ) ),
+			esc_url( wc_get_endpoint_url( 'edit-account' ) )
+		);
+	*/?></p>
+</div>
 <?php
 	/**
 	 * My Account dashboard.

@@ -2,6 +2,39 @@
     padding-top: 69px;
 }
 
+.woocommerce-MyAccount-orders, .my_account_bookings {
+  background: none !important;
+  color: #ebebeb;
+  tr {
+    height: 50px;
+  }
+}
+
+.woocommerce-MyAccount-navigation-link--edit-address {
+  display: none;
+}
+
+.woocommerce-EditAccountForm {
+  font-family: Lato;
+  input {
+    border-width: 0 0 1px 0;
+    border-color: rgba(53,53,53,0.8);
+  }
+  label, legend {
+    padding: 0 20px;
+    color: #ebebeb;
+  }
+  legend {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #cf2441;
+  }
+}
+
+.woocommerce a.button {
+  margin: 5px;
+}
+
 /*Change text in autofill textbox*/
 input:-webkit-autofill {
     -webkit-text-fill-color: white !important;
