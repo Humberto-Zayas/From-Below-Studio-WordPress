@@ -1,6 +1,0 @@
-.navbar-fbs-static, .navbar-fbs-fixed {
-  margin-top: 32px; }
-
-@media screen and (max-width: 782px) {
-  .navbar-fbs-static, .navbar-fbs-fixed {
-    margin-top: 46px; } }

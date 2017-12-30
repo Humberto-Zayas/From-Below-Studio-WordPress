@@ -8,27 +8,23 @@
  */
 
 get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
-			<section style="padding: 50px 0;" class="fbs-container error-404 not-found">
-				<header class="page-header">
-					<h1 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'frombelowstudiotheme' ); ?></h1>
-				</header><!-- .page-header -->
-
-				<div class="page-content">
-					<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'frombelowstudiotheme' ); ?></p>
-
-					<?php get_search_form(); ?>
-				</div><!-- .page-content -->
-			</section><!-- .error-404 -->
-
-		</main><!-- .site-main -->
-
-		<?php get_sidebar( 'content-bottom' ); ?>
-
-	</div><!-- .content-area -->
-
-<?php get_sidebar(); ?>
+<div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
+	<div class="_404-section">
+    <div class="fbs-container">
+      <div class="text-block-36">🐔Clucked!</div>
+      <h1 class="heading-13">Sorry, the content or page you were looking for was not found...</h1>
+      <div class="text-block-9-centered">But you can try searching for it or contacting us.</div>
+      <!-- <form action="/search" class="w-form"><input type="search" class="search-input w-input" maxlength="256" name="query" placeholder="Search…" id="search" required=""><input type="submit" value="Search" class="fbs-button hide w-button"></form> -->
+      <?php get_search_form(); ?>
+      <!-- <div class="fbs-button"><span class="text-span-32"></span> Search</div>
+      <div class="fbs-button">Back Home</div> -->
+      <div class="text-block-9-centered">Reach out for promo and more: </div>
+      <div class="_404-social"><a href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
+    </div>
+  </div>
+</div>
+<?php // contact form
+  include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
+?>
+<?php //get_sidebar(); ?>
 <?php get_footer(); ?>

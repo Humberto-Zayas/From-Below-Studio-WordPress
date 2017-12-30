@@ -33,12 +33,13 @@
     */
     ?>
   </div> -->
-<?php if (is_page( array('Cart', 'Checkout'))):?>
+<?php if (!is_page('welcome')):?>
   <?php the_content(); ?>
 
 <?php else:?>
 
   <div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
+    <?php echo do_shortcode('[contact-form-7 id="173" title="Test Quote"]');?>
     <div class="div-block" data-ix="home-hero-reveal"></div>
     <div class="div-block-7">
       <h2 class="heading oswald" data-ix="just-work"><span class="text-span"><span data-ix="new-interaction">FROM</span> <span data-ix="below-reveal">BELOW</span></span><span data-ix="studio-reveal" class="text-span-2">&nbsp;STUDIO</span></h2>

@@ -10,7 +10,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+		<?php the_title( sprintf( '<h2 class="entry-title"><a class="heading-13" href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 	</header><!-- .entry-header -->
 
 	<?php frombelowstudiotheme_post_thumbnail(); ?>
@@ -32,6 +32,7 @@
 					'</span>'
 				);
 			?>
+			
 		</footer><!-- .entry-footer -->
 
 	<?php else : ?>
@@ -47,7 +48,8 @@
 				'</span></footer><!-- .entry-footer -->'
 			);
 		?>
-
+		<div class="text-block-9-centered">Reach out for promo and more: </div>
+      <div class="_404-social"><a href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
 	<?php endif; ?>
 </article><!-- #post-## -->
 

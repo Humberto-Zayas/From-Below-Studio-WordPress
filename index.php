@@ -58,6 +58,8 @@ get_header(); ?>
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->
-
+  <?php // contact form
+    include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
+  ?>
 <?php //get_sidebar(); ?>
 <?php get_footer(); ?>

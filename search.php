@@ -8,14 +8,13 @@
  */
 
 get_header(); ?>
-
-	<section style="padding: 50px 0;" id="primary" class="fbs-container content-area">
-		<main id="main" class="site-main" role="main">
-
+<div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
+	<div class="search_result_section">
+		<div class="fbs-container">
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'frombelowstudiotheme' ), '<span>' . esc_html( get_search_query() ) . '</span>' ); ?></h1>
+				<h1 class="heading-13"><?php printf( __( 'Search Results for: <span style="color: #cf2441; font-weight: 500">%s</span>', 'frombelowstudiotheme' ), '<span>' . esc_html( get_search_query() ) . '</span>' ); ?></h1>
 			</header><!-- .page-header -->
 
 			<?php
@@ -46,8 +45,12 @@ get_header(); ?>
 		endif;
 		?>
 
-		</main><!-- .site-main -->
-	</section><!-- .content-area -->
+		</div>
+	</div><!-- .content-area -->
+</div>
 
-<?php get_sidebar(); ?>
+<?php // contact form
+  include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
+?>
+<?php //get_sidebar(); ?>
 <?php get_footer(); ?>
