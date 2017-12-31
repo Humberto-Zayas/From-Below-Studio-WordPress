@@ -501,49 +501,9 @@
                   <script type="application/json" class="w-json">
                       {
                         "items": [{
-                            "width": 1000,
-                            "caption": "Protools Recording",
-                            "height": 625,
-                            "fileName": "59690c48ce4a582f2714ad7c_screenshot-2_2.jpg",
-                            "origFileName": "screenshot-2_2.jpg",
-                            "url": "<?php bloginfo('template_url');?>/images/screenshot-2_2.jpg",
-                            "_id": "59690c48ce4a582f2714ad7c",
-                            "type": "image",
-                            "fileSize": 214589
-                          },
-                          {
-                            "type": "image",
-                            "_id": "596924dd54b341621759ef81",
-                            "fileName": "596924dd54b341621759ef81_maxresdefault.jpg",
-                            "origFileName": "maxresdefault.jpg",
-                            "width": 1920,
-                            "height": 1080,
-                            "fileSize": 199413,
-                            "url": "<?php bloginfo('template_url');?>/images/maxresdefault.jpg"
-                          },
-                          {
-                            "width": 1600,
-                            "caption": "Tons of plugins for EQ, Reverb & Other FX",
-                            "height": 900,
-                            "fileName": "598137421e339d000192a9f5_fabfilter-pro-q-2-equalizer-plug-in-tutorial.jpg",
-                            "origFileName": "fabfilter-pro-q-2-equalizer-plug-in-tutorial.jpg",
-                            "url": "<?php bloginfo('template_url');?>/images/fabfilter-pro-q-2-equalizer-plug-in-tutorial.jpg",
-                            "_id": "598137421e339d000192a9f5",
-                            "type": "image",
-                            "fileSize": 141530
-                          },
-                          {
-                            "width": 720,
-                            "caption": "Mackies & Sen",
-                            "height": 1080,
-                            "fileName": "_JP_6429.jpg",
-                            "origFileName": "_JP_6429.jpg",
-                            "url": "<?php bloginfo('template_url');?>/images/_JP_6429.jpg",
-                            "_id": "5a0a446ad345d400015dbb1a",
-                            "type": "image",
-                            "fileSize": 56611
-                          },
-                          {
+
+                            
+                          
                             "width": 1620,
                             "caption": "Big Knob",
                             "height": 1080,
