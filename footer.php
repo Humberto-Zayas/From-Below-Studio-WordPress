@@ -19,7 +19,7 @@
     
     
       <div class="text-block-11">© From Below Studio 2017</div>
-      <div class="text-block-12">Made by Humberto Zayas</div>
+     <!--  <div class="text-block-12">Made by Humberto Zayas</div> -->
     </div>
 </div>
 <?php else:?>
@@ -29,7 +29,7 @@
     
     
       <div class="text-block-11">© From Below Studio <?php echo date('Y');?></div>
-      <div class="text-block-12">Made by Humberto Zayas</div>
+      <!-- <div class="text-block-12">Made by Humberto Zayas</div> -->
     </div>
 </div>
 <?php endif;?>
@@ -41,5 +41,17 @@
 </div><!-- .site -->
 
 <?php wp_footer(); ?>
+<script type="text/javascript">
+  // Works on desktop browser only
+  // IE 11 and Edge Browser Fixed Element Jump on Scroll - quickfix
+if (navigator.userAgent.match(/Trident\//) || navigator.userAgent.match(/Edge\//)) {
+    document.body.addEventListener("mousewheel", function(evt) {
+        evt.preventDefault();
+        var wd = evt.wheelDelta;
+        var csp = window.pageYOffset;
+        window.scrollTo(0, csp - wd);
+    });
+}
+</script>
 </body>
 </html>

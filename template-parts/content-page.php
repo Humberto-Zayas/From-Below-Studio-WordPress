@@ -46,7 +46,7 @@
       <h5 class="heading-2" data-ix="about-bg-reveal">Sounds from the Underground</h5>
       <div class="div-block-14" data-ix="about-bg-reveal"></div>
       <h5 class="heading-2 sub-cta" data-ix="about-bg-reveal-2">New Jersey Recording Studio<br> <span class="text-span-27"><a href="tel:+1-609-469-4340" class="link-3">(609)-469-4340</a></span></h5>
-      <div class="fbs-button" data-ix="contact-reveal-6"><span class="text-span-12"></span> &nbsp;BOOK YOUR SESSION</div>
+      <div class="fbs-button" data-ix="contact-reveal-3"><span class="text-span-12"></span> &nbsp;BOOK YOUR SESSION</div>
     </div>
   </div>
   <div class="services-section" data-ix="service-bg-reveal">
@@ -181,7 +181,7 @@
               <li class="list-item-2" data-ix="pricing-item-reveal-5">*Minimum 2 Hours</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-2">Industry Quality Recording</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-3">Session/Project Bounce</li>
-              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-6" class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
             </ul>
             <ul class="recording-pricing-2-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">Packages</li>
@@ -189,7 +189,7 @@
               <li class="list-item-2" data-ix="pricing-item-reveal-2">3 Hours/$170</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-3">6 Hours/$380</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-4">9 Hours/$590</li>
-              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-6" class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
             </ul>
             <ul class="recording-pricing-3-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">Custom project</li>
@@ -197,7 +197,7 @@
               <li class="list-item-2" data-ix="pricing-item-reveal-2">Please contact for more info.</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-4">Voice Recording, Voice Overs &amp; more</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-5">*Pricing based on size of work</li>
-              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-6" class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
             </ul>
           </div>
           <div class="w--tab-active w-tab-pane" data-w-tab="Tab 2">
@@ -636,37 +636,12 @@
         </div>
       </div>
       <div class="about-divider"></div>
-      <div class="about-us-row w-row">
-        <div class="column-8 w-col w-col-6">
-          <h3 class="heading-10 w-clearfix">ABOUT YOUR <span class="text-span-25">ENGINEER<br></span></h3>
-          <div class="text-block-9">Bio coming soon...From Below is a recording studio in Central New Jersey. It features two professionally sound treated rooms including; a control room for mixing, mastering and listening and a vocal and instrument booth. From Below offers Industry standard hardware, software and recording/mixing services. Available for live recording sessions, projects, mixing, online mixing and listening sessions. Book your session today.</div>
-        </div>
-        <div class="column-29 w-col w-col-6">
-          <div data-animation="slide" data-duration="500" data-infinite="1" class="slider-2 w-slider">
-            <div class="slider-title">
-              <h4 class="heading-11">THE ENGINEER</h4>
-            </div>
-            <div class="w-slider-mask">
-              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/avalong-demoshot.jpg" class="image-2"><script type="application/json" class="w-json">{
-  "items": [],
-  "group": "From Below Studio and Gear"
-}</script></a></div>
-            </div>
-            <div data-ix="about-from-below-studio-slider-1-init" class="w-slider-arrow-left">
-              <div class="w-icon-slider-left"></div>
-            </div>
-            <div data-ix="about-from-below-studio-slider-1-init" class="right-arrow-2 w-slider-arrow-right">
-              <div class="w-icon-slider-right"></div>
-            </div>
-            <div data-ix="about-from-below-studio-slider-1-init" class="slide-nav-2 w-round w-slider-nav"></div>
-          </div>
-        </div>
-      </div>
+
       <div class="div-block-49 w-clearfix">
         <div class="div-block-48">
-          <div data-ix="contact-reveal-2" class="misc-menu-item">Studio Policy</div>
+          <!-- <div data-ix="contact-reveal-2" class="misc-menu-item">Studio Policy</div> -->
           <div data-ix="contact-reveal" class="misc-menu-item">Contact</div>
-          <div class="misc-menu-item social-misc"><a href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
+          <div class="misc-menu-item social-misc"><a target="_blank" href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a target="_blank" href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a target="_blank" href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
         </div><img src="<?php bloginfo('template_url');?>/images/fbs-ccinfo.png" class="image-3"></div>
     </div>
   </div>
@@ -676,33 +651,10 @@
     include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
   ?>
 
-
-  <div class="policy-section">
-    <div class="fbs-container">
-      <div class="div-block-42">
-        <h1 class="policy-heading">STUDIO POLICY <span data-ix="contact-section-reveal-2" class="text-span-26"></span><br><span><span><span data-ix="new-interaction" class="text-span-26"><br></span></span>
-          </span>
-        </h1>
-        <div class="policy-text">1. The Client agrees to pay for studio time at the rate in effect at the time of booking. A non refundable 50% deposit is required 48 hours in advance of a session. This deposit will secure the Client’s scheduled time slot. Without a deposit, the scheduled time slot may be forfeited to another client. Deposits will be refunded if a session is canceled with at least 48 hours notice.&nbsp;
-          <br><br>2. The Studio will provide studio time and the services of a recording engineer for the duration required by the Client. Any additional services, including, but not limited to mixing, mastering, and adding to or modifying tracks when done outside the agreed upon time slot may require additional fees.&nbsp;
-          <br><br>3. The Studio is not responsible for lost, damaged, or stolen items that are left behind by a client. Any property left past 7 days will become property of DLM Recording Studio unless other arrangements have been made.&nbsp;
-          <br><br>4. In the event a piece of equipment owned by DLM Recording studio, or any part of its facility, becomes damaged by the Client or anyone in the Client’s party due to negligence, accident or willful act, the Client agrees to pay monetary compensation in the amount of full replacement value of the damaged item.&nbsp;
-          <br><br>5. The Client shall abide by the set of studio rules, which are attached to this agreement. Disobedience of these rules by the Client or anyone in the Client’s party will be grounds for removal of said person(s) from the premises, immediate termination of this agreement, and loss of future use of DLM Recording Studio. In the event of termination of this agreement due to such causes, there will be no refund of monies paid by the Client. The Studio or its representative will have sole right to make such a determination.&nbsp;
-          <br><br>6. The Client agrees to allow its name, photographic image, and/or musical samples to be used on the Studio’s website and/or for other promotional purposes. DLM Recording Studio will not sell or allow downloads of the client’s music without prior agreement.&nbsp;
-          <br><br>7. If the Studio must cancel a session due to illness, equipment malfunction, or other reasonable cause, the Studio will reschedule the session at the earliest available time agreed upon by both parties. In the event neither the Client nor the Studio can agree upon a date and time for a session, the Studio will refund the deposit.&nbsp;
-          <br><br>8. The Client releases DLM Recording Studio from any harm or damage that may occur to any person in the Client’s party or to equipment belonging to the client.&nbsp;
-          <br><br>9. The Client is responsible for obtaining all mechanical licenses for music that the Client does not own the rights. All such rights must be obtained prior to duplication or replication.&nbsp;
-          <br><br> 10. In the event any technical issues occur with the Studio’s equipment during a session, the clock will stop and the client will not be charged for the time it takes to fix the issue.&nbsp;
-          <br><br> 11. Studio time includes setup time, break down time, and any breaks taken by the artist(s) or engineer. The engineer will be allowed a break of up to 15 minutes every 2 hours to alleviate ear fatigue. The Client will be allowed a 30 minute meal break during a session of more than 4 hours. This break will not be counted as time towards the session.&nbsp;
-          <br><br> 12. The Studio will retain ownership of all master recordings and will not release them to the Client until all amounts owed under this Agreement are paid in full.<br>&nbsp;
-          <br> 13. This constitutes the entire agreement between the Client and Studio, and may not be modified, changed, or terminated in any way unless there is a written agreement signed by both parties.</div>
-      </div>
-    </div>
-  </div>
   <div class="booking-section">
     <!-- <span data-ix="booking-close" class="text-span-26"></span><br><span><span><span data-ix="booking-close" class="text-span-26"><br></span></span>
           </span> -->
-    <?php echo do_shortcode('[product_page id="49"]'); ?>
+    <?php //echo do_shortcode('[product_page id="49"]'); ?>
    <!--  <div class="fbs-container">
       <div class="div-block-42"> -->
         

@@ -1,0 +1,29 @@
+body {
+	background-color: rgb(17, 16, 16);
+}
+
+.div-block-30 {
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 767px) {
+	.heading-17 {
+		line-height: 36px;
+	}
+	.div-block-42 {
+		width: 500px !important;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	span.wpcf7-list-item {
+		width: 29% !important;
+	}
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s !important;
+    -webkit-box-shadow: none !important;
+}
