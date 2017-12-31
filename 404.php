@@ -19,7 +19,7 @@ get_header(); ?>
       <!-- <div class="fbs-button"><span class="text-span-32"></span> Search</div>
       <div class="fbs-button">Back Home</div> -->
       <div class="text-block-9-centered">Reach out for promo and more: </div>
-      <div class="_404-social"><a href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
+      <div class="_404-social"><a target="_blank" href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a target="_blank" href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a target="_blank" href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
     </div>
   </div>
 </div>
