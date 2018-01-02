@@ -288,12 +288,22 @@
 		},
 	"\/images\/03-avalon-01.jpg": {
 		"ft": 16384,
-		"iS": 148597,
+		"iS": 204231,
 		"oA": 0,
 		"oAP": "\/images\/03-avalon-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/04-avalon-02.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/04-avalon-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/06-outboard-01-p-1080.jpeg": {
@@ -318,12 +328,22 @@
 		},
 	"\/images\/06-outboard-01.jpg": {
 		"ft": 16384,
-		"iS": 108708,
+		"iS": 143584,
 		"oA": 0,
 		"oAP": "\/images\/06-outboard-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/07-outboard-02.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/07-outboard-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/08-mackie-01-p-1080.jpeg": {
@@ -338,7 +358,7 @@
 		},
 	"\/images\/08-mackie-01.jpg": {
 		"ft": 16384,
-		"iS": 84483,
+		"iS": 105265,
 		"oA": 0,
 		"oAP": "\/images\/08-mackie-01.jpg",
 		"oF": 0,
@@ -358,7 +378,7 @@
 		},
 	"\/images\/10-uad-01.jpg": {
 		"ft": 16384,
-		"iS": 78207,
+		"iS": 98778,
 		"oA": 0,
 		"oAP": "\/images\/10-uad-01.jpg",
 		"oF": 0,
@@ -399,9 +419,19 @@
 		},
 	"\/images\/12-presonus-01.jpg": {
 		"ft": 16384,
-		"iS": 80812,
+		"iS": 104415,
 		"oA": 0,
 		"oAP": "\/images\/12-presonus-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/20170913_234303.jpg": {
+		"ft": 16384,
+		"iS": 256500,
+		"oA": 0,
+		"oAP": "\/images\/20170913_234303.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -429,7 +459,7 @@
 		},
 	"\/images\/_JP_6407.jpg": {
 		"ft": 16384,
-		"iS": 88407,
+		"iS": 112207,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6407.jpg",
 		"oF": 0,
@@ -459,7 +489,7 @@
 		},
 	"\/images\/_JP_6420.jpg": {
 		"ft": 16384,
-		"iS": 85604,
+		"iS": 92608,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6420.jpg",
 		"oF": 0,
@@ -519,7 +549,7 @@
 		},
 	"\/images\/_JP_6436.jpg": {
 		"ft": 16384,
-		"iS": 173352,
+		"iS": 214995,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6436.jpg",
 		"oF": 0,
@@ -549,7 +579,7 @@
 		},
 	"\/images\/_JP_6442.jpg": {
 		"ft": 16384,
-		"iS": 89768,
+		"iS": 113962,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6442.jpg",
 		"oF": 0,
@@ -559,7 +589,7 @@
 		},
 	"\/images\/_JP_6454.jpg": {
 		"ft": 16384,
-		"iS": 52679,
+		"iS": 50348,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6454.jpg",
 		"oF": 0,
@@ -579,7 +609,7 @@
 		},
 	"\/images\/_JP_6461.jpg": {
 		"ft": 16384,
-		"iS": 79017,
+		"iS": 94219,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6461.jpg",
 		"oF": 0,
@@ -599,7 +629,7 @@
 		},
 	"\/images\/_JP_6466.jpg": {
 		"ft": 16384,
-		"iS": 75278,
+		"iS": 77223,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6466.jpg",
 		"oF": 0,
@@ -629,7 +659,7 @@
 		},
 	"\/images\/_JP_6476.jpg": {
 		"ft": 16384,
-		"iS": 74937,
+		"iS": 77984,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6476.jpg",
 		"oF": 0,
@@ -669,7 +699,7 @@
 		},
 	"\/images\/_JP_6491.jpg": {
 		"ft": 16384,
-		"iS": 68972,
+		"iS": 73616,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6491.jpg",
 		"oF": 0,
@@ -699,7 +729,7 @@
 		},
 	"\/images\/_JP_6496.jpg": {
 		"ft": 16384,
-		"iS": 112687,
+		"iS": 145181,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6496.jpg",
 		"oF": 0,
@@ -719,7 +749,7 @@
 		},
 	"\/images\/_JP_6513.jpg": {
 		"ft": 16384,
-		"iS": 111754,
+		"iS": 149103,
 		"oA": 1,
 		"oAP": "\/images\/_JP_6513.jpg",
 		"oF": 0,
@@ -947,31 +977,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/IMG_20170722_142734_347_1500772896518-p-1080.jpeg": {
+	"\/images\/fbs-red-logo.jpg": {
 		"ft": 16384,
-		"iS": 54152,
+		"iS": 14605,
 		"oA": 0,
-		"oAP": "\/images\/IMG_20170722_142734_347_1500772896518-p-1080.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/IMG_20170722_142734_347_1500772896518-p-500.jpeg": {
-		"ft": 16384,
-		"iS": 30183,
-		"oA": 0,
-		"oAP": "\/images\/IMG_20170722_142734_347_1500772896518-p-500.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/IMG_20170722_142734_347_1500772896518-p-800.jpeg": {
-		"ft": 16384,
-		"iS": 38754,
-		"oA": 0,
-		"oAP": "\/images\/IMG_20170722_142734_347_1500772896518-p-800.jpg",
+		"oAP": "\/images\/fbs-red-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -979,12 +989,12 @@
 		},
 	"\/images\/IMG_20170722_142734_347_1500772896518.jpg": {
 		"ft": 16384,
-		"iS": 114332,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/images\/IMG_20170722_142734_347_1500772896518.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/maxresdefault-p-1600.jpeg": {
@@ -1039,7 +1049,7 @@
 		},
 	"\/images\/mic-studio-long.jpg": {
 		"ft": 16384,
-		"iS": 113774,
+		"iS": 96153,
 		"oA": 0,
 		"oAP": "\/images\/mic-studio-long.jpg",
 		"oF": 0,

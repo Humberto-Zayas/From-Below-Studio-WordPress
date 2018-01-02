@@ -14,7 +14,7 @@
     <div class="fbs-container">
       
       <h1 class="heading-13">FOLLOW <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-10">@FROMBELOWSTUDIO</a> ON INSTAGRAM</h1>
-      <div class="text-block-13">From Below Studio is a New Jersey based recording and mixing studio. We have special offers and promo codes and pricing on our Instagram feed. <span><a target="_blank" href="https://instagram.com/frombelowstudio" class="link-11">Follow here</a></span> to get the latest news and updates!</div>
+      
       <?php echo do_shortcode('[instagram-feed]');?>
     
     
