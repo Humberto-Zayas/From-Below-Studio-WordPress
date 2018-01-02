@@ -577,9 +577,9 @@
 
       <div class="div-block-49 w-clearfix">
         <div class="div-block-48">
-          <!-- <div data-ix="contact-reveal-2" class="misc-menu-item">Studio Policy</div> -->
+          <div data-ix="contact-reveal-2" class="misc-menu-item">Studio Policy</div>
           <div data-ix="contact-reveal" class="misc-menu-item">Contact</div>
-          <div class="misc-menu-item social-misc"><a target="_blank" href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a target="_blank" href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a target="_blank" href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
+          <div class="misc-menu-item social-misc"><a href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
         </div><img src="<?php bloginfo('template_url');?>/images/fbs-ccinfo.png" class="image-3"></div>
     </div>
   </div>
@@ -588,6 +588,29 @@
   <?php // contact form
     include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
   ?>
+
+
+  <div class="policy-section">
+    <div class="fbs-container">
+      <div class="div-block-42">
+        <h1 class="policy-heading">STUDIO POLICY <span data-ix="contact-section-reveal-2" class="text-span-26"></span><br><span><span><span data-ix="contact-section-reveal-2" class="text-span-26"><br></span></span>
+          </span>
+        </h1>
+        <div class="policy-text">1. From Below Studio will provide studio time and the services of a recording engineer for the duration required by the Client. Any additional services, including, but not limited to recording, mixing, and adding to or modifying tracks when done outside the agreed upon time slot may require additional fees.  The Client’s booking slot is forfeited upon cancellation of session.&nbsp;
+          <br><br>2. From Below Studio is not responsible for lost, damaged, or stolen items that are left behind by a client.&nbsp;
+          <br><br>3. In the event a piece of equipment owned by From Below Studio, or any part of its facility, becomes damaged by the Client or anyone in the Client’s party due to negligence, accident or willful act, the Client agrees to pay monetary compensation in the amount of full replacement value of the damaged item.&nbsp;
+          <br><br>4. The Client agrees to allow its name, photographic image, and/or musical samples to be used on the Studio’s website and/or for other promotional purposes. From Below Studio will not sell or allow downloads of the client’s music without prior agreement.&nbsp;
+          <br><br>5. If the From Below Studio must cancel a session due to illness, equipment malfunction, or other reasonable cause, From Below Studio will reschedule the session at the earliest available time agreed upon by both parties.&nbsp;
+          <br><br>6. The Client releases From Below Studio from any harm or damage that may occur to any person in the Client’s party or to equipment belonging to the client.&nbsp;
+          <br><br>7. The Client is responsible for obtaining all mechanical licenses for music that the Client does not own the rights. All such rights must be obtained prior to duplication or replication.&nbsp;
+          <br><br>8. In the event any technical issues occur with From Below Studio’s equipment during a session, the clock will stop and the client will not be charged for the time it takes to fix the issue.&nbsp;
+          <br><br>9. Studio time includes setup time, break down time, and any breaks taken by the artist(s) or engineer. The engineer will be allowed a break of up to 15 minutes every 2 hours to alleviate ear fatigue. The Client will be allowed a 30 minute meal break during a session of more than 4 hours. This break will not be counted as time towards the session.&nbsp;
+          <br><br> 10. From Below Studio will retain ownership of all master recordings and will not release them to the Client until all amounts owed under this Agreement are paid in full.&nbsp;
+          <br><br> 11. This constitutes the entire agreement between the Client and From Below Studio, and may not be modified, changed, or terminated in any way unless there is a written agreement signed by both parties.&nbsp;
+          </div>
+      </div>
+    </div>
+  </div>
 
   <div class="booking-section">
     <!-- <span data-ix="booking-close" class="text-span-26"></span><br><span><span><span data-ix="booking-close" class="text-span-26"><br></span></span>

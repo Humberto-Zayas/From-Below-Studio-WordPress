@@ -2777,6 +2777,70 @@ body {
   span.wpcf7-list-item {
     width: 29% !important; } }
 
+.recording-pricing-1-desktop {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 0px 50%;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
+.recording-pricing-2-desktop {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 50% 37% !important;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
+.recording-pricing-3-desktop {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 100% 50%;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat;
+  margin-left: 5px !important; }
+
+.mixing-pricing-1-desktop {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.55), transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 0px 50%;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
+.mixing-pricing-2-desktop {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 100% 50%;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
+@media screen and (min-width: 1137px) {
+  .recording-pricing-1-desktop {
+    margin-right: 5px !important; }
+  .recording-pricing-3-desktop {
+    margin-left: 5px !important; }
+  .mixing-pricing-1-desktop {
+    margin-left: 5px !important;
+    margin-right: 5px !important; } }
+
+@media screen and (max-width: 767px) {
+  .recording-pricing-1,
+  .recording-pricing-2-mobile,
+  .recording-pricing-3-mobile,
+  .mixing-pricing-1-mobile,
+  .mixing-pricing-2-mobile {
+    background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+    background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+    background-position: 0px 0px, 0px 50%;
+    background-size: auto, 1139px;
+    background-repeat: repeat, no-repeat; } }
+
+.div-block-27 {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 50% 89% !important;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
