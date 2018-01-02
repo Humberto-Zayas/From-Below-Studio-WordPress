@@ -341,9 +341,9 @@
                         "items": [{
                             "width": 1440,
                             "height": 1440,
-                            "fileName": "597403f72e734d4747106efd_IMG_20170722_142734_347_1500772896518.jpg",
-                            "origFileName": "IMG_20170722_142734_347_1500772896518.jpg",
-                            "url": "<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518.jpg",
+                            "fileName": "597403f72e734d4747106efd_IMG_20170722_142734_347_1500772896518-logo.jpg",
+                            "origFileName": "IMG_20170722_142734_347_1500772896518-logo.jpg",
+                            "url": "<?php bloginfo('template_url');?>/images/IMG_20170722_142734_347_1500772896518-logo.jpg",
                             "_id": "597403f72e734d4747106efd",
                             "type": "image",
                             "fileSize": 114332
