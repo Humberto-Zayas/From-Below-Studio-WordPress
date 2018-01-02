@@ -1415,17 +1415,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/screenshot.png": {
-		"ft": 32768,
-		"iS": 463555,
-		"oA": 0,
-		"oAP": "\/screenshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/scss\/adminlogged-in.scss": {
 		"aP": 0,
 		"bl": 0,
