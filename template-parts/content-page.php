@@ -103,7 +103,7 @@
     <div class="pricing-bg-color" id="pricing-section"></div>
     <div class="fbs-container pricing-tablet-padding">
       <h1 class="heading-13">PRICING</h1>
-      <div class="text-block-13">Pricing for recording and mixing packages. Single sessions and mixes available as well.</div>
+      <div class="text-block-13">Rates apply for single recording sessions and mixing services. Bundle packages available as well. </div>
       <div class="tabs w-tabs" data-duration-in="300" data-duration-out="100">
         <div class="w-tab-menu">
           <a class="tab-link-2 w--current w-inline-block w-tab-link" data-w-tab="Tab 1">
@@ -125,7 +125,7 @@
                   <ul class="recording-pricing-1 w-list-unstyled">
                     <li class="first-item-title list-item-2">Standard rate</li>
                     <li class="item-pricing list-item-2">$35*<br><span class="text-span-7">per hour/Recording Only</span></li>
-                    <li class="list-item-2">*Minimum 2 Hours</li>
+                    <li class="list-item-2">Minimum 2 Hours</li>
                     <li class="list-item-2">Industry Quality Recording</li>
                     <li class="list-item-2">Raw Mix Available</li>
                     <li class="last-item-button list-item-2"><span data-ix="contact-reveal" class="text-span-8">BOOK NOW</span></li>
@@ -165,7 +165,7 @@
             <ul class="recording-pricing-1-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">Standard rate</li>
               <li class="item-pricing list-item-2" data-ix="pricing-item-reveal">$35*<br><span class="text-span-7">*per hour/recording only</span></li>
-              <li class="list-item-2" data-ix="pricing-item-reveal-5">*Minimum 2 Hours</li>
+              <li class="list-item-2" data-ix="pricing-item-reveal-5">Minimum 2 Hours</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-2">Industry Quality Recording</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-3">Raw Mix Available</li>
               <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
@@ -190,6 +190,7 @@
             </ul>
           </div>
           <div class="w--tab-active w-tab-pane" data-w-tab="Tab 2">
+            <div class="text-block-30">Click/Swipe left and right to see pricing options*</div>
             <div class="mobile-pricing-slider w-slider" data-animation="slide" data-disable-swipe="1" data-duration="500" data-infinite="1">
               <div class="w-slider-mask">
                 <div class="slide-9 w-slide">
@@ -220,10 +221,10 @@
                 </div>
               </div>
               <div class="arrow-style left-arrow-2 w-slider-arrow-left">
-                <div class="w-icon-slider-left"></div>
+                <div class="icon-4 w-icon-slider-left"></div>
               </div>
               <div class="arrow-style right-arrow-3 w-slider-arrow-right">
-                <div class="w-icon-slider-right"></div>
+                <div class="icon-3 w-icon-slider-right"></div>
               </div>
               <div class="slide-nav-4 w-round w-slider-nav"></div>
             </div>
@@ -260,10 +261,10 @@
           </div>
         </div>
       </div>
-      <div class="div-block-27" data-ix="pricing-item-reveal-7">
+      <!-- <div class="div-block-27" data-ix="pricing-item-reveal-7">
         <h1 class="heading-13" data-ix="pricing-item-reveal-8">Do you have a project that doesn't fit these options?</h1>
         <div class="custom-project-button fbs-button" data-ix="contact-reveal-3">LET'S TALK</div>
-      </div>
+      </div> -->
     </div>
   </div>
   
@@ -286,7 +287,6 @@
   "items": [
     {
       "width": 1620,
-      "caption": "Watch the recording session from the waiting room. ",
       "height": 1080,
       "fileName": "_JP_6513.jpg",
       "origFileName": "_JP_6513.jpg",
@@ -303,7 +303,6 @@
   "items": [
     {
       "width": 1620,
-      "caption": "Control room mixing desk",
       "height": 1080,
       "fileName": "20170913_234303.jpg.jpg",
       "origFileName": "20170913_234303.jpg",
@@ -319,7 +318,6 @@
   "items": [
     {
       "width": 720,
-      "caption": "The recording booth is fully treated for the clearest sound quality. ",
       "height": 1080,
       "fileName": "mic-studio-long.jpg",
       "origFileName": "mic-studio-long.jpg",
@@ -360,7 +358,6 @@
                           },
                           {
                             "width": 720,
-                            "caption": "Control room looking into recording booth",
                             "height": 1080,
                             "fileName": "_JP_6454.jpg",
                             "origFileName": "_JP_6454.jpg",
@@ -371,7 +368,6 @@
                           },
                           {
                             "width": 720,
-                            "caption": "Recording booth with mics",
                             "height": 1080,
                             "fileName": "_JP_6461.jpg",
                             "origFileName": "_JP_6461.jpg",
@@ -382,7 +378,6 @@
                           },
                           {
                             "width": 1620,
-                            "caption": "View from the booth into control room",
                             "height": 1080,
                             "fileName": "_JP_6476.jpg",
                             "origFileName": "_JP_6476.jpg",
@@ -393,7 +388,6 @@
                           },
                           {
                             "width": 1620,
-                            "caption": "View from waiting area into booth and control room",
                             "height": 1080,
                             "fileName": "_JP_6496.jpg",
                             "origFileName": "_JP_6496.jpg",
@@ -428,7 +422,6 @@
   "items": [
     {
       "width": 1620,
-      "caption": "Avalon 737sp Vocal Preamp",
       "height": 1080,
       "fileName": "03-avalon-01.jpg",
       "origFileName": "03-avalon-01.jpg",
@@ -444,7 +437,6 @@
   "items": [
     {
       "width": 1620,
-      "caption": "RME Audio Interface",
       "height": 1080,
       "fileName": "_JP_6407.jpg",
       "origFileName": "_JP_6407.jpg",
@@ -483,7 +475,6 @@
                             
                           
                             "width": 1620,
-                            "caption": "Big Knob",
                             "height": 1080,
                             "fileName": "_JP_6420.jpg",
                             "origFileName": "_JP_6420.jpg",
@@ -504,7 +495,6 @@
                           },
                           {
                             "width": 1620,
-                            "caption": "Shure mics",
                             "height": 1080,
                             "fileName": "_JP_6491.jpg",
                             "origFileName": "_JP_6491.jpg",
@@ -525,7 +515,6 @@
                           },
                           {
                             "width": 1620,
-                            "caption": "Mackie Studio Monitors",
                             "height": 1080,
                             "fileName": "08-mackie-01.jpg",
                             "origFileName": "08-mackie-01.jpg",
@@ -536,7 +525,6 @@
                           },
                           {
                             "width": 1620,
-                            "caption": "UAD Sound Processing",
                             "height": 1080,
                             "fileName": "10-uad-01.jpg",
                             "origFileName": "10-uad-01.jpg",
@@ -547,7 +535,6 @@
                           },
                           {
                             "width": 1620,
-                            "caption": "Presonus",
                             "height": 1080,
                             "fileName": "12-presonus-01.jpg",
                             "origFileName": "12-presonus-01.jpg",
@@ -579,7 +566,7 @@
         <div class="div-block-48">
           <div data-ix="contact-reveal-2" class="misc-menu-item">Studio Policy</div>
           <div data-ix="contact-reveal" class="misc-menu-item">Contact</div>
-          <div class="misc-menu-item social-misc"><a href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
+          <div class="misc-menu-item social-misc"><a target="_blank" href="https://facebook.com/frombelowstudio" class="link-14"></a> | <span class="link-13"></span><a href="https://twitter.com/frombelowstudio" target="_blank" class="link-13"></a> | <a href="https://instagram.com/frombelowstudio" target="_blank" class="link-15"></a></div>
         </div><img src="<?php bloginfo('template_url');?>/images/fbs-ccinfo.png" class="image-3"></div>
     </div>
   </div>
@@ -607,6 +594,7 @@
           <br><br>9. Studio time includes setup time, break down time, and any breaks taken by the artist(s) or engineer. The engineer will be allowed a break of up to 15 minutes every 2 hours to alleviate ear fatigue. The Client will be allowed a 30 minute meal break during a session of more than 4 hours. This break will not be counted as time towards the session.&nbsp;
           <br><br> 10. From Below Studio will retain ownership of all master recordings and will not release them to the Client until all amounts owed under this Agreement are paid in full.&nbsp;
           <br><br> 11. This constitutes the entire agreement between the Client and From Below Studio, and may not be modified, changed, or terminated in any way unless there is a written agreement signed by both parties.&nbsp;
+          <br><br> 12. No drugs or controlled substances allowed in studio or on property. Violation of this will result in termination of the Client's session immediately. &nbsp;
           </div>
       </div>
     </div>
