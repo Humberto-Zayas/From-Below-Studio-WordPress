@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Theme Name: From Below Studio Theme
+Theme Name: FromBelowStudioTheme
 Theme URI: https://hzayas.us
 Author: Humberto Zayas
 Author URI: https://hzayas.us
@@ -2760,6 +2760,112 @@ span.wpcf7-list-item {
   .user_login_link span {
     color: #cf2441;
     padding: 0 5px; }
+
+body {
+  background-color: #111010; }
+
+.div-block-30 {
+  margin-bottom: 20px; }
+
+@media screen and (min-width: 767px) {
+  .heading-17 {
+    line-height: 36px; }
+  .div-block-42 {
+    width: 500px !important;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  span.wpcf7-list-item {
+    width: 29% !important; } }
+
+.recording-pricing-1-desktop {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 0px 27% !important;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
+.recording-pricing-2-desktop {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 50% 8% !important;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
+.recording-pricing-3-desktop {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 100% 27% !important;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat;
+  margin-left: 5px !important; }
+
+.mixing-pricing-1-desktop {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 0px 20% !important;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
+.mixing-pricing-2-desktop {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 100% 20% !important;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
+.wpcf7-response-output {
+  color: #ebebeb !important; }
+
+.wpcf7-form-control div {
+  margin: 0 auto; }
+
+@media screen and (min-width: 1137px) {
+  .recording-pricing-1-desktop {
+    margin-right: 5px !important; }
+  .recording-pricing-3-desktop {
+    margin-left: 5px !important; }
+  .mixing-pricing-1-desktop {
+    margin-left: 5px !important;
+    margin-right: 5px !important; }
+  .image-3 {
+    width: 130px !important; } }
+
+@media screen and (max-width: 479px) {
+  .image-3 {
+    width: 75% !important; } }
+
+@media screen and (max-width: 767px) {
+  .recording-pricing-1,
+  .recording-pricing-2-mobile,
+  .recording-pricing-3-mobile,
+  .mixing-pricing-1-mobile,
+  .mixing-pricing-2-mobile {
+    background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+    background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+    background-position: 0px 0px, 0px 50%;
+    background-size: auto, 1139px;
+    background-repeat: repeat, no-repeat; } }
+
+.div-block-27 {
+  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-position: 0px 0px, 50% 89% !important;
+  background-size: auto, 1139px;
+  background-repeat: repeat, no-repeat; }
+
+.div-block-28 {
+  background-image: -webkit-linear-gradient(270deg, #111010, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 80%, #111010), url(images/06-outboard-01-newbg.jpg) !important;
+  background-image: linear-gradient(180deg, #111010, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 80%, #111010), url(images/06-outboard-01-newbg.jpg) !important;
+  background-position: 0px 0px, 50% 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat; }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s !important;
+  -webkit-box-shadow: none !important; }
 
 .div-block {
   position: absolute;

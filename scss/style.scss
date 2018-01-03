@@ -1,5 +1,5 @@
 /*
-Theme Name: From Below Studio Theme
+Theme Name: FromBelowStudioTheme
 Theme URI: https://hzayas.us
 Author: Humberto Zayas
 Author URI: https://hzayas.us
@@ -22,6 +22,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import 'wp-contact-overwrite.scss';
 @import 'background-images.scss';
 @import 'woocommerce-account-fields.scss';
+@import 'bugfix.scss';
 
 .div-block {
   position: absolute;
