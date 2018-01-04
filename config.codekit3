@@ -120,6 +120,13 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/fonts\/fontawesome-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,

@@ -128,7 +128,7 @@
                     <li class="list-item-2">Minimum 2 Hours</li>
                     <li class="list-item-2">Industry Quality Recording</li>
                     <li class="list-item-2">Raw Mix Available</li>
-                    <li class="last-item-button list-item-2"><span data-ix="contact-reveal" class="text-span-8">BOOK NOW</span></li>
+                    <li class="last-item-button list-item-2"><span data-ix="contact-reveal" class="text-span-8">CONTACT</span></li>
                   </ul>
                 </div>
                 <div class="w-slide">
@@ -140,7 +140,7 @@
                     <li class="list-item-2">8 Hours/$270</li>
                     <li class="list-item-2">10 Hours/$340</li>
                     <li class="list-item-2">Full Day 12+ Hours/$550</li>
-                    <li class="last-item-button list-item-2"><span data-ix="contact-reveal" class="text-span-8">BOOK NOW</span></li>
+                    <li class="last-item-button list-item-2"><span data-ix="contact-reveal" class="text-span-8">CONTACT</span></li>
                   </ul>
                 </div>
                 <div class="w-slide">
@@ -150,7 +150,7 @@
                     <li class="list-item-2">Please contact for more info.</li>
                     <li class="list-item-2">Bundle packages based on customization.</li>
                     <li class="list-item-2">*Pricing based on size of work.</li>
-                    <li class="last-item-button list-item-2"><span data-ix="contact-reveal" class="text-span-8">BOOK NOW</span></li>
+                    <li class="last-item-button list-item-2"><span data-ix="contact-reveal" class="text-span-8">CONTACT</span></li>
                   </ul>
                 </div>
               </div>
@@ -168,7 +168,7 @@
               <li class="list-item-2" data-ix="pricing-item-reveal-5">Minimum 2 Hours</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-2">Industry Quality Recording</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-3">Raw Mix Available</li>
-              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">CONTACT</span></li>
             </ul>
             <ul class="recording-pricing-2-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">Recording Blocks</li>
@@ -178,7 +178,7 @@
               <li class="list-item-2" data-ix="pricing-item-reveal-4">8 Hours/$270</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-4">10 Hours/$340</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-4">Full Day 12+ Hours/$550</li>
-              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">CONTACT</span></li>
             </ul>
             <ul class="recording-pricing-3-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">Custom project</li>
@@ -186,7 +186,7 @@
               <li class="list-item-2" data-ix="pricing-item-reveal-2">Please contact for more info.</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-4">Bundle packages based on customization</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-5">*Pricing based on size of work</li>
-              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">CONTACT</span></li>
             </ul>
           </div>
           <div class="w--tab-active w-tab-pane" data-w-tab="Tab 2">
@@ -203,7 +203,7 @@
                     <li class="list-item-2">Full Mix With Revisions</li>
                     <li class="list-item-2">Stems needed for best results</li>
                     <li class="list-item-2">*3 Revisions</li>
-                    <li class="last-item-button list-item-2"><span class="text-span-8">BOOK NOW</span></li>
+                    <li class="last-item-button list-item-2"><span class="text-span-8">CONTACT</span></li>
                   </ul>
                 </div>
                 <div class="w-slide">
@@ -216,7 +216,7 @@
                     <li class="list-item-2">Full Mix With Revisions</li>
                     <li class="list-item-2">Stems needed for best results</li>
                     <li class="list-item-2">*Multiple Revisions</li>
-                    <li class="last-item-button list-item-2"><span class="text-span-8">BOOK NOW</span></li>
+                    <li class="last-item-button list-item-2"><span class="text-span-8">CONTACT</span></li>
                   </ul>
                 </div>
               </div>
@@ -256,7 +256,7 @@
               <li class="list-item-2">Rent the studio to make beats/produce on your own</li>
               <li class="list-item-2">Easily connect your PC, Laptop and Equipment</li>
               <li class="list-item-2">*3 Hours Minimum/Engineer on standby if needed</li>
-              <li class="last-item-button list-item-2"><span class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2"><span class="text-span-8">CONTACT</span></li>
             </ul>
           </div>
         </div>
