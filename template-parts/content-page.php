@@ -46,7 +46,7 @@
       <h5 class="heading-2" data-ix="about-bg-reveal">Sounds from the Underground</h5>
       <div class="div-block-14" data-ix="about-bg-reveal"></div>
       <h5 class="heading-2 sub-cta" data-ix="about-bg-reveal-2">New Jersey Recording Studio<br> <span class="text-span-27"><a href="tel:+1-609-469-4340" class="link-3">(609)-469-4340</a></span></h5>
-      <div class="fbs-button" data-ix="contact-reveal-3"><span class="text-span-12"></span> &nbsp;BOOK YOUR SESSION</div>
+      <div class="fbs-button" data-ix="contact-reveal-6"><span class="text-span-12"></span> &nbsp;BOOK YOUR SESSION</div>
     </div>
   </div>
   <div class="services-section" data-ix="service-bg-reveal">
@@ -603,7 +603,7 @@
   <div class="booking-section">
     <!-- <span data-ix="booking-close" class="text-span-26"></span><br><span><span><span data-ix="booking-close" class="text-span-26"><br></span></span>
           </span> -->
-    <?php //echo do_shortcode('[product_page id="49"]'); ?>
+    <?php echo do_shortcode('[product_page id="49"]'); ?>
    <!--  <div class="fbs-container">
       <div class="div-block-42"> -->
         

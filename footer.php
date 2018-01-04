@@ -18,7 +18,7 @@
       <?php echo do_shortcode('[instagram-feed]');?>
     
     
-      <div class="text-block-11">© From Below Studio 2017</div>
+      <div class="text-block-11">© From Below Studio <?php echo date('Y');?></div>
      <!--  <div class="text-block-12">Made by Humberto Zayas</div> -->
     </div>
 </div>
