@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ;?>
-<div>
+<div style="padding-top: 50px;">
 	<?php wc_print_notices();
 
 	/**

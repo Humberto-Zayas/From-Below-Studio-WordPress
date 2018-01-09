@@ -79,7 +79,9 @@ if ( $show_downloads ) {
 					<th><?php _e( 'Note:', 'woocommerce' ); ?></th>
 					<td><?php echo wptexturize( $order->get_customer_note() ); ?></td>
 				</tr>
+
 			<?php endif; ?>
+				
 		</tfoot>
 	</table>
 

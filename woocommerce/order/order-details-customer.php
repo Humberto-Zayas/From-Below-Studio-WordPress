@@ -57,7 +57,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div><!-- /.col-2 -->
 
 		</section><!-- /.col2-set -->
-
 	<?php endif; ?>
 
 </section>
