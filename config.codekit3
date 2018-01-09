@@ -1434,16 +1434,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/Omegle screenshot 28258.jpg.jpg": {
-		"ft": 16384,
-		"iS": 61551,
-		"oA": 0,
-		"oAP": "\/images\/Omegle screenshot 28258.jpg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/pricing-bg-edit1.jpg": {
 		"ft": 16384,
 		"iS": 132313,
@@ -2019,6 +2009,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/biography.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-home.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-none.php": {

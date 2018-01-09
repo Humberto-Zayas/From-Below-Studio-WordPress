@@ -2764,6 +2764,33 @@ span.wpcf7-list-item {
 body {
   background-color: #111010; }
 
+.woocommerce-terms-and-conditions ol {
+  text-align: left;
+  font-size: 12px !important;
+  width: 100% !important;
+  margin: 0 auto; }
+  .woocommerce-terms-and-conditions ol li {
+    margin-bottom: 20px !important; }
+
+.entry-content {
+  color: #ebebeb;
+  font-family: Dosis !important;
+  line-height: 2 !important;
+  margin: 0 0 10px 0 !important; }
+  .entry-content ol {
+    text-align: left;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto; }
+    .entry-content ol li {
+      margin-bottom: 20px !important; }
+
+.entry-title {
+  color: #ebebeb;
+  font-family: Lato !important;
+  font-weight: 200 !important;
+  text-transform: uppercase; }
+
 .div-block-30 {
   margin-bottom: 20px; }
 
@@ -2844,7 +2871,9 @@ body {
     background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
     background-position: 0px 0px, 0px 50%;
     background-size: auto, 1139px;
-    background-repeat: repeat, no-repeat; } }
+    background-repeat: repeat, no-repeat; }
+  .entry-content ol {
+    width: 100%; } }
 
 .div-block-27 {
   background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
