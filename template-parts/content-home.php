@@ -58,43 +58,105 @@
         <div class="column-19 w-clearfix w-col w-col-6" data-ix="fade-up-recording-service">
           <h1 class="heading-17">RECORDING <span class="text-span-20">SERVICES</span></h1>
           <div class="div-block-30"></div>
-          <p class="service-icon"></p>
-          <p class="list-item-4">From Below records songs, mixtapes, EP's and audiobooks for artists of multiple genres.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Industry quality recording booth, microphone and outboard gear. Fits guitar, bass, keyboards and many other instruments.</p>
-          <p class="service-icon"></p>
+          <div class="div-block-57">
+            <div class="div-block-55">
+              <p class="service-icon"></p>
+            </div>
+            <p class="list-item-4">From Below records songs, mixtapes, EP's and audiobooks for artists of multiple genres.</p>
+          </div>
+          <div class="div-block-57">
+            <div class="div-block-55">
+              <p class="service-icon"></p>
+            </div>
+            <p class="list-item-4">Industry quality recording booth, microphone and outboard gear. Fits guitar, bass, keyboards and many other instruments.</p>
+          </div>
+          <div class="div-block-57">
+            <div class="div-block-55">
+              <p class="service-icon"></p>
+            </div>
           <p class="list-item-4">Plug and play your laptop and setup to our interface.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4"><span>Acoustic treated booth, control room, and waiting room with session live streamed on waiting room monitor.</span></p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Comfortable and creative environment to work on your project.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Access to your raw mix, tracks and project files upon request.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Free backup. Studio keeps files backed up for use and edit.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Multiple sessions, packages and recording blocks available.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Private closed session (Each session is one on one with the Engineer).</p>
+          </div>
+          <div class="div-block-57">
+              <div class="div-block-55">
+                <p class="service-icon"></p>
+              </div>
+            <p class="list-item-4"><span>Acoustic treated booth, control room, and waiting room with session live streamed on waiting room monitor.</span></p>
+          </div>
+          <div class="div-block-57">
+              <div class="div-block-55">
+                <p class="service-icon"></p>
+              </div>
+            <p class="list-item-4">Comfortable and creative environment to work on your project.</p>
+          </div>
+          <div class="div-block-57">
+              <div class="div-block-55">
+                <p class="service-icon"></p>
+              </div>
+            <p class="list-item-4">Access to your raw mix, tracks and project files upon request.</p>
+          </div>
+          <div class="div-block-57">
+              <div class="div-block-55">
+                <p class="service-icon"></p>
+              </div>
+            <p class="list-item-4">Free backup. Studio keeps files backed up for use and edit.</p>
+          </div>
+          <div class="div-block-57">
+              <div class="div-block-55">
+                <p class="service-icon"></p>
+              </div>
+            <p class="list-item-4">Multiple sessions, packages and recording blocks available.</p>
+          </div>
+          <div class="div-block-57">
+              <div class="div-block-55">
+                <p class="service-icon"></p>
+              </div>
+            <p class="list-item-4">Private closed session (Each session is one on one with the Engineer).</p>
+          </div>
         </div>
         <div class="column-20 w-clearfix w-col w-col-6" data-ix="fade-up-mixing-service">
           <h1 class="heading-17">MIXING <span class="text-span-20">SERVICES</span></h1>
           <div class="div-block-30"></div>
-          <p class="service-icon"></p>
-          <p class="list-item-4">We offer full mix down available for your project including albums, EP’s, mixtapes, podcasts, instruments and more. </p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">We mix all genres/styles of music as well as various job requests including podcast, audiobooks, commercials and more.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Choose between 2 track mix for a quick reference or a full track out mix down for a professional and dynamic mix.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Includes up to 3 free revisions per song requested.</p>
-          <p class="service-icon-micing"></p>
-          <p class="list-item-4">Creative effect processing with industry standard plugins - Equalization, Compression and Dynamics, Reverb, Delay.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Online mixing services available.</p>
-          <p class="service-icon"></p>
-          <p class="list-item-4">Custom edits upon request - create performance ready mixes, clip edits/fades/chops, looping and more.</p>
-          
+          <div class="div-block-57">
+            <div class="div-block-55">
+              <p class="service-icon"></p>
+            </div>
+            <p class="list-item-4">We offer full mix down available for your project including albums, EP’s, mixtapes, podcasts, instruments and more. </p>
+          </div>
+          <div class="div-block-57">
+            <div class="div-block-55">
+              <p class="service-icon"></p>
+            </div>
+            <p class="list-item-4">We mix all genres/styles of music as well as various job requests including podcast, audiobooks, commercials and more.</p>
+          </div>
+          <div class="div-block-57">
+            <div class="div-block-55">
+                <p class="service-icon"></p>
+            </div>
+            <p class="list-item-4">Choose between 2 track mix for a quick reference or a full track out mix down for a professional and dynamic mix.</p>
+          </div>
+          <div class="div-block-57">
+            <div class="div-block-55">
+              <p class="service-icon"></p>
+            </div>
+            <p class="list-item-4">Includes up to 3 free revisions per song requested.</p>
+          </div>
+          <div class="div-block-57">
+            <div class="div-block-55">
+                <p class="service-icon"></p>
+            </div>
+            <p class="list-item-4">Creative effect processing with industry standard plugins - Equalization, Compression and Dynamics, Reverb, Delay.</p>
+          </div>
+          <div class="div-block-57">
+            <div class="div-block-55">
+              <p class="service-icon"></p>
+            </div>
+            <p class="list-item-4">Online mixing services available.</p>
+          <div class="div-block-57">
+            <div class="div-block-55">
+              <p class="service-icon"></p>
+            </div>
+            <p class="list-item-4">Custom edits upon request - create performance ready mixes, clip edits/fades/chops, looping and more.</p>
+          </div>
         </div>
       </div>
     </div>

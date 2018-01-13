@@ -2,60 +2,12 @@ body {
 	background-color: rgb(17, 16, 16);
 }
 
-.woocommerce-terms-and-conditions {
-	ol {
-			text-align: left;
-			font-size: 12px !important;
-			width: 100% !important;
-			margin: 0 auto;
-
-			li {
-				//color: red !important;
-				margin-bottom: 20px !important;
-
-				&:before {
-					
-					
-				}
-			}
-		}
-}
-
-.entry-content {
-	color: #ebebeb;
-	font-family: Dosis !important;
-	line-height: 2 !important;
-	margin: 0 0 10px 0 !important;
-	ol {
-		text-align: left;
-		font-size: 20px;
-		width: 50%;
-		margin: 0 auto;
-
-		li {
-			//color: red !important;
-			margin-bottom: 20px !important;
-
-			&:before {
-				
-				
-			}
-		}
-	}
-}
-
-
-
-
-.entry-title {
-	color: #ebebeb;
-	font-family: Lato !important;
-	font-weight: 200 !important;
-	text-transform: uppercase;
-}
-
 .div-block-30 {
 	margin-bottom: 20px;
+}
+
+.div-block-55 { //align service icons to top of their holder
+	vertical-align: top;
 }
 
 @media screen and (min-width: 767px) {
@@ -157,12 +109,6 @@ body {
 	    background-position: 0px 0px, 0px 50%;
 	    background-size: auto, 1139px;
 	    background-repeat: repeat, no-repeat;
-	}
-
-	.entry-content {
-		ol {
-			width: 100%;
-		}
 	}
 	// .left-arrow-2.arrow-style, .right-arrow-3.arrow-style {
 	// 	height: 15.4% !important;
