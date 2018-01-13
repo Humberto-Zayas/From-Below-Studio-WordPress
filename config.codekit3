@@ -7,7 +7,7 @@
 		"uuidString": "B1371027-D741-47CC-A5B1-4A3A7CDB8582"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -119,13 +119,6 @@
 		"oAP": "\/css\/ie8-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/favicon.ico",
-		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont.eot": {
 		"cB": 0,
@@ -2016,6 +2009,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/biography.php",
+		"oF": 0
+		},
+	"\/template-parts\/content-home.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/content-home.php",
 		"oF": 0
 		},
 	"\/template-parts\/content-none.php": {

@@ -2767,6 +2767,9 @@ body {
 .div-block-30 {
   margin-bottom: 20px; }
 
+.div-block-55 {
+  vertical-align: top; }
+
 @media screen and (min-width: 767px) {
   .heading-17 {
     line-height: 36px; }
@@ -3621,10 +3624,14 @@ input:-webkit-autofill:active {
   background-repeat: repeat; }
 
 .list-item-4 {
+  position: relative;
+  display: inline-block;
+  width: 84%;
   margin-top: 0px;
   margin-bottom: 20px;
   padding-top: 0px;
   padding-bottom: 10px;
+  padding-left: 10px;
   font-family: Fontawesome, sans-serif;
   color: #ebebeb;
   font-size: 16px;
@@ -3727,7 +3734,7 @@ input:-webkit-autofill:active {
   padding-top: 20px;
   background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69));
-  opacity: 0; }
+  opacity: 1; }
 
 .div-block-42 {
   position: relative;
@@ -4204,25 +4211,24 @@ input:-webkit-autofill:active {
   display: none; }
 
 .service-icon {
-  width: 30px;
-  height: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
   margin-top: 0px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   padding: 0px;
-  float: left;
-  border-radius: 100%;
-  background-image: -webkit-linear-gradient(270deg, #d1203d, #7e1425);
-  background-image: linear-gradient(180deg, #d1203d, #7e1425);
-  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5);
+  float: none;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: Fontawesome, sans-serif;
   color: #ebebeb;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 14px;
   font-weight: 300;
   text-align: center;
-  list-style-type: disc;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.73); }
+  list-style-type: disc; }
 
 .service-icon-micing {
   width: 30px;
@@ -4776,6 +4782,17 @@ input:-webkit-autofill:active {
   line-height: 18px;
   font-weight: 600; }
 
+.div-block-55 {
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  float: none;
+  border-radius: 50px;
+  background-image: -webkit-linear-gradient(270deg, #d1203d, #772432);
+  background-image: linear-gradient(180deg, #d1203d, #772432); }
+
 html.w-mod-js *[data-ix="navbar-desktop-scrolled"] {
   -webkit-transform: translate(0px, -100%);
   -ms-transform: translate(0px, -100%);
@@ -4957,6 +4974,8 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
     background-color: rgba(0, 0, 0, 0.92); }
   .icon {
     color: #fff; }
+  .list-item-4 {
+    display: inline-block; }
   .div-block-38 {
     left: 18%;
     top: 188px; }
@@ -4998,6 +5017,8 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
     display: inline-block; }
   .policy-section {
     overflow: auto; }
+  .service-icon {
+    float: none; }
   .booking-section {
     overflow: auto; }
   .booking-heading {
@@ -5293,9 +5314,6 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
   .heading-10-copy {
     font-size: 6vw;
     line-height: 7vw; }
-  .service-icon {
-    font-size: 4vw;
-    line-height: 5vw; }
   .service-icon-micing {
     font-size: 4vw;
     line-height: 5vw; }
@@ -5410,7 +5428,9 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
   .dashboard-menu-title.item-pricing {
     font-size: 7.5vw; }
   .dashboard-menu-title.first-item-title {
-    font-size: 3.2vw; } }
+    font-size: 3.2vw; }
+  .div-block-57 {
+    position: relative; } }
 
 @media (max-width: 479px) {
   .heading.oswald {
@@ -5457,6 +5477,9 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
     transform: translate(0px, -110%); }
   .services-section {
     height: auto; }
+  .column-19 {
+    padding-right: 10px;
+    padding-left: 10px; }
   .list-item-4 {
     font-size: 4vw;
     line-height: 5vw; }
@@ -5528,9 +5551,6 @@ html.w-mod-js *[data-ix="pricing-item-reveal-8"] {
     float: none; }
   .heading-10-copy {
     font-size: 25px; }
-  .service-icon {
-    font-size: 4vw;
-    line-height: 5vw; }
   .service-icon-micing {
     font-size: 4vw;
     line-height: 5vw; }
