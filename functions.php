@@ -249,6 +249,7 @@ function frombelowstudiotheme_scripts() {
 	wp_deregister_script( 'jquery');
 	wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js');
 	wp_enqueue_script('instafeedjs', get_template_directory_uri(). '/js/instafeed.js');
+	
 	// Add Genericons, used in the main stylesheet.
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.4.1' );
 
@@ -274,6 +275,7 @@ function frombelowstudiotheme_scripts() {
 	wp_script_add_data( 'frombelowstudiotheme-html5', 'conditional', 'lt IE 9' );
 
 	wp_enqueue_script( 'frombelowstudiotheme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20160816', true );
+	wp_enqueue_script( 'dom', get_template_directory_uri() . '/js/dom.js', array( 'jquery' ));
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -297,6 +299,7 @@ function frombelowstudiotheme_scripts() {
 
 
 	wp_enqueue_script( 'webflowjs', get_template_directory_uri(). '/js/webflow.js');
+
 }
 add_action( 'wp_enqueue_scripts', 'frombelowstudiotheme_scripts' );
 
@@ -449,6 +452,8 @@ add_filter( 'widget_tag_cloud_args', 'frombelowstudiotheme_widget_tag_cloud_args
 //   echo '</section>';
 // }
 
+
+
 //WooCommerce Support Declation - useless
 
 add_action( 'after_setup_theme', 'woocommerce_support' );
@@ -490,11 +495,6 @@ add_filter( 'wc_empty_cart_message', 'custom_wc_empty_cart_message' );
 // Hook in
 add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
 
-
-
-// Hook in
-add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
-
 // Our hooked in function - $fields is passed via the filter!
 function custom_override_checkout_fields( $fields ) {
 
@@ -518,10 +518,11 @@ function custom_override_checkout_fields( $fields ) {
 	 $fields['billing']['billing_city']['label'] = '';
 	 $fields['billing']['billing_postcode']['placeholder'] = 'Zip Code';
 	 $fields['billing']['billing_postcode']['label'] = '';
-	 $fields['account']['account_username']['placeholder'] = 'Enter a Username';
+	 //$fields['account']['account_username']['placeholder'] = 'Enter your email';
 	 $fields['account']['account_password']['placeholder'] = 'Choose a secure password';
 	 $fields['account']['account_password']['label'] = '';
-	 $fields['account']['account_password-2']['placeholder'] = 'Re-enter your secure password';
+	unset($fields['account']['account_password-2']);
+	 //$fields['account']['account_password-2']['placeholder'] = 'Re-enter your secure password';
      //unset($fields['billing']['billing_first_name']);
      //unset($fields['billing']['billing_last_name']);
      //unset($fields['billing']['billing_company']);
@@ -538,22 +539,24 @@ function custom_override_checkout_fields( $fields ) {
 }
 
 
-add_filter("woocommerce_checkout_fields", "order_fields");
+//add_filter("woocommerce_checkout_fields", "order_fields");
 
-function order_fields($fields) {
+// function order_fields($fields) {
 
-    $order = array(
-        "account_username", 
-        "account_password", 
-        "account_password-2", 
-    );
-    foreach($order as $field)
-    {
-        $ordered_fields[$field] = $fields["account"][$field];
-    }
+//     $order = array(
+//         "account_username", 
+//         "account_password-2",
+//         "account_password", 
+//         //"billing_first_name",
+         
+//     );
+//     foreach($order as $field)
+//     {
+//         $ordered_fields[$field] = $fields["account"][$field];
+//     }
 
-    $fields["account"] = $ordered_fields;
-    return $fields;
+//     $fields["account"] = $ordered_fields;
+//     return $fields;
 
-}
+// }
 

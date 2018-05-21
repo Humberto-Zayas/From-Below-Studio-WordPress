@@ -11,7 +11,7 @@
 <div style="padding-top: 70px" class="fbs-container">
   <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <header class="entry-header">
-      <?php if (is_woocommerce() || is_cart() || is_checkout()) {
+      <?php if (is_woocommerce() || is_cart() || is_checkout() || 'my-account') {
         # code...
       } else {
         the_title( '<h1 class="entry-title">', '</h1>' );

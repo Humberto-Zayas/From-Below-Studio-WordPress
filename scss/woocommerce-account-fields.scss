@@ -1,9 +1,9 @@
 .woocommerce-account-fields, .woocommerce form.login, {
-	width: 50%;
+	// width: 50%;
 	font-family: Fontawesome, Dosis;
-	margin: 2em auto;
-	padding: 1em;
-	font-weight: 100;
+	// margin: 2em auto;
+	// padding: 1em;
+	// font-weight: 100;
 	border: none;
 	span {
 		span {
@@ -16,26 +16,26 @@
 	}
 }
 
-.woocommerce form.login {
-	border: 1px solid rgba(53, 53, 53, 0.8) !important;
-    border-radius: initial !important;
-    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/bg_pic1.jpg);
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/bg_pic1.jpg);
-    background-position: 0px 0px, 0px 50%;
-    background-size: cover;
-    background-repeat: repeat, no-repeat;
-    box-shadow: 1px 1px 3px 0 #000;
-    font-family: Lato, sans-serif !important;
-    border-width: 1px 1px 0px !important;
-	.fbs-button {
-		border: 1px solid white !important;
-		margin: 1em auto;
-		display: block;
-		&:hover {
-			border-color: transparent !important;
-		}
-	}
-}
+// .woocommerce form.login {
+// 	border: 1px solid rgba(53, 53, 53, 0.8) !important;
+//     border-radius: initial !important;
+//     background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/bg_pic1.jpg);
+//     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/bg_pic1.jpg);
+//     background-position: 0px 0px, 0px 50%;
+//     background-size: cover;
+//     background-repeat: repeat, no-repeat;
+//     box-shadow: 1px 1px 3px 0 #000;
+//     font-family: Lato, sans-serif !important;
+//     border-width: 1px 1px 0px !important;
+// 	.fbs-button {
+// 		border: 1px solid white !important;
+// 		margin: 1em auto;
+// 		display: block;
+// 		&:hover {
+// 			border-color: transparent !important;
+// 		}
+// 	}
+// }
 
 .create-account {
 	p {

@@ -19,6 +19,9 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+
+
 ?>
 <table class="shop_table woocommerce-checkout-review-order-table">
 	<thead>

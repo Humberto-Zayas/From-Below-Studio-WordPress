@@ -26,11 +26,11 @@ if ( is_user_logged_in() ) {
 
 ?>
 
-<form class="test woocommerce-form woocommerce-form-login login" method="post" <?php echo ( $hidden ) ? 'style="display:none;"' : ''; ?>>
+<form class="woocommerce-form woocommerce-form-login login" method="post" <?php echo ( $hidden ) ? 'style="display:none;"' : ''; ?>>
 
 	<?php do_action( 'woocommerce_login_form_start' ); ?>
 
-	<?php echo ( $message ) ? wpautop( wptexturize( $message ) ) : ''; ?>
+	<?php //echo ( $message ) ? wpautop( wptexturize( $message ) ) : ''; ?>
 
 	<p class="form-row form-row-first">
 		<label for="username"><?php _e( 'Username or email', 'woocommerce' ); ?> <span class="required">*</span></label>

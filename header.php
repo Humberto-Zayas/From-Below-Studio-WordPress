@@ -51,9 +51,19 @@
 	<div class="site-inner">
 		<div id="content" class="site-content">
 			  <div class="navbar-fbs-fixed w-nav" data-animation="default" data-collapse="medium" data-duration="400">
-    <div class="w-container"><a class="brand w-nav-brand" href="<?php echo $urlbuild;?>#hero"><img alt="From Below Studio - New Jersey Recording Studio and Mixing Services" class="fbs-logo-fixed" src="<?php bloginfo('template_url');?>/images/fbs-red-logo.jpg" ></a>
-      <nav class="nav-menu-2 w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#hero">HOME</a><a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#service-section">SERVICES</a><a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#pricing-section">PRICING</a><a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#about">ABOUT</a><a class="nav-link w-nav-link" data-ix="contact-reveal" href="#">CONTACT</a><a class="nav-link w-nav-link" href="tel:609-469-4340">CALL: 609-469-4340</a><?php if (is_user_logged_in()):?><a class="nav-link w-nav-link" href="<?php echo home_url();?>/my-account"><?php echo $current_user->user_login ;?></a>
-      <?php else:?><a class="nav-link w-nav-link" href="tel:609-469-4340">LOGIN</a><?php endif;?>
+    <div class="w-container">
+      <a class="brand w-nav-brand" href="<?php echo $urlbuild;?>#hero">
+        <img alt="From Below Studio - New Jersey Recording Studio and Mixing Services" class="fbs-logo-fixed" src="<?php bloginfo('template_url');?>/images/fbs-red-logo.jpg" >
+      </a>
+      <nav class="nav-menu-2 w-nav-menu" role="navigation">
+        <a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#hero">HOME</a>
+        <a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#service-section">SERVICES</a>
+        <a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#pricing-section">PRICING</a>
+        <a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#about">ABOUT</a>
+        <a class="nav-link w-nav-link" data-ix="contact-reveal" href="#">CONTACT</a>
+        <a class="nav-link w-nav-link" href="tel:609-469-4340">CALL: 609-469-4340</a>
+        <?php if (is_user_logged_in()):?><a class="nav-link w-nav-link" href="<?php echo home_url();?>/my-account"><?php echo $current_user->user_login ;?></a>
+      <?php else:?><a class="nav-link w-nav-link" href="<?php echo home_url();?>/my-account">LOGIN</a><?php endif;?>
       </nav>
       <div class="menu-button-2 w-nav-button">
         <div class="icon-2 w-icon-nav-menu"></div>
@@ -64,7 +74,7 @@
   <div class="navbar-fbs-static w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-ix="navbar-init-load-reveal">
     <div class="container w-container"><a class="w-nav-brand" href="<?php echo $urlbuild;?>#hero"><img alt="From Below Studio - New Jersey Recording Studio and Mixing Services" class="image" sizes="100px" src="<?php bloginfo('template_url');?>/images/fbs-red-logo.jpg" ></a>
       <nav class="nav-menu w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#hero">HOME</a><a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#service-section">SERVICES</a><a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#pricing-section">PRICING</a><a class="nav-link w-nav-link" href="<?php echo $urlbuild;?>#about">ABOUT</a><a class="nav-link w-nav-link" data-ix="contact-reveal-3" href="#">CONTACT</a><a class="nav-link w-nav-link" href="tel:609-469-4340">CALL: 609-469-4340</a><?php if (is_user_logged_in()):?><a class="nav-link w-nav-link" href="<?php echo home_url();?>/my-account"><?php echo $current_user->user_login ;?></a>
-      <?php else:?><a class="nav-link w-nav-link" href="tel:609-469-4340">LOGIN</a><?php endif;?>
+      <?php else:?><a class="nav-link w-nav-link" href="<?php echo home_url();?>/my-account">LOGIN</a><?php endif;?>
       </nav>
       <div class="menu-button w-nav-button">
         <div class="icon w-icon-nav-menu"></div>
