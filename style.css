@@ -1954,11 +1954,35 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important; }
 
+.shop_table {
+  width: 50% !important;
+  margin-top: 0 !important;
+  padding: 0 20px;
+  color: white;
+  margin: 0 auto !important; }
+
+#payment {
+  margin: 0 auto;
+  width: 50% !important;
+  padding: 20px 0;
+  text-align: left; }
+  #payment ul {
+    list-style: none;
+    padding: 0; }
+  #payment .woocommerce form .form-row {
+    padding: 40px !important; }
+  #payment input[type="submit"] {
+    display: block;
+    clear: both !important; }
+
+.footer {
+  clear: both; }
+
 .wc-bookings-booking-form {
   position: relative;
   display: block;
   overflow: hidden;
-  width: 700px;
+  width: 500px;
   margin-right: auto;
   margin-left: auto;
   padding: 0px 0px 30px;
@@ -1975,8 +1999,46 @@ textarea.w-select {
 .wc-bookings-date-picker .ui-widget-content {
   background: transparent; }
 
+.wc-bookings-booking-cost {
+  clear: both; }
+
+.wc-bookings-booking-form .form-field input[type=number] {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 20px;
+  border-bottom: 1px solid rgba(53, 53, 53, 0.8);
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px; }
+  .wc-bookings-booking-form .form-field input[type=number]:focus {
+    outline: none;
+    border-bottom: 1px solid red;
+    background: rgba(0, 0, 0, 0.1); }
+
+.variation {
+  padding: 0 20px; }
+
+.booking-section .price {
+  opacity: 0; }
+
+.wc_bookings_field_duration {
+  padding: 0 !important;
+  width: 50%;
+  float: left; }
+  .wc_bookings_field_duration label {
+    font-family: 'Lato', sans-serif; }
+
+.woocommerce-product-details__short-description {
+  width: 500px;
+  margin: 0 auto; }
+
 .wc-bookings-date-picker .ui-datepicker {
-  padding: 1em 0; }
+  padding: 0 0; }
+
+.text-span-26 {
+  right: 6px !important;
+  top: 3px !important; }
 
 .ui-datepicker-today span {
   background-color: red !important; }
@@ -2099,16 +2161,26 @@ textarea.w-select {
   color: white; }
 
 .wc-bookings-booking-form .form-field {
-  padding: 1em; }
+  padding: 0 1em;
+  float: left;
+  width: 50%; }
+
+.block a {
+  font-size: 12px; }
+
+.block-picker {
+  text-align: left; }
 
 .wc-bookings-booking-form .block-picker li.block {
-  display: block;
+  display: inline-block;
   float: none;
-  width: 100%; }
+  width: calc(100%/3);
+  padding-left: 5px;
+  padding-right: 5px; }
   .wc-bookings-booking-form .block-picker li.block a {
     width: 100% !important;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-image: -webkit-linear-gradient(270deg, #d1203d, #d1203d);
@@ -2319,7 +2391,45 @@ textarea.w-select {
     border-color: white !important; }
 
 .woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
-  background: transparent; }
+  background: transparent;
+  /* woocommerce-messages.scss */ }
+
+.woocommerce-form-login p:first-child, .woocommerce-form-login p:nth-child(2) {
+  text-align: left; }
+  .woocommerce-form-login p:first-child span:first-child, .woocommerce-form-login p:nth-child(2) span:first-child {
+    padding: 0 10px; }
+
+.woocommerce-form-login input {
+  background: transparent;
+  /* woocommerce-messages.scss */
+  border-width: 0 0 1px 0;
+  border-color: rgba(53, 53, 53, 0.8);
+  padding: 20px;
+  width: 100%;
+  color: #e7e7e7; }
+  .woocommerce-form-login input:focus {
+    outline: none;
+    border-bottom: 1px solid #cf2441;
+    background: rgba(255, 255, 255, 0.1); }
+
+.woocommerce-form-login input[value="LOGIN"] {
+  padding: 0 30px;
+  width: auto; }
+
+.woocommerce-form-login span {
+  color: white;
+  font-family: 'Lato', arial; }
+
+.woocommerce-form-login input[id="rememberme"] {
+  width: auto;
+  color: white; }
+
+.woocommerce-form-login .lost_password {
+  color: white;
+  font-family: 'Lato', sans-serif; }
+
+.woocommerce-form-login .required {
+  text-align: left; }
 
 .woocommerce {
   padding-top: 69px; }
@@ -2573,8 +2683,8 @@ input:-webkit-autofill {
 .woocommerce table.shop_table {
   border: 1px solid rgba(53, 53, 53, 0.8) !important;
   border-radius: initial !important;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/bg_pic1.jpg);
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(images/bg_pic1.jpg);
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.55), black), url(images/bg_pic1.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), black), url(images/bg_pic1.jpg);
   background-position: 0px 0px, 0px 50%;
   background-size: cover;
   background-repeat: repeat, no-repeat;
@@ -2585,6 +2695,86 @@ input:-webkit-autofill {
   font-family: Dosis; }
   .woocommerce table.shop_table a {
     color: #cf2441; }
+  .woocommerce table.shop_table .product-total {
+    border: 1px solid rgba(255, 255, 255, 0.2); }
+
+.wc_payment_method {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: rgba(49, 49, 49, 0.2);
+  width: 49%;
+  float: left; }
+  .wc_payment_method:nth-child(1) {
+    margin-right: 10px; }
+  .wc_payment_method img, .wc_payment_method a {
+    display: none; }
+  .wc_payment_method label {
+    padding: 24px 0;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 0; }
+  .wc_payment_method input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+
+.woocommerce #payment .terms, .woocommerce #payment .wc-terms-and-conditions {
+  margin-bottom: 10px !important;
+  text-align: center !important;
+  float: none !important;
+  clear: both; }
+
+.woocommerce-terms-and-conditions-link {
+  color: #cf2441; }
+
+.woocommerce #payment #place_order {
+  margin: 0 auto; }
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin: 20px 20px; }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none; }
+
+.wc_payment_method:hover input ~ .checkmark {
+  background-color: #ccc; }
+
+/* When the radio button is checked, add a blue background */
+.wc_payment_method input:checked ~ .checkmark {
+  background-color: #cf2441; }
+
+/* Show the indicator (dot/circle) when checked */
+.wc_payment_method input:checked ~ .checkmark:after {
+  display: block; }
+
+/* Style the indicator (dot/circle) */
+.wc_payment_method .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white; }
 
 .wc-booking-summary {
   border-radius: 0;
@@ -2628,6 +2818,32 @@ input:-webkit-autofill {
 @media screen and (max-width: 767px) {
   .custom-remove {
     font-size: 1.5vw; } }
+
+.login-section {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 16;
+  display: none;
+  overflow: scroll;
+  height: 100vh;
+  padding-top: 20px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0.69));
+  opacity: 1; }
+
+input[value="LOGIN"] {
+  background-color: #cf2441; }
+
+.login-style {
+  padding: 2em 5em;
+  width: 100%; }
+
+@media screen and (min-width: 767px) {
+  .login-style {
+    width: 50% !important; } }
 
 .div-block-53 {
   position: absolute;

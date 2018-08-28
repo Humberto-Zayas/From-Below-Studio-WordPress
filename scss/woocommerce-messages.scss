@@ -87,12 +87,12 @@
 	width: 100% !important;
 	float: none !important;
 	input {	
-	padding-top: 30px;
-    padding-bottom: 30px;
-    border-style: solid;
-    border-width: 0px 0px 1px;
-    border-color: rgba(53, 53, 53, 0.8);
-    background-color: transparent;
+		padding-top: 30px;
+	    padding-bottom: 30px;
+	    border-style: solid;
+	    border-width: 0px 0px 1px;
+	    border-color: rgba(53, 53, 53, 0.8);
+	    background-color: transparent;
 	}
 }
 
@@ -126,8 +126,58 @@
 	}
 }
 
-.woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text {
-	background: transparent;
+.woocommerce form .form-row .input-text, .woocommerce-page form .form-row .input-text,  {
+	background: transparent; /* woocommerce-messages.scss */
+}
+
+.woocommerce-form-login {
+
+	p:first-child, p:nth-child(2) {
+		text-align: left;
+		span:first-child {
+			padding: 0 10px;
+		}
+	}
+
+	input {
+		background: transparent; /* woocommerce-messages.scss */
+		border-width: 0 0 1px 0;
+    	border-color: rgba(53, 53, 53, 0.8);
+    	padding: 20px;
+    	width: 100%;
+    	color: #e7e7e7;
+    	&:focus {
+    		outline: none;
+    		border-bottom: 1px solid rgb(207,36,65);
+    		background: rgba(255,255,255,0.1);
+    	}
+	}
+
+	input[value="LOGIN"] {
+		padding: 0 30px;
+		width: auto;
+
+	}
+
+	span {
+		color: white;
+		font-family: 'Lato', arial;
+	}
+
+	input[id="rememberme"] {
+		width: auto;
+		color: white;
+	}
+
+	.lost_password {
+		color: white;
+		font-family: 'Lato', sans-serif;
+	}
+
+	.required {
+		text-align: left;
+	}
+
 }
 
 

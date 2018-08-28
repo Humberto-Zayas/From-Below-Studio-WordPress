@@ -54,28 +54,31 @@ if (navigator.userAgent.match(/Trident\//) || navigator.userAgent.match(/Edge\//
 }
 </script>
 <script type="text/javascript">
-  // moving coupon code field
   
-  // get all elements with .woocommerce-info-wrapper class ie: returning customer login & coupon code
-  var wooinfo = $(".woocommerce-info-wrapper");
 
-  // get the form login and checkout logins
-  var formlogin = $(".woocommerce-form-login");
-  var coupon = $(".checkout_coupon");
+  // // moving coupon code field
+  
+  // // get all elements with .woocommerce-info-wrapper class ie: returning customer login & coupon code
+  // var wooinfo = $(".woocommerce-info-wrapper");
 
-  // move all wooinfo elements to appropriate spot
-  $(wooinfo).insertAfter('#order_review_heading');
+  // // get the form login and checkout logins
+  // var formlogin = $(".woocommerce-form-login");
+  // var coupon = $(".checkout_coupon");
 
-  //check for # of wooinfo's and order accordingly
-  if (wooinfo.length > 1) {
-    $(formlogin).insertAfter(wooinfo[0]);
-    $(coupon).insertAfter(wooinfo[1]);
-  } else {
-    $(coupon).insertAfter(wooinfo);
-  }
+  // // move all wooinfo elements to appropriate spot
+  // $(wooinfo).insertAfter('#order_review_heading');
+
+  // //check for # of wooinfo's and order accordingly
+  // if (wooinfo.length > 1) {
+  //   $(formlogin).insertAfter(wooinfo[0]);
+  //   $(coupon).insertAfter(wooinfo[1]);
+  // } else {
+  //   $(coupon).insertAfter(wooinfo);
+  // }
  
-  // $(showlogin).insertAfter('#order_review_heading');
+  // // $(showlogin).insertAfter('#order_review_heading');
   //jquery move elements
+  
 
 </script>
 </body>

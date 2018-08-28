@@ -1743,6 +1743,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/element-moving.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/element-moving-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/functions-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1819,6 +1829,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/keyboard-image-navigation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/modal-open-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/modal-open-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/modal-open.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/modal-open-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2173,6 +2203,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/template-parts\/partials\/contact-form-template.php",
+		"oF": 0
+		},
+	"\/template-parts\/partials\/login-form-template.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-parts\/partials\/login-form-template.php",
 		"oF": 0
 		},
 	"\/woocommerce-bookings\/booking-form\/date-picker.php": {

@@ -249,6 +249,8 @@ function frombelowstudiotheme_scripts() {
 	wp_deregister_script( 'jquery');
 	wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js');
 	wp_enqueue_script('instafeedjs', get_template_directory_uri(). '/js/instafeed.js');
+	wp_enqueue_script('modalopen', get_template_directory_uri(). '/js/modal-open.js');
+	wp_enqueue_script('elementmoving', get_template_directory_uri(). '/js/element-moving.js');
 	
 	// Add Genericons, used in the main stylesheet.
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.4.1' );
@@ -537,6 +539,25 @@ function custom_override_checkout_fields( $fields ) {
      //unset($fields['billing']['billing_email']);
      return $fields;
 }
+
+add_action('after_setup_theme', 'remove_admin_bar');
+ 
+function remove_admin_bar() {
+if (!current_user_can('administrator') && !is_admin()) {
+  show_admin_bar(false);
+}
+}
+
+function iconic_bypass_logout_confirmation() {
+    global $wp;
+ 
+    if ( isset( $wp->query_vars['customer-logout'] ) ) {
+        wp_redirect( str_replace( '&amp;', '&', wp_logout_url( wc_get_page_permalink( 'myaccount' ) ) ) );
+        exit;
+    }
+}
+ 
+add_action( 'template_redirect', 'iconic_bypass_logout_confirmation' );
 
 
 //add_filter("woocommerce_checkout_fields", "order_fields");

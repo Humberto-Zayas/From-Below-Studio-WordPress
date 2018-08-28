@@ -1,9 +1,66 @@
+.shop_table {
+	
+	width: 50% !important;
+	margin-top: 0 !important;
+	padding: 0 20px;
+	color: white;
+	margin: 0 auto !important;
+}
+
+#payment {
+	margin: 0 auto;
+	width: 50% !important;
+	padding: 20px 0;
+	text-align: left;
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	// input[id="payment_method_paypal"] {
+	// 	float: left;
+	// 	margin-right: 20px;
+	// }
+
+	// label[for="payment_method_paypal"] {
+	// 	float: left;
+	// 	img {
+	// 		display: block;
+	// 	}
+	// }
+
+	.woocommerce form .form-row {
+		padding: 40px !important;
+	}
+
+	
+
+	input[type="submit"] {
+		display: block;
+		clear: both !important;
+	}
+
+	label[for="payment_method_cod"], label[for="payment_method_paypal"] {
+		// float: left;
+	}
+
+	// button {
+	// 	float: none !important;
+	// }
+}
+
+.footer {
+	clear: both;
+}
+
+
 // Form Layout Styling - imitates the container centering of container
 .wc-bookings-booking-form{
 	position: relative;
 	display: block;
 	overflow: hidden;
-	width: 700px;
+	width: 500px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0px 0px 30px;
@@ -31,8 +88,60 @@
 	background: transparent;
 }
 
+.wc-bookings-booking-cost {
+	clear: both;
+}
+
+.wc-bookings-booking-form .form-field input[type=number] {
+	width: 100%;
+	background: transparent;
+	border: 0;
+	padding: 20px;
+	border-bottom: 1px solid rgba(53, 53, 53, 0.8);
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 30px;
+	&:focus {
+		outline: none;
+		border-bottom: 1px solid red;
+		background: rgba(0,0,0,0.1);
+
+	}
+}
+
+.variation {
+	padding: 0 20px;
+}
+
+.booking-section {
+	.price {
+		opacity: 0;
+	}
+}
+
+
+
+.wc_bookings_field_duration {
+	padding: 0 !important;
+	width: 50%;
+	float: left;
+	label {
+		font-family: 'Lato', sans-serif;
+	}
+}
+
+.woocommerce-product-details__short-description {
+	width: 500px;
+	margin: 0 auto;
+}
+
 .wc-bookings-date-picker .ui-datepicker {
-	padding: 1em 0;
+	padding: 0 0;
+}
+
+.text-span-26 {
+	right: 6px !important;
+	top: 3px !important;
 }
 
 .ui-datepicker-today span{
@@ -192,18 +301,32 @@
 }
 
 .wc-bookings-booking-form .form-field {
-	padding: 1em;
+	padding: 0 1em;
+	float: left;
+	width: 50%;
 
 }
 
+.block {
+	a {
+		font-size: 12px;
+	}
+}
+
+.block-picker {
+	text-align: left;
+}
+
 .wc-bookings-booking-form .block-picker li.block {
-	display: block;
+	display: inline-block;
 	float: none;
-	width: 100%;
+	width: calc(100%/3);
+	padding-left: 5px;
+	padding-right: 5px;
 	a {
 		width: 100% !important;
-		margin-top: 10px;
-	    margin-bottom: 10px;
+		margin-top: 5px;
+	    margin-bottom: 5px;
 	    padding-top: 10px;
 	    padding-bottom: 10px;
 	    background-image: -webkit-linear-gradient(270deg, #d1203d, #d1203d);
@@ -215,6 +338,8 @@
 	    	}
 	}
 }
+
+
 
 .wc-bookings-booking-form label, .label {
 	color: #ebebeb;

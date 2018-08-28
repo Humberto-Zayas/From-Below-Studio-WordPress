@@ -38,6 +38,8 @@
 
 <?php else:?>
 
+
+
   <div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
     <?php echo do_shortcode('[contact-form-7 id="173" title="Test Quote"]');?>
     <div class="div-block" data-ix="home-hero-reveal"></div>
@@ -637,6 +639,7 @@
   <?php // contact form
     include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
   ?>
+  <?php get_template_part('/template-parts/partials/login-form-template');?>
 
 
   <div class="policy-section">

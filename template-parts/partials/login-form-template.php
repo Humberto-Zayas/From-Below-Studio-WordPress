@@ -1,28 +1,10 @@
-<?php
-/**
- * Login Form
- *
- * This template can be overridden by copying it to yourtheme/woocommerce/myaccount/form-login.php.
- *
- * HOWEVER, on occasion WooCommerce will need to update template files and you
- * (the theme developer) will need to copy the new files to your theme to
- * maintain compatibility. We try to do this as little as possible, but it does
- * happen. When this occurs the version of the template file will be bumped and
- * the readme will list any important changes.
- *
- * @see     https://docs.woocommerce.com/document/template-structure/
- * @author  WooThemes
- * @package WooCommerce/Templates
- * @version 3.2.0
- */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
-}
-
-?>
-
-<?php wc_print_notices(); ?>
+<div class="login-section">
+	<div class="fbs-container">
+	  <div class="div-block-42">
+	  	<h1 class="heading-22"><span><span><span data-ix="new-interaction" class="text-span-26"><br></span></span>
+          </span>
+        </h1>
+	    <?php wc_print_notices(); ?>
 
 <?php do_action( 'woocommerce_before_customer_login_form' ); ?>
 
@@ -33,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="u-column1 col-1">
 
 <?php endif; ?>
-		<div class="fbs-container login-style">
+		<div style="padding: 2em 0;" class="fbs-container">
 			<h2 class="heading-13"><?php _e( 'Login', 'woocommerce' ); ?></h2>
 
 			<form class="woocommerce-form woocommerce-form-login login" method="post">
@@ -51,7 +33,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 				<?php do_action( 'woocommerce_login_form' ); ?>
 
-				<p style="text-align: center;" class="form-row">
+				<p class="form-row">
 					<?php wp_nonce_field( 'woocommerce-login', 'woocommerce-login-nonce' ); ?>
 					<input type="submit" class="fbs-button" name="login" value="<?php esc_attr_e( 'LOGIN', 'woocommerce' ); ?>" />
 					<label style="display: block; text-align: center" class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
@@ -122,3 +104,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 <?php endif; ?>
 
 <?php do_action( 'woocommerce_after_customer_login_form' ); ?>
+	  </div>
+	</div>
+</div>
+
+

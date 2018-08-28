@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){var o=$(".login-link"),c=$(".login-section"),n=$(".div-block-42");console.log(n[1]),o.click(function(){c.css("display","block"),$(".text-span-26").click(function(){console.log("yo"),c.css("display","none"),c.css("opacity","1")})})});

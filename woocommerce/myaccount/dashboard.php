@@ -22,7 +22,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 ?>
-<img src="<?php echo get_bloginfo('template_url');?>/images/100x100.png" class="image-4">
+<!-- <img src=" --><?php //echo get_bloginfo('template_url');?><!-- /images/100x100.png" class="image-4"> -->
+<img class="image-4" style="width: 100px;" src="http://localhost:8888/frombelowstudio/wp-content/uploads/2018/08/default-fbs.png">
 <div class="div-block-54">
 	<h1 class="heading-13-copy"><?php
 		/* translators: 1: user display name 2: logout url */
@@ -32,6 +33,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 			esc_url( wc_logout_url( wc_get_page_permalink( 'myaccount' ) ) )
 		);
 	?></h1>
+
+	
 
 	<p class="heading-13-copy-copy"><?php
 		echo $current_user->user_firstname . "\n" . ' ' . $current_user->user_lastname . "\n"
