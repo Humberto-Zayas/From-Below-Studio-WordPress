@@ -232,7 +232,7 @@
               <li class="list-item-2" data-ix="pricing-item-reveal-5">Minimum 2 Hours</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-2">Industry Quality Recording</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-3">Raw Mix Available</li>
-              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-6" class="text-span-8">BOOK NOW</span></li>
             </ul>
             <ul class="recording-pricing-2-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">Recording Blocks</li>
@@ -242,7 +242,7 @@
               <li class="list-item-2" data-ix="pricing-item-reveal-4">8 Hours/$270</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-4">10 Hours/$340</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-4">Full Day 12+ Hours/$550</li>
-              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-6" class="text-span-8">BOOK NOW</span></li>
             </ul>
             <ul class="recording-pricing-3-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">Custom project</li>
@@ -250,7 +250,7 @@
               <li class="list-item-2" data-ix="pricing-item-reveal-2">Please contact for more info.</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-4">Bundle packages based on customization</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-5">*Pricing based on size of work</li>
-              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-3" class="text-span-8">BOOK NOW</span></li>
+              <li class="last-item-button list-item-2" data-ix="pricing-item-reveal-6"><span data-ix="contact-reveal-6" class="text-span-8">BOOK NOW</span></li>
             </ul>
           </div>
           <div class="w--tab-active w-tab-pane" data-w-tab="Tab 2">

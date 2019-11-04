@@ -1743,6 +1743,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/element-moving-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/element-moving-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/element-moving.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1937,6 +1947,19 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/scss\/_product-page.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_product-page.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/scss\/adminlogged-in.scss": {
 		"aP": 0,
@@ -2539,6 +2562,251 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/woocommerce\/content-single-product.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/admin-cancelled-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/admin-cancelled-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/admin-failed-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/admin-failed-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/admin-new-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/admin-new-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/customer-completed-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/customer-completed-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/customer-invoice.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/customer-invoice.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/customer-new-account.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/customer-new-account.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/customer-note.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/customer-note.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/customer-on-hold-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/customer-on-hold-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/customer-processing-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/customer-processing-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/customer-refunded-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/customer-refunded-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/customer-reset-password.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/customer-reset-password.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/email-addresses.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/email-addresses.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/email-customer-details.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/email-customer-details.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/email-downloads.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/email-downloads.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/email-footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/email-footer.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/email-header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/email-header.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/email-order-details.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/email-order-details.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/email-order-items.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/email-order-items.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/email-styles.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/email-styles.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/admin-cancelled-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/admin-cancelled-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/admin-failed-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/admin-failed-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/admin-new-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/admin-new-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/customer-completed-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/customer-completed-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/customer-invoice.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/customer-invoice.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/customer-new-account.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/customer-new-account.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/customer-note.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/customer-note.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/customer-on-hold-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/customer-on-hold-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/customer-processing-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/customer-processing-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/customer-refunded-order.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/customer-refunded-order.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/customer-reset-password.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/customer-reset-password.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/email-addresses.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/email-addresses.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/email-customer-details.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/email-customer-details.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/email-downloads.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/email-downloads.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/email-order-details.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/email-order-details.php",
+		"oF": 0
+		},
+	"\/woocommerce\/emails\/plain\/email-order-items.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/woocommerce\/emails\/plain\/email-order-items.php",
 		"oF": 0
 		},
 	"\/woocommerce\/global\/form-login.php": {

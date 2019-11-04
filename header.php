@@ -39,6 +39,9 @@
   <h3 style="width: 100%; text-align: center; margin-top:50px; color: white" class="image-30 loading-text">Loading the Session</h3>
 </div>
 <body class="body" <?php body_class(); ?>>
+<?php // contact form
+    include(get_template_directory() . "/template-parts/partials/contact-form-template.php"); 
+  ?>
 <?php 
   $current_user = wp_get_current_user();
   if (!is_page('welcome')) {

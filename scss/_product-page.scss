@@ -1,0 +1,18 @@
+.product_title, .price, .woocommerce-product-details__short-description, .wc_bookings_field_duration {
+    color: #ffffffc4;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-family: "Lato", arial;
+    color: white;
+    text-transform: uppercase;
+    &:hover {
+        background: #cf2441;
+        border-color: #cf2441;
+    }
+}

@@ -23,13 +23,25 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * @hooked WC_Emails::email_header() Output the email header
  */
-do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
+do_action( 'woocommerce_email_header', $email_heading, $email );
+
+
+
+?>
+
+
 
 <p><?php _e( "Hello, a note has just been added to your order:", 'woocommerce' ); ?></p>
 
 <blockquote><?php echo wpautop( wptexturize( $customer_note ) ) ?></blockquote>
 
 <p><?php _e( "For your reference, your order details are shown below.", 'woocommerce' ); ?></p>
+
+<?php 
+
+echo $fields['wc_bookings_field_duration'];
+
+;?>
 
 <?php
 

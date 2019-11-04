@@ -29,6 +29,12 @@ do_action( 'woocommerce_email_header', $email_heading );
 
 <p><?php _e( 'Your booking has been confirmed. The details of your booking are shown below.', 'woocommerce-bookings' ); ?></p>
 
+<p>To ensure your session goes as smoothly as possible please remember:</p>
+<ul>
+<li><strong>To show up 30 minutes early to properly setup your vocals/tracks</strong></li>
+<li><strong>Read the <a target="_blank" href="#">studio policy and rules</a> and prepare accordingly</strong></li>
+</ul>
+
 <table cellspacing="0" cellpadding="6" style="width: 100%; border: 1px solid #eee;" border="1" bordercolor="#eee">
 	<tbody>
 		<tr>

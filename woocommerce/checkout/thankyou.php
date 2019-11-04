@@ -20,6 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 ?>
+
 <div style="padding-top: 50px;" class="fbs-container woocommerce-order">
 
 	<?php if ( $order ) : ?>
@@ -36,10 +37,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</p>
 
 		<?php else : ?>
-
+			<?php if(is_user_logged_in()):?>
 			<p class="text-block-13 woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received"><?php echo apply_filters( 'woocommerce_thankyou_order_received_text', __( 'Thank you. Your order has been received. ', 'woocommerce' ), $order ); ?> Take a moment to <a class="hover-link" href="<?php echo home_url();?>/my-account">review your profile.</a></p>
+			<?php endif;?>
 			<h1 class="heading-13">Got Questions About Your Session?</h1>
-			<p>Please <span class="hover-link" data-ix="contact-reveal">contact me</span> or give me a <a class="hover-link" href="tel:609-469-4340">text/call. 609-469-4340</a></p>
+			<p>Please <span class="hover-link" style="opacity: 1 !important;" data-ix="contact-reveal">contact me</span> or give me a <a class="hover-link" href="tel:609-469-4340">text/call. 609-469-4340</a></p>
 
 			<ul style="text-align: center;" class="woocommerce-order-overview woocommerce-thankyou-order-details order_details">
 

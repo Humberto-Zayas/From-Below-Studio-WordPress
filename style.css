@@ -1954,13 +1954,6 @@ textarea.w-select {
 .w-condition-invisible {
   display: none !important; }
 
-.shop_table {
-  width: 50% !important;
-  margin-top: 0 !important;
-  padding: 0 20px;
-  color: white;
-  margin: 0 auto !important; }
-
 #payment {
   margin: 0 auto;
   width: 50% !important;
@@ -2290,6 +2283,20 @@ textarea.w-select {
   .ui-datepicker-title {
     font-size: 6vw; } }
 
+@media screen and (max-width: 467px) {
+  .wc-bookings-booking-form .block-picker li.block {
+    width: 50%;
+    padding-left: 0;
+    padding-right: 2px; } }
+
+@media screen and (max-width: 740px) {
+  #order_review tr td {
+    display: block !important;
+    width: initial !important; }
+  .woocommerce-order tr td {
+    display: initial !important;
+    width: initial !important; } }
+
 .woocommerce-info {
   background: transparent;
   color: #ebebeb;
@@ -2430,6 +2437,11 @@ textarea.w-select {
 
 .woocommerce-form-login .required {
   text-align: left; }
+
+mark {
+  background: transparent;
+  font-weight: bold;
+  color: #e7e7e7; }
 
 .woocommerce {
   padding-top: 69px; }
@@ -2650,14 +2662,44 @@ input:-webkit-autofill {
   .cart_totals table td {
     border-top: 1px !important; }
 
+.product-thumbnail a:first-child {
+  display: block; }
+
+.product-thumbnail img {
+  margin: 10px 0 0; }
+
 .custom-remove {
   color: #ebebeb;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   transition: color .3s;
-  font-family: Fontawesome, arial; }
+  font-family: "Lato", arial;
+  padding: 10px 30px;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid #ebebeb;
+  width: auto; }
   .custom-remove:hover {
-    color: #cf2441; }
+    background: #cf2441;
+    border-color: #cf2441; }
+  .custom-remove span {
+    font-family: Fontawesome, arial; }
+
+.cart-bg h1 {
+  top: 25px; }
+
+input.button {
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+  color: white;
+  font-family: "Lato", arial; }
+
+.cart-support .heading-13:first-child {
+  top: 0 !important; }
 
 .cart_support {
   float: left;
@@ -2693,8 +2735,6 @@ input:-webkit-autofill {
   border-width: 1px 1px 0px !important;
   margin: 50px 0;
   font-family: Dosis; }
-  .woocommerce table.shop_table a {
-    color: #cf2441; }
   .woocommerce table.shop_table .product-total {
     border: 1px solid rgba(255, 255, 255, 0.2); }
 
@@ -2818,6 +2858,36 @@ input:-webkit-autofill {
 @media screen and (max-width: 767px) {
   .custom-remove {
     font-size: 1.5vw; } }
+
+#order_review .shop_table {
+  width: 50%;
+  margin-top: 0 !important;
+  padding: 0 20px;
+  color: white;
+  margin: 0 auto !important; }
+
+.woocommerce-checkout-review-order .shop_table {
+  width: 85% !important;
+  margin-top: 0 !important;
+  padding: 0 20px;
+  color: white;
+  margin: 0 auto !important; }
+
+.woocommerce-checkout-review-order #payment {
+  width: 85% !important; }
+  .woocommerce-checkout-review-order #payment .wc_payment_method {
+    width: 100% !important;
+    background: transparent !important; }
+
+.woocommerce table.shop_table {
+  color: white; }
+
+tfoot tr td {
+  border-bottom: 1px solid #333333; }
+
+@media screen and (max-width: 740px) {
+  thead, tbody, tr {
+    display: table !important; } }
 
 .login-section {
   position: fixed;
@@ -2955,6 +3025,13 @@ span.wpcf7-list-item {
     color: #cf2441;
     padding: 0 5px; }
 
+.div-block-27-copy-copy h2 {
+  color: white;
+  padding: 0 20px; }
+
+.div-block-27-copy-copy p {
+  padding: 0 20px; }
+
 body {
   background-color: #111010; }
 
@@ -3063,6 +3140,28 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s !important;
   -webkit-box-shadow: none !important; }
+
+.nav-link.w--current {
+  border-left: none !important; }
+
+a {
+  color: #cf2441; }
+
+.product_title, .price, .woocommerce-product-details__short-description, .wc_bookings_field_duration {
+  color: #ffffffc4; }
+
+button {
+  background: transparent;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-family: "Lato", arial;
+  color: white;
+  text-transform: uppercase; }
+  button:hover {
+    background: #cf2441;
+    border-color: #cf2441; }
 
 .div-block {
   position: absolute;

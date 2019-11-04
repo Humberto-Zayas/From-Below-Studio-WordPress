@@ -342,14 +342,56 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0f0f', end
   }
 }
 
+.product-thumbnail {
+  a:first-child {
+    display: block;
+  }
+  img {
+    margin: 10px 0 0;
+  }
+}
+
 .custom-remove {
   color: #ebebeb; 
-  font-size: 12px; 
+  font-size: 14px; 
   display: block;
   transition: color .3s;
-  font-family: Fontawesome, arial;
+  font-family: "Lato", arial;
+  padding: 10px 30px;
+  text-decoration: none;
+  display: inline-block;
+  // width: 90%;
+  text-transform: uppercase;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid #ebebeb;
+  width: auto;
   &:hover {
-    color: #cf2441;
+    // color: #cf2441;
+    background: #cf2441;
+    border-color: #cf2441;
+  }
+  span {
+    font-family: Fontawesome, arial;
+  }
+}
+
+.cart-bg {
+  h1 {
+    top: 25px;
+  }
+}
+input.button {
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+  color: white;
+  font-family: "Lato", arial;
+}
+
+.cart-support {
+  .heading-13:first-child {
+    top: 0 !important;
   }
 }
 
@@ -399,9 +441,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0f0f', end
     border-width: 1px 1px 0px !important;
     margin: 50px 0;
     font-family: Dosis;
-    a {
-      color: #cf2441;
-    }
+    // a {
+    //   color: #cf2441;
+    // }
     .product-total {
       border: 1px solid rgba(255,255,255,0.2);
     }
@@ -575,3 +617,50 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f0f0f', end
 }
 
 
+#order_review {
+  .shop_table {
+	
+    width: 50%;
+    margin-top: 0 !important;
+    padding: 0 20px;
+    color: white;
+    margin: 0 auto !important;
+  }
+}
+
+.woocommerce-checkout-review-order {
+  .shop_table {
+	
+    width: 85% !important;
+    margin-top: 0 !important;
+    padding: 0 20px;
+    color: white;
+    margin: 0 auto !important;
+  }
+  #payment {
+    width: 85% !important;
+
+    .wc_payment_method {
+      width: 100% !important;
+      background: transparent !important;
+    }
+  }
+}
+
+.woocommerce table.shop_table {
+  color: white;
+}
+
+tfoot {
+  tr {
+    td {
+      border-bottom: 1px solid #333333;
+    }
+  }
+}
+
+@media screen and (max-width: 740px) {
+  thead, tbody, tr {
+    display: table !important;
+  }
+}

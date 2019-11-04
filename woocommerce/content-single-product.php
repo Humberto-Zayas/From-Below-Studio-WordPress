@@ -36,8 +36,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	 }
 ?>
 
-<div id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
-
+<div style="padding: 30px 0;" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
+	
 	<?php
 		/**
 		 * woocommerce_before_single_product_summary hook.

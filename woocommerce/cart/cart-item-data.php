@@ -25,4 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		<dd class="<?php echo sanitize_html_class( 'variation-' . $data['key'] ); ?>"><?php echo wp_kses_post( wpautop( $data['display'] ) ); ?></dd>
 	<?php endforeach; ?>
 </dl>
-<p>Need to make a change to your session? <a style="color: #d1203d" href="<?php bloginfo('url');?>/cart">Click here to edit.</a></p>
+<?php if (!is_cart()):?>
+<p style="text-align: left !important; padding-left: 20px;">View your cart: <a style="color: #d1203d" href="<?php bloginfo('url');?>/cart">Click here to edit your cart.</a></p>
+<p style="text-align: left !important; padding-left: 20px;">Clear all sessions from cart: <a style="color: #d1203d" href="<?php bloginfo('url');?>/cart?clear-cart">Click here clear your cart.</a></p>
+<?php endif;?>

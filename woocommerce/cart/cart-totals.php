@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 <div class="cart_support">
-	<h1 class="heading-13">Need Help?</h1>
+	<h1 style="top: 0 !important" class="heading-13">Need Help?</h1>
 	<p>Please <span data-ix="contact-reveal-3" class="hover-link">contact me</span> for help/questions or call/text: <a class="hover-link" href="tel:609-469-4340">609-469-4340</a> </p>
 </div>
 <div class="cart_totals <?php echo ( WC()->customer->has_calculated_shipping() ) ? 'calculated_shipping' : ''; ?>">

@@ -467,7 +467,7 @@ function woocommerce_support() {
 
 add_filter('wc_add_to_cart_message', 'handler_function_name', 10, 2);
 function handler_function_name($message, $product_id) {
-    return "Thank you for adding product" . $product_id;
+    return "You added a booking session"; //. $product_id ;
 }
 
 
@@ -559,6 +559,22 @@ function iconic_bypass_logout_confirmation() {
  
 add_action( 'template_redirect', 'iconic_bypass_logout_confirmation' );
 
+add_action( 'init', 'woocommerce_clear_cart_url' );
+function woocommerce_clear_cart_url() {
+	if ( isset( $_GET['clear-cart'] ) ) {
+		global $woocommerce;
+		$woocommerce->cart->empty_cart();
+	}
+}
+
+/**
+ * Remove the breadcrumbs 
+ */
+add_action( 'init', 'woo_remove_wc_breadcrumbs' );
+function woo_remove_wc_breadcrumbs() {
+    remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20, 0 );
+}
+
 
 //add_filter("woocommerce_checkout_fields", "order_fields");
 
@@ -580,4 +596,6 @@ add_action( 'template_redirect', 'iconic_bypass_logout_confirmation' );
 //     return $fields;
 
 // }
+
+
 

@@ -138,3 +138,11 @@ input:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out 0s !important;
     -webkit-box-shadow: none !important;
 }
+
+.nav-link.w--current {
+	border-left: none !important;
+}
+
+a {
+	color: #cf2441;
+}
