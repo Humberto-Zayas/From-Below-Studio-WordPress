@@ -1132,8 +1132,8 @@ textarea.w-select {
   text-align: center;
   background: #dddddd;
   clear: both;
-  -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0); }
 
 .w-slider-mask {
   position: relative;
@@ -1165,8 +1165,8 @@ textarea.w-select {
   padding-top: 10px;
   height: 40px;
   text-align: center;
-  -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0); }
 
 .w-slider-nav.w-round > div {
   border-radius: 100%; }
@@ -1216,8 +1216,8 @@ textarea.w-select {
   overflow: hidden;
   color: white;
   font-size: 40px;
-  -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1854,8 +1854,8 @@ textarea.w-select {
   font-size: 24px;
   display: none;
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3052,37 +3052,37 @@ body {
     width: 29% !important; } }
 
 .recording-pricing-1-desktop {
-  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
-  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
   background-position: 0px 0px, 0px 27% !important;
   background-size: auto, 1139px;
   background-repeat: repeat, no-repeat; }
 
 .recording-pricing-2-desktop {
-  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
-  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
   background-position: 0px 0px, 50% 8% !important;
   background-size: auto, 1139px;
   background-repeat: repeat, no-repeat; }
 
 .recording-pricing-3-desktop {
-  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
-  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
   background-position: 0px 0px, 100% 27% !important;
   background-size: auto, 1139px;
   background-repeat: repeat, no-repeat;
   margin-left: 5px !important; }
 
 .mixing-pricing-1-desktop {
-  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
-  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
   background-position: 0px 0px, 0px 20% !important;
   background-size: auto, 1139px;
   background-repeat: repeat, no-repeat; }
 
 .mixing-pricing-2-desktop {
-  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
-  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
   background-position: 0px 0px, 100% 20% !important;
   background-size: auto, 1139px;
   background-repeat: repeat, no-repeat; }
@@ -3114,15 +3114,15 @@ body {
   .recording-pricing-3-mobile,
   .mixing-pricing-1-mobile,
   .mixing-pricing-2-mobile {
-    background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
-    background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+    background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
     background-position: 0px 0px, 0px 50%;
     background-size: auto, 1139px;
     background-repeat: repeat, no-repeat; } }
 
 .div-block-27 {
-  background-image: -webkit-linear-gradient(270deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
-  background-image: linear-gradient(180deg, transparent, transparent), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/pricing-bg-edit1.jpg) !important;
   background-position: 0px 0px, 50% 89% !important;
   background-size: auto, 1139px;
   background-repeat: repeat, no-repeat; }
@@ -3146,6 +3146,10 @@ input:-webkit-autofill:active {
 
 a {
   color: #cf2441; }
+
+.nav-link {
+  padding: 20px !important;
+  display: inline-block !important; }
 
 .product_title, .price, .woocommerce-product-details__short-description, .wc_bookings_field_duration {
   color: #ffffffc4; }

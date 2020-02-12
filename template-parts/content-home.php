@@ -8,44 +8,31 @@
  */
 ?>
 
-<!-- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-  <header class="entry-header">
-    <?php //the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-  </header>
 
   <?php //frombelowstudiotheme_post_thumbnail(); ?>
 
-  <div class="entry-content">
+  
     
-    <?php
 
-    //the_content();
-
-    /*
-    wp_link_pages( array(
-      'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'frombelowstudiotheme' ) . '</span>',
-      'after'       => '</div>',
-      'link_before' => '<span>',
-      'link_after'  => '</span>',
-      'pagelink'    => '<span class="screen-reader-text">' . __( 'Page', 'frombelowstudiotheme' ) . ' </span>%',
-      'separator'   => '<span class="screen-reader-text">, </span>',
-    ) )
-    */
-    ?>
-  </div> -->
 <?php if (!is_page('welcome')):?>
   <?php the_content(); ?>
 
 <?php else:?>
 
+  <style>
+    .recording-pricing-2-desktop {
+      background-position: 0px 0px, 50% 27% !important
+    }
+    
 
+  </style>
 
   <div class="home" data-ix="navbar-desktop-scrolled-reveal" id="hero">
     <?php echo do_shortcode('[contact-form-7 id="173" title="Test Quote"]');?>
     <div class="div-block" data-ix="home-hero-reveal"></div>
     <div class="div-block-7">
       <h2 class="heading oswald" data-ix="just-work"><span class="text-span"><span data-ix="new-interaction">FROM</span> <span data-ix="below-reveal">BELOW</span></span><span data-ix="studio-reveal" class="text-span-2">&nbsp;STUDIO</span></h2>
-      <h5 class="heading-2" data-ix="about-bg-reveal">Sounds from the Underground</h5>
+      <!-- <h5 class="heading-2" data-ix="about-bg-reveal">Sounds from the Underground</h5> -->
       <div class="div-block-14" data-ix="about-bg-reveal"></div>
       <h5 class="heading-2 sub-cta" data-ix="about-bg-reveal-2">New Jersey Recording Studio<br> <span class="text-span-27"><a href="tel:+1-609-469-4340" class="link-3">(609)-469-4340</a></span></h5>
       <div class="fbs-button" data-ix="contact-reveal-6"><span class="text-span-12"></span> &nbsp;BOOK YOUR SESSION</div>
@@ -163,6 +150,7 @@
       </div>
     </div>
   </div>
+  </div>
   <div class="pricing-section" data-ix="pricing-bg-color-reveal">
     <div class="pricing-bg-color" id="pricing-section"></div>
     <div class="fbs-container pricing-tablet-padding">
@@ -236,7 +224,7 @@
             </ul>
             <ul class="recording-pricing-2-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">Recording Blocks</li>
-              <li class="item-pricing list-item-2" data-ix="pricing-item-reveal">$130-$550*<br><span class="text-span-7">*includes rough reference mix</span></li>
+              <!-- <li class="item-pricing list-item-2" data-ix="pricing-item-reveal">$130-$550*<br><span class="text-span-7">*includes rough reference mix</span></li> -->
               <li class="list-item-2" data-ix="pricing-item-reveal-2">4 Hours/$130</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-3">6 Hours/$200</li>
               <li class="list-item-2" data-ix="pricing-item-reveal-4">8 Hours/$270</li>
@@ -292,7 +280,7 @@
               </div>
               <div class="slide-nav-4 w-round w-slider-nav"></div>
             </div>
-            <ul class="mixing-pricing-1-desktop w-list-unstyled">
+            <!-- <ul class="mixing-pricing-1-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">2 track mix down</li>
               <li class="item-pricing list-item-2">$100/Song</li>
               <li class="list-item-2">Online Mixing Service Available</li>
@@ -300,10 +288,10 @@
               <li class="list-item-2">Session/Project Bounce</li>
               <li class="list-item-2">3 Revisions Included</li>
               <li class="last-item-button list-item-2"><span data-ix="contact-reveal-3" class="text-span-8">CONTACT</span></li>
-            </ul>
-            <ul class="mixing-pricing-2-desktop w-list-unstyled">
+            </ul> -->
+            <ul style="width: 33%" class="mixing-pricing-2-desktop w-list-unstyled">
               <li class="first-item-title list-item-2">Full Mix Down</li>
-              <li class="item-pricing list-item-2">$200/Song</li>
+              <li class="item-pricing list-item-2">$100/Song</li>
               <li class="list-item-2">Online Mixing Service Available</li>
               <li class="list-item-2">Industry Quality Mix Down</li>
               <li class="list-item-2">Session/Project Bounce</li>
@@ -347,52 +335,61 @@
               <h4 class="heading-11">THE STUDIO</h4>
             </div>
             <div class="w-slider-mask">
-              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/_JP_6513.jpg" alt="From Below Studio - Central New Jersey Recording Studio" class="image-2"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1620,
-      "height": 1080,
-      "fileName": "_JP_6513.jpg",
-      "origFileName": "_JP_6513.jpg",
-      "url": "<?php bloginfo('template_url');?>/images/_JP_6513.jpg",
-      "_id": "5a0a3787d65a2f0001bdd1a5",
-      "type": "image",
-      "fileSize": 111754
-    }
-  ],
-  "group": "From Below Studio and Gear"
-}</script></a></div>
+              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/_JP_6513.jpg" alt="From Below Studio - Central New Jersey Recording Studio" class="image-2">
+              <script type="application/json" class="w-json">
+              {
+                "items": [
+                  {
+                    "width": 1620,
+                    "height": 1080,
+                    "fileName": "_JP_6513.jpg",
+                    "origFileName": "_JP_6513.jpg",
+                    "url": "<?php bloginfo('template_url');?>/images/_JP_6513.jpg",
+                    "_id": "5a0a3787d65a2f0001bdd1a5",
+                    "type": "image",
+                    "fileSize": 111754
+                  }
+                ],
+                "group": "From Below Studio and Gear"
+              }
+              </script></a></div>
               <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox">
-                <img src="<?php bloginfo('template_url');?>/images/01-control-room-01.jpg" alt="From Below Studio Control Room New Jersey Recording Studio" class="image-2"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 1620,
-      "height": 1080,
-      "fileName": "20170913_234303.jpg.jpg",
-      "origFileName": "20170913_234303.jpg",
-      "url": "<?php bloginfo('template_url');?>/images/20170913_234303.jpg",
-      "_id": "5a0a38b15f389a000169d194",
-      "type": "image",
-      "fileSize": 147493
-    }
-  ],
-  "group": "From Below Studio and Gear"
-}</script></a></div>
-              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/mic-studio.jpg" class="image-2-copy"><script type="application/json" class="w-json">{
-  "items": [
-    {
-      "width": 720,
-      "height": 1080,
-      "fileName": "mic-studio-long.jpg",
-      "origFileName": "mic-studio-long.jpg",
-      "url": "<?php bloginfo('template_url');?>/images/mic-studio-long.jpg",
-      "_id": "5a0b15f7d65a2f0001be704b",
-      "type": "image",
-      "fileSize": 113774
-    }
-  ],
-  "group": "From Below Studio and Gear"
-}</script></a></div>
+                <img src="<?php bloginfo('template_url');?>/images/01-control-room-01.jpg" alt="From Below Studio Control Room New Jersey Recording Studio" class="image-2"><script type="application/json" class="w-json">
+                {
+                  "items": [
+                    {
+                      "width": 1620,
+                      "height": 1080,
+                      "fileName": "20170913_234303.jpg.jpg",
+                      "origFileName": "20170913_234303.jpg",
+                      "url": "<?php bloginfo('template_url');?>/images/20170913_234303.jpg",
+                      "_id": "5a0a38b15f389a000169d194",
+                      "type": "image",
+                      "fileSize": 147493
+                    }
+                  ],
+                  "group": "From Below Studio and Gear"
+                }
+              </script>
+              </a>
+              </div>
+              <div class="slide-2 w-slide"><a href="#" class="lightbox-link w-inline-block w-lightbox"><img src="<?php bloginfo('template_url');?>/images/mic-studio.jpg" class="image-2-copy"><script type="application/json" class="w-json">
+              {
+                "items": [
+                  {
+                    "width": 720,
+                    "height": 1080,
+                    "fileName": "mic-studio-long.jpg",
+                    "origFileName": "mic-studio-long.jpg",
+                    "url": "<?php bloginfo('template_url');?>/images/mic-studio-long.jpg",
+                    "_id": "5a0b15f7d65a2f0001be704b",
+                    "type": "image",
+                    "fileSize": 113774
+                  }
+                ],
+                "group": "From Below Studio and Gear"
+              }
+              </script></a></div>
               <div class="slide-2 w-slide">
                 <a href="#" class="lightbox-link w-inline-block w-lightbox">
                   <div class="div-block-53">
