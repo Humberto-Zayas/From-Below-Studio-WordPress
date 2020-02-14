@@ -19,7 +19,7 @@
     $(coupon).insertAfter(wooinfo);
   }
  
-  // $(showlogin).insertAfter('#order_review_heading');
+  //$(showlogin).insertAfter('#order_review_heading');
   //jquery move elements
   
 // moving booking hours
@@ -30,8 +30,8 @@
   var text = "<h1 style='margin: 20px 0 20px; color: #ffffffc4;'>Rate: $35/Hour</h1>";
 
   $(bookingduration).insertAfter('.wc-bookings-date-picker');
-  $(text).insertAfter('.wc-bookings-date-picker');
-  $(text).insertBefore('.wc_bookings_field_start_date');
+  //$(text).insertAfter('.wc-bookings-date-picker');
+  //$(text).insertBefore('.wc_bookings_field_start_date');
 
   //custom radiomark span addition for payment page
 
