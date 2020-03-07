@@ -2986,6 +2986,12 @@ input[value="LOGIN"] {
 .nav-pills .nav-link.active {
   background-color: #d1203d !important; }
 
+#payment .form-row {
+  display: block !important; }
+
+.woocommerce-MyAccount-navigation-link--downloads {
+  display: none; }
+
 span.wpcf7-list-item {
   text-align: left;
   width: 30%; }

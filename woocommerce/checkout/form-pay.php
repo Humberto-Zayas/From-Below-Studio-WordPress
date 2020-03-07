@@ -22,8 +22,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 <form id="order_review" method="post">
-
 	<table border="1" class="shop_table">
+		<thead>
+			<tr>
+				<td colspan="3">
+					<p style="text-align: left; margin: 10px;"><a class="hover-link" style="color: #be213b;" href="<?php echo site_url();?>/my-account/">&laquo; Your Dashboard</a></p>
+				</td>
+			</tr>
+		</thead>
 		<thead>
 			<tr>
 				<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
