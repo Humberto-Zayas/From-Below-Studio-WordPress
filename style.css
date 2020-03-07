@@ -2030,8 +2030,8 @@ textarea.w-select {
   padding: 0 0; }
 
 .text-span-26 {
-  right: 6px !important;
-  top: 3px !important; }
+  right: -50px !important;
+  top: -40px !important; }
 
 .ui-datepicker-today span {
   background-color: red !important; }
@@ -2963,6 +2963,12 @@ input[value="LOGIN"] {
 .booking-section .wc-bookings-booking-form p:nth-child(3), p:nth-child(4) {
   display: none !important; }
 
+#booking-tab-holder .woocommerce {
+  padding-top: 0; }
+
+.div-block-42 {
+  overflow: visible !important; }
+
 span.wpcf7-list-item {
   text-align: left;
   width: 30%; }
@@ -3153,6 +3159,9 @@ a {
 .nav-link {
   padding: 20px !important;
   display: inline-block !important; }
+
+.wc-bookings-booking-form {
+  overflow: visible; }
 
 .product_title, .price, .woocommerce-product-details__short-description, .wc_bookings_field_duration {
   color: #ffffffc4; }
