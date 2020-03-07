@@ -669,8 +669,8 @@
     <!-- <span data-ix="booking-close" class="text-span-26"></span><br><span><span><span data-ix="booking-close" class="text-span-26"><br></span></span>
           </span> -->
           <div id="booking-tab-holder" style="width: 500px; margin: 0 auto">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item">
+          <ul style="top: 50px; position: relative; z-index: 10" class="nav nav-pills nav-fill" id="myTab" role="tablist">
+            <li style="margin: 0 10px 0 0;" class="nav-item">
               <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Record With Avi</a>
             </li>
             <li class="nav-item">
