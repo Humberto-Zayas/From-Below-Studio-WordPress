@@ -44,7 +44,7 @@
     <div class="services-background" id="service-section"></div>
     <div class="fbs-container">
       <h1 class="heading-13">SERVICES</h1>
-      <?php echo do_shortcode('[product_page id="274"]'); ?>
+      
       <div class="text-block-13">From Below offers recording and audio mixing services. The studio is also available for production uses.</div>
       <div class="w-row">
         <div class="column-19 w-clearfix w-col w-col-6" data-ix="fade-up-recording-service">
@@ -668,12 +668,13 @@
   <div class="booking-section">
     <!-- <span data-ix="booking-close" class="text-span-26"></span><br><span><span><span data-ix="booking-close" class="text-span-26"><br></span></span>
           </span> -->
+          <div id="booking-tab-holder" style="width: 500px; margin: 0 auto">
           <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Record With Avi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Record With Max</a>
             </li>
             
           </ul>
@@ -684,6 +685,7 @@
             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
               <?php echo do_shortcode('[product_page id="274"]'); ?>
             </div>
+          </div>
           </div>
     
   
