@@ -39,21 +39,26 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		<?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
 
 		<div class="col2-set" id="customer_details">
-			<div class="col-1">
-				<?php do_action( 'woocommerce_checkout_billing' ); ?>
-				<?php do_action( 'woocommerce_checkout_shipping' ); ?>
-			</div>
-
-			<div class="col-2">
-				<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
-
-				<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
-
-				<div id="order_review" class="woocommerce-checkout-review-order">
-					<?php do_action( 'woocommerce_checkout_order_review' ); ?>
+			<div class="row">
+				<div class="col-sm">
+					<div style="max-width: 100%; width: 100%; padding-top:20px;" class="col-1 col-12">
+						<?php do_action( 'woocommerce_checkout_billing' ); ?>
+						<?php do_action( 'woocommerce_checkout_shipping' ); ?>
+					</div>
 				</div>
+				<div class="col-sm">
+					<div style="max-width: 100%; width: 100%; padding: 20px 0;" class="col-2 col-12">
+						<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
 
-				<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>
+						<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
+
+						<div id="order_review" class="woocommerce-checkout-review-order">
+							<?php do_action( 'woocommerce_checkout_order_review' ); ?>
+						</div>
+
+						<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>
+					</div>
+				</div>
 			</div>
 		</div>
 
